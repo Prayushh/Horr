@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://do76kg1swp7ap"
+path="res://.godot/imported/star.map-e0aa37870c1952c3282030aa81dac2ba.tres"
+
+[deps]
+
+source_file="res://broom/maps/horrmap/star.map"
+dest_files=["res://.godot/imported/star.map-e0aa37870c1952c3282030aa81dac2ba.tres"]
+
+[params]
+

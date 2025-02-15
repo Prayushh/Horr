@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://bevgxj2k34rvb"
+path="res://.godot/imported/stair.map-f2f7507811e799b6081fbe4d8233bce8.tres"
+
+[deps]
+
+source_file="res://broom/maps/horrmap/stair.map"
+dest_files=["res://.godot/imported/stair.map-f2f7507811e799b6081fbe4d8233bce8.tres"]
+
+[params]
+

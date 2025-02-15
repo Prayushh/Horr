@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://kuyo408ccjhj"
+path="res://.godot/imported/bathroom.1.map-fd0987ab325bd42c9094f64f40f18a2a.tres"
+
+[deps]
+
+source_file="res://broom/maps/horrmap/autosave/bathroom.1.map"
+dest_files=["res://.godot/imported/bathroom.1.map-fd0987ab325bd42c9094f64f40f18a2a.tres"]
+
+[params]
+

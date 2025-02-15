@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://d4ds64mybt6ke"
+path="res://.godot/imported/living.map-e0b4bfe77247e6c55e5f8d5f92b3f0b6.tres"
+
+[deps]
+
+source_file="res://broom/maps/horrmap/living.map"
+dest_files=["res://.godot/imported/living.map-e0b4bfe77247e6c55e5f8d5f92b3f0b6.tres"]
+
+[params]
+

@@ -1,0 +1,154 @@
+[gd_scene load_steps=13 format=3 uid="uid://dh41wv8l8ubix"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_705t7"]
+[ext_resource type="PackedScene" uid="uid://vpnggjuvhbcd" path="res://l_iving.tscn" id="1_l1ols"]
+[ext_resource type="Shader" path="res://post.gdshader" id="2_tdlfv"]
+[ext_resource type="Texture2D" uid="uid://ca0b1vecgsps0" path="res://textures/world/Bricks_25-128x128.png" id="3_sb71v"]
+[ext_resource type="FontFile" uid="uid://cqtq301rhki5y" path="res://Sarun-Regular.ttf" id="5_dty35"]
+[ext_resource type="PackedScene" uid="uid://c65pm052bxx6o" path="res://flame.tscn" id="6_i0euv"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_bawdu"]
+sky_top_color = Color(0.143568, 0.179274, 0.228927, 1)
+sky_horizon_color = Color(0, 0, 0, 1)
+ground_bottom_color = Color(0, 0, 0, 1)
+ground_horizon_color = Color(0, 0, 0, 1)
+energy_multiplier = 2.0
+
+[sub_resource type="Sky" id="Sky_vocuv"]
+sky_material = SubResource("ProceduralSkyMaterial_bawdu")
+
+[sub_resource type="Environment" id="Environment_jn65b"]
+background_mode = 2
+background_energy_multiplier = 2.0
+sky = SubResource("Sky_vocuv")
+ambient_light_color = Color(0.74978, 0.74978, 0.74978, 1)
+reflected_light_source = 1
+fog_light_color = Color(0.339289, 0.369116, 0.416002, 1)
+fog_light_energy = 4.54
+fog_aerial_perspective = 0.675
+fog_sky_affect = 0.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_nougd"]
+shader = ExtResource("2_tdlfv")
+shader_parameter/enabled = true
+shader_parameter/dithering = true
+shader_parameter/colors = 12
+shader_parameter/dither_size = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bkxy6"]
+albedo_texture = ExtResource("3_sb71v")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5y18r"]
+bg_color = Color(0, 0, 0, 0.431373)
+
+[node name="Main" type="CanvasLayer"]
+script = ExtResource("1_705t7")
+
+[node name="LIving" parent="." instance=ExtResource("1_l1ols")]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_jn65b")
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="."]
+material = SubResource("ShaderMaterial_nougd")
+offset_right = 320.0
+offset_bottom = 240.0
+
+[node name="SubViewport" type="SubViewport" parent="SubViewportContainer"]
+handle_input_locally = false
+size = Vector2i(320, 240)
+render_target_update_mode = 4
+
+[node name="Camera3D" type="Camera3D" parent="SubViewportContainer/SubViewport"]
+transform = Transform3D(-0.473699, -0.395522, 0.786874, 0.00771039, 0.891581, 0.452795, -0.880653, 0.220556, -0.419291, 4.52389, 1.94199, -6.47707)
+current = true
+
+[node name="Wall" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.93958, 0, -0.394321)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall"]
+transform = Transform3D(0.232003, 0, 0, 0, -1.98082e-07, -2.072, 0, 4.53153, -9.05712e-08, -0.0725756, -2.44617, 9.70303)
+material_override = SubResource("StandardMaterial3D_bkxy6")
+use_collision = true
+size = Vector3(1, 1.04187, 1.95934)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="Wall"]
+transform = Transform3D(0.232002, 0, 0, 0, -1.98082e-07, -2.072, 0, 4.53153, -9.05711e-08, -0.0725756, 1.24898, 9.70303)
+material_override = SubResource("StandardMaterial3D_bkxy6")
+use_collision = true
+size = Vector3(1, 1.04187, 1.70019)
+
+[node name="Wall2" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.81146, 0, -0.394321)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall2"]
+transform = Transform3D(0.232003, 0, 0, 0, -1.98082e-07, -2.072, 0, 4.53153, -9.05712e-08, -0.0725756, -2.44617, 9.70303)
+material_override = SubResource("StandardMaterial3D_bkxy6")
+use_collision = true
+size = Vector3(1, 1.04187, 1.95934)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="Wall2"]
+transform = Transform3D(0.232002, 0, 0, 0, -1.98082e-07, -2.072, 0, 4.53153, -9.05711e-08, -0.0725756, 1.24898, 9.70303)
+material_override = SubResource("StandardMaterial3D_bkxy6")
+use_collision = true
+size = Vector3(1, 1.04187, 1.70019)
+
+[node name="Wall3" type="Node3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -4.91844, 0, 14.5559)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall3"]
+transform = Transform3D(0.232003, 0, 0, 0, -1.98082e-07, -2.072, 0, 4.53153, -9.05712e-08, -0.0725756, -2.44617, 9.70303)
+material_override = SubResource("StandardMaterial3D_bkxy6")
+use_collision = true
+size = Vector3(1, 1.04187, 1.95934)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="Wall3"]
+transform = Transform3D(0.232002, 0, 0, 0, -1.98082e-07, -2.072, 0, 4.53153, -9.05711e-08, -0.0725756, 1.24898, 9.70303)
+material_override = SubResource("StandardMaterial3D_bkxy6")
+use_collision = true
+size = Vector3(1, 1.04187, 1.70019)
+
+[node name="GPUParticles3D" parent="." instance=ExtResource("6_i0euv")]
+transform = Transform3D(1.0101, 0, -0.000317447, 0, 1, 0, 0.000218272, 0, 1, -7.84567, -4.01085, -1.32737)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="GPUParticles3D"]
+transform = Transform3D(0.10526, -0.128611, -0.975951, -0.0258722, 0.990731, -0.133349, 0.994006, 0.03967, 0.101877, -4.97634, -0.18893, 0.001086)
+light_color = Color(0.754983, 0.363634, 0.0553121, 1)
+light_energy = 100.0
+light_size = 6.8
+spot_range = 676.981
+
+[node name="Label" type="Label" parent="."]
+offset_left = 44.0
+offset_top = 38.0
+offset_right = 444.0
+offset_bottom = 83.0
+theme_override_fonts/font = ExtResource("5_dty35")
+theme_override_font_sizes/font_size = 30
+text = "WORKING TITLE"
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+offset_left = 120.0
+offset_top = 117.0
+offset_right = 198.0
+offset_bottom = 191.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("5_dty35")
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_5y18r")
+text = "PLAY"
+
+[node name="Button2" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("5_dty35")
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_5y18r")
+text = "EXIT"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Button2" to="." method="_on_button_2_pressed"]

@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://jof203481bre"
+path="res://.godot/imported/chair.map-7d582002b7cbe8b58c53c8f03e57d4d1.tres"
+
+[deps]
+
+source_file="res://broom/maps/horrmap/chair.map"
+dest_files=["res://.godot/imported/chair.map-7d582002b7cbe8b58c53c8f03e57d4d1.tres"]
+
+[params]
+

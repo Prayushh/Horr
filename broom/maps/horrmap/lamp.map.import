@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://cjw5bq3qawfkk"
+path="res://.godot/imported/lamp.map-1c87a3d157f39bc98b3d464525d96bcb.tres"
+
+[deps]
+
+source_file="res://broom/maps/horrmap/lamp.map"
+dest_files=["res://.godot/imported/lamp.map-1c87a3d157f39bc98b3d464525d96bcb.tres"]
+
+[params]
+

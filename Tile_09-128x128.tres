@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bjvlojr8afeso"]
+
+[ext_resource type="Texture2D" uid="uid://dt0fqrsprmmme" path="res://textures/world/Tile_09-128x128.png" id="1_3moe2"]
+
+[resource]
+albedo_texture = ExtResource("1_3moe2")
+metallic_specular = 0.0
+texture_filter = 2

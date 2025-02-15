@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://b48iu83k1eb75"
+path="res://.godot/imported/kitchen.map-ca03bad30b6457e24684fad418e8b85e.tres"
+
+[deps]
+
+source_file="res://broom/maps/horrmap/kitchen.map"
+dest_files=["res://.godot/imported/kitchen.map-ca03bad30b6457e24684fad418e8b85e.tres"]
+
+[params]
+

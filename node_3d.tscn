@@ -1,0 +1,106 @@
+[gd_scene load_steps=13 format=3 uid="uid://de4ldykah0svc"]
+
+[ext_resource type="PackedScene" uid="uid://dpgdkgc3burgj" path="res://roooooooooooommmm.blend" id="1_53nce"]
+[ext_resource type="PackedScene" uid="uid://cggqb75a8w8r" path="res://addons/debug_menu/debug_menu.tscn" id="1_keglp"]
+[ext_resource type="Script" path="res://addons/SimpleDungeons/DungeonRoom3D.gd" id="1_xpa4p"]
+[ext_resource type="PackedScene" uid="uid://cytf6tn4t4qid" path="res://door_02.tscn" id="4_twnf8"]
+[ext_resource type="PackedScene" uid="uid://dtiegymomu8i5" path="res://character_body_3d.tscn" id="4_y85bc"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_ju5yp"]
+sky_top_color = Color(0.143568, 0.179274, 0.228927, 1)
+sky_horizon_color = Color(0, 0, 0, 1)
+ground_bottom_color = Color(0, 0, 0, 1)
+ground_horizon_color = Color(0, 0, 0, 1)
+
+[sub_resource type="Sky" id="Sky_1qlns"]
+sky_material = SubResource("ProceduralSkyMaterial_ju5yp")
+
+[sub_resource type="Environment" id="Environment_n3joj"]
+background_mode = 2
+background_energy_multiplier = 0.7
+sky = SubResource("Sky_1qlns")
+ambient_light_color = Color(0.74978, 0.74978, 0.74978, 1)
+reflected_light_source = 1
+fog_light_color = Color(0.339289, 0.369116, 0.416002, 1)
+fog_light_energy = 4.54
+fog_aerial_perspective = 0.675
+fog_sky_affect = 0.0
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_e0ad8"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_kin30"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dxusr"]
+size = Vector3(1.02295, 1, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_u2fjp"]
+
+[node name="Room" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000902176, -0.00113529, -1.30029)
+script = ExtResource("1_xpa4p")
+size_in_voxels = Vector3i(2, 1, 2)
+
+[node name="Node3D" type="Node3D" parent="."]
+transform = Transform3D(1.5, 0, 0, 0, 1.386, 0, 0, 0, 1.5, -0.733266, -4.66768, -0.00108325)
+
+[node name="CanvasLayer" parent="Node3D" instance=ExtResource("1_keglp")]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Node3D"]
+environment = SubResource("Environment_n3joj")
+
+[node name="roooooooooooommmm" parent="Node3D" instance=ExtResource("1_53nce")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0500283, 0.456807, -0.0188828)
+
+[node name="StaticBody3D6" type="StaticBody3D" parent="Node3D"]
+transform = Transform3D(11.1882, 0, 0, 0, 1, 0, 0, 0, 14.4005, -0.121543, 7.24595, -0.110812)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Node3D/StaticBody3D6"]
+shape = SubResource("BoxShape3D_e0ad8")
+
+[node name="CharacterBody3D" parent="Node3D" instance=ExtResource("4_y85bc")]
+transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 1, -0.0420714, 3.6471, -0.0350475)
+
+[node name="StaticBody3D3" type="StaticBody3D" parent="Node3D"]
+transform = Transform3D(12.1832, 0, 0, 0, 6.16354, 0, 0, 0, 0.505955, 0.0509176, 3.65966, 6.65712)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Node3D/StaticBody3D3"]
+shape = SubResource("BoxShape3D_kin30")
+
+[node name="StaticBody3D4" type="StaticBody3D" parent="Node3D"]
+transform = Transform3D(-6.10521e-07, 0, -0.360514, 0, 7.82711, 0, 13.9671, 0, -1.57585e-08, -5.97238, 4.04992, 0.2862)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Node3D/StaticBody3D4"]
+shape = SubResource("BoxShape3D_kin30")
+
+[node name="StaticBody3D5" type="StaticBody3D" parent="Node3D"]
+transform = Transform3D(-6.44183e-07, 0, -0.226079, 0, 8.80935, 0, 14.7372, 0, -9.8822e-09, 5.98519, 4.49403, 0.0102034)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Node3D/StaticBody3D5"]
+shape = SubResource("BoxShape3D_kin30")
+
+[node name="StaticBody3D8" type="StaticBody3D" parent="Node3D"]
+transform = Transform3D(5.05706, 0, 0, 0, 7.94094, 0, 0, 0, 0.32131, -3.80646, 4.3403, -6.91445)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Node3D/StaticBody3D8"]
+transform = Transform3D(1, 0, 0, 0, 0.999999, 0, 0, 0, 1, 0.0114746, 0, 0.498558)
+shape = SubResource("BoxShape3D_dxusr")
+
+[node name="StaticBody3D9" type="StaticBody3D" parent="Node3D"]
+transform = Transform3D(5.15078, 0, 0, 0, 7.94094, 0, 0, 0, 0.32131, 3.60938, 4.3403, -6.91445)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Node3D/StaticBody3D9"]
+transform = Transform3D(1, 0, 0, 0, 0.999999, 0, 0, 0, 1, 0.0114746, 0, 0.498558)
+shape = SubResource("BoxShape3D_dxusr")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 0.524818, 0.851214, 0, -0.851214, 0.524818, 0, 4.45734, 0)
+light_energy = 10.0
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Node3D"]
+transform = Transform3D(12.3517, 0, 0, 0, 0.288, 0, 0, 0, 13.195, -0.0601936, 0.3, 0.060496)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Node3D/StaticBody3D"]
+shape = SubResource("BoxShape3D_u2fjp")
+
+[node name="DOOR" parent="Node3D" instance=ExtResource("4_twnf8")]
+transform = Transform3D(0.02, 0, 0, 0, 0.019, 0, 0, 0, 0.01, 1.06965, 0.596469, -6.62417)

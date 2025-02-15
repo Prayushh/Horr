@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://dwm6ge4msl0xd"
+path="res://.godot/imported/room1.7.map-1676cbc78d6f6c7241c25df30f02477c.tres"
+
+[deps]
+
+source_file="res://broom/maps/horrmap/autosave/room1.7.map"
+dest_files=["res://.godot/imported/room1.7.map-1676cbc78d6f6c7241c25df30f02477c.tres"]
+
+[params]
+

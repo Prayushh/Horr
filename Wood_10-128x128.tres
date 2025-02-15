@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://cib2fye0puia6"]
+
+[ext_resource type="Texture2D" uid="uid://b3x7hj4x13tyk" path="res://textures/world/Wood_10-128x128.png" id="1_kaibi"]
+
+[resource]
+albedo_texture = ExtResource("1_kaibi")
+metallic_specular = 0.0
+texture_filter = 2

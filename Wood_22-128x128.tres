@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://by8o2lw7qpoyl"]
+
+[ext_resource type="Texture2D" uid="uid://dfgpx71ma62mj" path="res://blood-splatter-png-44463.png" id="1_3pe8w"]
+
+[resource]
+albedo_color = Color(0.380392, 0.0588235, 0.0352941, 1)
+albedo_texture = ExtResource("1_3pe8w")
+metallic_specular = 0.0
+texture_filter = 2

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game name="nex_machina">
+  <language name="ar_AE" translation="">
+    <setting name="Display Mode" translation="وضع العرض">
+      <value name="Full-screen" translation="شاشة كاملة" />
+      <value name="Windowed" translation="مزود بإطارات" />
+      <value name="Windowed Borderless" translation="نافذة بلا حدود" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="منع الترادف للعينات متعددة الإطارات لـ NVIDIA">
+      <value name="Off" translation="إيقاف" />
+      <value name="On" translation="تشغيل" />
+    </setting>
+    <setting name="Resolution" translation="الدقة" />
+    <setting name="Sc

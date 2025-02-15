@@ -1,0 +1,70 @@
+[gd_scene load_steps=11 format=3 uid="uid://c65pm052bxx6o"]
+
+[ext_resource type="Texture2D" uid="uid://kct01a2csx4y" path="res://Lava004_1K-JPG_Color.jpg" id="1_16hsy"]
+
+[sub_resource type="Curve" id="Curve_5okb8"]
+min_value = 1.0
+max_value = 4.0
+_data = [Vector2(0.108696, 185.934), 0.0, 0.0, 0, 0, Vector2(1, 241.319), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_m5vp0"]
+curve = SubResource("Curve_5okb8")
+
+[sub_resource type="Gradient" id="Gradient_l7jj6"]
+offsets = PackedFloat32Array(0, 0.990909, 1)
+colors = PackedColorArray(0, 0, 0, 1, 1, 0.6, 0.12549, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_prbn4"]
+gradient = SubResource("Gradient_l7jj6")
+
+[sub_resource type="Curve" id="Curve_goe33"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.347826, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.340659), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_rirsg"]
+curve = SubResource("Curve_goe33")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_42mli"]
+lifetime_randomness = 1.0
+angle_min = 1.07288e-05
+angle_max = 360.0
+direction = Vector3(0, 1, 0)
+spread = 0.0
+initial_velocity_min = 1.0
+initial_velocity_max = 2.0
+angular_velocity_curve = SubResource("CurveTexture_m5vp0")
+gravity = Vector3(0, 0, 0)
+scale_min = 0.1
+scale_curve = SubResource("CurveTexture_rirsg")
+color_initial_ramp = SubResource("GradientTexture1D_prbn4")
+hue_variation_min = 1.0
+hue_variation_max = 1.0
+turbulence_noise_strength = 0.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hef71"]
+transparency = 1
+blend_mode = 1
+shading_mode = 0
+vertex_color_use_as_albedo = true
+albedo_color = Color(1, 0.678431, 0.113725, 1)
+albedo_texture = ExtResource("1_16hsy")
+albedo_texture_msdf = true
+billboard_mode = 3
+billboard_keep_scale = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="QuadMesh" id="QuadMesh_qg54x"]
+material = SubResource("StandardMaterial3D_hef71")
+
+[node name="GPUParticles3D" type="GPUParticles3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.385, 2.613, -0.309)
+amount = 100
+randomness = 1.0
+local_coords = true
+draw_order = 3
+trail_enabled = true
+process_material = SubResource("ParticleProcessMaterial_42mli")
+draw_pass_1 = SubResource("QuadMesh_qg54x")

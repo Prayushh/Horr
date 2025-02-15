@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://cmgvwtuj8lhp2"
+path="res://.godot/imported/corr.map-85b841a87e3dc983d70a3b830f1c9897.tres"
+
+[deps]
+
+source_file="res://corr.map"
+dest_files=["res://.godot/imported/corr.map-85b841a87e3dc983d70a3b830f1c9897.tres"]
+
+[params]
+

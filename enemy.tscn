@@ -1,0 +1,63 @@
+[gd_scene load_steps=10 format=3 uid="uid://bpg8swee56paq"]
+
+[ext_resource type="Script" path="res://enemy.gd" id="1_ohfvt"]
+[ext_resource type="FontFile" uid="uid://cqtq301rhki5y" path="res://Sarun-Regular.ttf" id="2_nxp8h"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_vwnqe"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_nmx5i"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e67nf"]
+albedo_color = Color(0.720041, 0.0791787, 0, 1)
+metallic_specular = 1.0
+
+[sub_resource type="BoxMesh" id="BoxMesh_6hinw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5q0nd"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_05fng"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_0fpnk"]
+
+[node name="Enemy" type="CharacterBody3D"]
+script = ExtResource("1_ohfvt")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_vwnqe")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("CapsuleMesh_nmx5i")
+surface_material_override/0 = SubResource("StandardMaterial3D_e67nf")
+
+[node name="FOV" type="Area3D" parent="."]
+transform = Transform3D(16.3176, 0, 0, 0, 2.34504, 0, 0, 0, 16.7542, 0, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="FOV"]
+visible = false
+mesh = SubResource("BoxMesh_6hinw")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="FOV"]
+shape = SubResource("BoxShape3D_5q0nd")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
+
+[node name="Cooked" type="Area3D" parent="."]
+transform = Transform3D(2.00376, 0, 0, 0, 1, 0, 0, 0, 1.96563, 0, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Cooked"]
+visible = false
+mesh = SubResource("CylinderMesh_05fng")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cooked"]
+shape = SubResource("CylinderShape3D_0fpnk")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 504.0
+offset_bottom = 236.0
+theme_override_fonts/font = ExtResource("2_nxp8h")
+theme_override_font_sizes/font_size = 60
+text = "JUMPSCARE"
+
+[connection signal="body_entered" from="FOV" to="." method="_on_fov_body_entered"]
+[connection signal="body_exited" from="FOV" to="." method="_on_fov_body_exited"]
+[connection signal="body_entered" from="Cooked" to="." method="_on_cooked_body_entered"]

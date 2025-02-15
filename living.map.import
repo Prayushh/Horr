@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://cv5h3pakptkj0"
+path="res://.godot/imported/living.map-9356b4281f79749ab37fa785a282cec5.tres"
+
+[deps]
+
+source_file="res://living.map"
+dest_files=["res://.godot/imported/living.map-9356b4281f79749ab37fa785a282cec5.tres"]
+
+[params]
+

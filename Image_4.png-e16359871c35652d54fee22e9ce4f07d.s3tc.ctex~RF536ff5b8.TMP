@@ -1,0 +1,1288 @@
+name="Low" translation="NÃ­vel baixo" />
+      <value name="Medium" translation="NÃ­vel mÃ©dio" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Antialiasing de Amostragem de Multi-Videograma da NVIDIA">
+      <value name="Off" translation="Desactivar" />
+      <value name="On" translation="Activar" />
+    </setting>
+    <setting name="Objects" translation="Objectos">
+      <value name="High" translation="NÃ­vel alto" />
+      <value name="Medium" translation="NÃ­vel mÃ©dio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Particles" translation="PartÃ­culas">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="NÃ­vel mÃ©dio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Post-processing" translation="PÃ³s-processamento">
+      <value name="High" translation="NÃ­vel alto" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="MÃ©dia" />
+    </setting>
+    <setting name="Resolution" translation="ResoluÃ§Ã£o" />
+    <setting name="Shadows" translation="Sombras">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="MÃ©dia" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Ultra Low" translation="Ultra baixa" />
+    </setting>
+    <setting name="Skidmarks" translation="Marca de derrapagem">
+      <value name="Off" translation="Desactivar" />
+      <value name="On" translation="Activar" />
+    </setting>
+    <setting name="Soft Ambient Occlusion" translation="OclusÃ£o ambiental suave">
+      <value name="Off" translation="Desactivar" />
+      <value name="On" translation="Activar" />
+    </setting>
+    <setting name="Trees" translation="Ãrvores">
+      <value name="High" translation="NÃ­vel alto" />
+      <value name="Medium" translation="NÃ­vel mÃ©dio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Vehicle Details" translation="Detalhes de veÃ­culos">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baixo" />
+      <value name="Medium" translation="MÃ©dio" />
+    </setting>
+    <setting name="Vehicle Reflections" translation="Reflexos de veÃ­culos">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="MÃ©dia" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Water" translation="Ãgua">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="MÃ©dia" />
+    </setting>
+  </language>
+  <language name="ru_RU" translation="">
+    <setting name="Advanced Fog" translation="Ð£Ð»ÑƒÑ‡ÑˆÐµÐ½Ð½Ñ‹Ð¹ Ñ‚ÑƒÐ¼Ð°Ð½">
+      <value name="Off" translation="Ð’Ñ‹ÐºÐ»." />
+      <value name="On" translation="Ð’ÐºÐ»." />
+    </setting>
+    <setting name="Advanced Lighting" translation="Ð£Ð»ÑƒÑ‡ÑˆÐµÐ½Ð½Ð¾Ðµ Ð¾ÑÐ²ÐµÑ‰ÐµÐ½Ð¸Ðµ">
+      <value name="Off" translation="Ð’Ñ‹ÐºÐ»." />
+      <value name="On" translation="Ð’ÐºÐ»." />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Ð—Ð°Ñ‚ÐµÐ½ÐµÐ½Ð¸Ðµ Ñ„Ð¾Ð½Ð¾Ð²Ð¾Ð³Ð¾ Ð¾ÑÐ²ÐµÑ‰ÐµÐ½Ð¸Ñ">
+      <value name="High" translation="Ð’Ñ‹ÑÐ¾ÐºÐ¾Ðµ" />
+      <value name="Low" translation="ÐÐ¸Ð·ÐºÐ¾Ðµ" />
+      <value name="Ultra" translation="Ð¡Ð°Ð¼Ð¾Ðµ Ð²Ñ‹ÑÐ¾ÐºÐ¾Ðµ" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="ÐÐ½Ð¸Ð·Ð¾Ñ‚Ñ€Ð¾Ð¿Ð½Ð°Ñ Ñ„Ð¸Ð»ÑŒÑ‚Ñ€Ð°Ñ†Ð¸Ñ">
+      <value name="High" translation="Ð’Ñ‹ÑÐ¾ÐºÐ°Ñ" />
+      <value name="Low" translation="ÐÐ¸Ð·ÐºÐ°Ñ" />
+      <value name="Off" translation="Ð’Ñ‹ÐºÐ»." />
+      <value name="Ultra" translation="Ð£Ð»ÑŒÑ‚Ñ€Ð°" />
+    </setting>
+    <setting name="Cloth" translation="Ð¢ÐºÐ°Ð½ÑŒ">
+      <value name="High" translation="Ð’Ñ‹ÑÐ¾ÐºÐ¾" />
+      <value name="Low" translation="ÐÐ¸Ð·ÐºÐ¾" />
+      <value name="Off" translation="Ð’Ñ‹ÐºÐ»." />
+    </setting>
+    <setting name="Crowd" translation="Ð¢Ð¾Ð»Ð¿Ð°">
+      <value name="High" translation="Ð’Ñ‹ÑÐ¾ÐºÐ¾" />
+      <value name="Low" translation="ÐÐ¸Ð·ÐºÐ¾" />
+      <value name="Medium" translation="Ð¡Ñ€ÐµÐ´Ð½Ðµ" />
+      <value name="Off" translation="Ð’Ñ‹ÐºÐ»." />
+      <value name="Ultra" translation="ÐžÑ‡ÐµÐ½ÑŒ Ð²Ñ‹ÑÐ¾ÐºÐ¾" />
+    </setting>
+    <setting name="Display Mode" translation="Ð­ÐºÑ€Ð°Ð½Ð½Ñ‹Ð¹ Ñ€ÐµÐ¶Ð¸Ð¼">
+      <value name="Full-screen" translation="ÐŸÐ¾Ð»Ð½Ñ‹Ð¹ ÑÐºÑ€Ð°Ð½" />
+      <value name="Windowed" translation="Ð’ Ð¾ÐºÐ½Ðµ" />
+    </setting>
+    <setting name="Global Illumination" translation="Ð“Ð»Ð¾Ð±Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð¾ÑÐ²ÐµÑ‰ÐµÐ½Ð¸Ðµ">
+      <value name="Off" translation="Ð’Ñ‹ÐºÐ»." />
+      <value name="On" translation="Ð’ÐºÐ»." />
+    </setting>
+    <setting name="Ground Cover" translation="Ð Ð°ÑÑ‚Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ð¹ Ð¿Ð¾ÐºÑ€Ð¾Ð²">
+      <value name="High" translation="Ð’Ñ‹ÑÐ¾ÐºÐ¾" />
+      <value name="Low" translation="ÐÐ¸Ð·ÐºÐ¾" />
+      <value name="Off" translation="Ð’Ñ‹ÐºÐ»." />
+    </setting>
+    <setting name="Multisampling" translation="ÐœÑƒÐ»ÑŒÑ‚Ð¸Ð²Ñ‹Ð±Ð¾Ñ€ÐºÐ°">
+      <value name="16xCSAA" translation="16xCSAA" />
+      <value name="16xQCSAA" translation="16xQCSAA" />
+      <value name="2xMSAA" translation="2xMSAA" />
+      <value name="4xMSAA" translation="4xMSAA" />
+      <value name="8xCSAA" translation="8xCSAA" />
+      <value name="8xMSAA" translation="8xMSAA" />
+      <value name="8xQCSAA" translation="8xQCSAA" />
+      <value name="CMAA" translation="CMAA" />
+      <value name="Off" translation="Ð’Ñ‹ÐºÐ»." />
+    </setting>
+    <setting name="Night Lighting" translation="ÐÐ¾Ñ‡Ð½Ð¾Ðµ Ð¾ÑÐ²ÐµÑ‰ÐµÐ½Ð¸Ðµ">
+      <value name="High" translation="Ð’Ñ‹ÑÐ¾ÐºÐ¾Ðµ" />
+      <value name="Low" translation="ÐÐ¸Ð·ÐºÐ¾Ðµ" />
+      <value name="Medium" translation="Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="ÐœÐ½Ð¾Ð³Ð¾ÐºÐ°Ð´Ñ€Ð¾Ð²Ð¾Ðµ ÑÐ³Ð»Ð°Ð¶Ð¸Ð²Ð°Ð½Ð¸Ðµ NVIDIA">
+      <value name="Off" translation="Ð’Ñ‹ÐºÐ»." />
+      <value name="On" translation="Ð’ÐºÐ»." />
+    </setting>
+    <setting name="Objects" translation="ÐžÐ±ÑŠÐµÐºÑ‚Ñ‹">
+      <value name="High" translation="Ð’Ñ‹ÑÐ¾ÐºÐ¾" />
+      <value name="Medium" translation="Ð¡Ñ€ÐµÐ´Ð½Ðµ" />
+      <value name="Ultra" translation="ÐžÑ‡ÐµÐ½ÑŒ Ð²Ñ‹ÑÐ¾ÐºÐ¾" />
+    </setting>
+    <setting name="Particles" translation="Ð§Ð°ÑÑ‚Ð¸Ñ†Ñ‹">
+      <value name="High" translation="Ð’Ñ‹ÑÐ¾ÐºÐ¾" />
+      <value name="Low" translation="ÐÐ¸Ð·ÐºÐ¾" />
+      <value name="Medium" translation="Ð¡Ñ€ÐµÐ´Ð½Ðµ" />
+      <value name="Ultra" translation="Ð£Ð»ÑŒÑ‚Ñ€Ð°" />
+    </setting>
+    <setting name="Post-processing" translation="ÐŸÐ¾ÑÑ‚Ð¾Ð±Ñ€Ð°Ð±Ð¾Ñ‚ÐºÐ°">
+      <value name="High" translation="Ð’Ñ‹ÑÐ¾ÐºÐ¾" />
+      <value name="Low" translation="ÐÐ¸Ð·ÐºÐ¾" />
+      <value name="Medium" translation="Ð¡Ñ€ÐµÐ´Ð½Ðµ" />
+    </setting>
+    <setting name="Resolution" translation="Ð Ð°Ð·Ñ€ÐµÑˆÐµÐ½Ð¸Ðµ" />
+    <setting name="Shadows" translation="Ð¢ÐµÐ½Ð¸">
+      <value name="High" translation="Ð’Ñ‹ÑÐ¾ÐºÐ¾" />
+      <value name="Low" translation="ÐÐ¸Ð·ÐºÐ¾" />
+      <value name="Medium" translation="Ð¡Ñ€ÐµÐ´Ð½Ðµ" />
+      <value name="Ultra" translation="ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾ Ð²Ñ‹ÑÐ¾ÐºÐ¾" />
+      <value name="Ultra Low" translation="ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾ Ð½Ð¸Ð·ÐºÐ¾" />
+    </setting>
+    <setting name="Skidmarks" translation="Ð¢Ð¾Ñ€Ð¼Ð¾Ð·Ð½Ñ‹Ðµ ÑÐ»ÐµÐ´Ñ‹ Ð°Ð²Ñ‚Ð¾Ð¼Ð¾Ð±Ð¸Ð»ÐµÐ¹">
+      <value name="Off" translation="Ð’Ñ‹ÐºÐ»." />
+      <value name="On" translation="Ð’ÐºÐ»." />
+    </setting>
+    <setting name="Soft Ambient Occlusion" translation="ÐœÑÐ³ÐºÐ¾Ðµ Ð·Ð°Ñ‚ÐµÐ½ÐµÐ½Ð¸Ðµ Ñ„Ð¾Ð½Ð¾Ð²Ð¾Ð³Ð¾ Ð¾ÑÐ²ÐµÑ‰ÐµÐ½Ð¸Ñ">
+      <value name="Off" translation="Ð’Ñ‹ÐºÐ»." />
+      <value name="On" translation="Ð’ÐºÐ»." />
+    </setting>
+    <setting name="Trees" translation="Ð”ÐµÑ€ÐµÐ²ÑŒÑ">
+      <value name="High" translation="Ð’Ñ‹ÑÐ¾ÐºÐ¾" />
+      <value name="Medium" translation="Ð¡Ñ€ÐµÐ´Ð½Ðµ" />
+      <value name="Ultra" translation="ÐžÑ‡ÐµÐ½ÑŒ Ð²Ñ‹ÑÐ¾ÐºÐ¾" />
+    </setting>
+    <setting name="Vehicle Details" translation="Ð”ÐµÑ‚Ð°Ð»Ð¸Ð·Ð°Ñ†Ð¸Ñ Ð¼Ð°ÑˆÐ¸Ð½">
+      <value name="High" translation="Ð’Ñ‹ÑÐ¾ÐºÐ°Ñ" />
+      <value name="Low" translation="ÐÐ¸Ð·ÐºÐ°Ñ" />
+      <value name="Medium" translation="Ð¡Ñ€ÐµÐ´Ð½ÑÑ" />
+    </setting>
+    <setting name="Vehicle Reflections" translation="ÐžÑ‚Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ Ð¼Ð°ÑˆÐ¸Ð½">
+      <value name="High" translation="Ð’Ñ‹ÑÐ¾ÐºÐ¾" />
+      <value name="Low" translation="ÐÐ¸Ð·ÐºÐ¾" />
+      <value name="Medium" translation="Ð¡Ñ€ÐµÐ´Ð½Ðµ" />
+      <value name="Ultra" translation="ÐžÑ‡ÐµÐ½ÑŒ Ð²Ñ‹ÑÐ¾ÐºÐ¾" />
+    </setting>
+    <setting name="Water" translation="Ð’Ð¾Ð´Ð°">
+      <value name="High" translation="Ð’Ñ‹ÑÐ¾ÐºÐ¾" />
+      <value name="Low" translation="ÐÐ¸Ð·ÐºÐ¾" />
+      <value name="Medium" translation="Ð¡Ñ€ÐµÐ´Ð½Ðµ" />
+    </setting>
+  </language>
+  <language name="sk_SK" translation="">
+    <setting name="Advanced Fog" translation="RozÅ¡Ã­renÃ¡ hmla">
+      <value name="Off" translation="VypnutÃ¡" />
+      <value name="On" translation="ZapnutÃ¡" />
+    </setting>
+    <setting name="Advanced Lighting" translation="RozÅ¡Ã­renÃ© osvetlenie">
+      <value name="Off" translation="VypnutÃ©" />
+      <value name="On" translation="ZapnutÃ©" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Zatienenie okolÃ­m">
+      <value name="High" translation="VysokÃ©" />
+      <value name="Low" translation="NÃ­zke" />
+      <value name="Ultra" translation="ExtrÃ©mne vysokÃ©" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="AnizotropnÃ© filtrovanie">
+      <value name="High" translation="VysokÃ©" />
+      <value name="Low" translation="NÃ­zke" />
+      <value name="Off" translation="VypnutÃ©" />
+      <value name="Ultra" translation="ExtrÃ©mne vysokÃ©" />
+    </setting>
+    <setting name="Cloth" translation="ObleÄenie">
+      <value name="High" translation="VysokÃ©" />
+      <value name="Low" translation="NÃ­zke" />
+      <value name="Off" translation="VypnutÃ©" />
+    </setting>
+    <setting name="Crowd" translation="Dav">
+      <value name="High" translation="VysokÃ©" />
+      <value name="Low" translation="NÃ­zke" />
+      <value name="Medium" translation="StrednÃ½" />
+      <value name="Off" translation="VypnutÃ©" />
+      <value name="Ultra" translation="ExtrÃ©mne vysokÃ©" />
+    </setting>
+    <setting name="Display Mode" translation="ReÅ¾im zobrazenia">
+      <value name="Full-screen" translation="Na celÃº obrazovku" />
+      <value name="Windowed" translation="V okne" />
+    </setting>
+    <setting name="Global Illumination" translation="GlobÃ¡lne osvetlenie">
+      <value name="Off" translation="VypnutÃ©" />
+      <value name="On" translation="ZapnutÃ©" />
+    </setting>
+    <setting name="Ground Cover" translation="PÃ´dny pokryv">
+      <value name="High" translation="VysokÃ½" />
+      <value name="Low" translation="NÃ­zky" />
+      <value name="Off" translation="VypnutÃ½" />
+    </setting>
+    <setting name="Multisampling" translation="DereferencovanÃ© vyhladzovanie">
+      <value name="16xCSAA" translation="Vyhladzovanie CSAA 16x" />
+      <value name="16xQCSAA" translation="16xQCSAA" />
+      <value name="2xMSAA" translation="DereferencovanÃ© vyhladzovanie MSAA 2x" />
+      <value name="4xMSAA" translation="DereferencovanÃ© vyhladzovanie MSAA 4x" />
+      <value name="8xCSAA" translation="Vyhladzovanie CSAA 8x" />
+      <value name="8xMSAA" translation="DereferencovanÃ© vyhladzovanie MSAA 8x" />
+      <value name="8xQCSAA" translation="Vyhladzovanie CSAA 8 xQ" />
+      <value name="CMAA" translation="CMAA" />
+      <value name="Off" translation="VypnutÃ©" />
+    </setting>
+    <setting name="Night Lighting" translation="NoÄnÃ© osvetlenie">
+      <value name="High" translation="VysokÃ©" />
+      <value name="Low" translation="NÃ­zke" />
+      <value name="Medium" translation="StrednÃ©" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="ViacsnÃ­mkovÃ© vyhladzovanie NVIDIA">
+      <value name="Off" translation="VypnutÃ©" />
+      <value name="On" translation="ZapnutÃ©" />
+    </setting>
+    <setting name="Objects" translation="Objekty">
+      <value name="High" translation="VysokÃ©" />
+      <value name="Medium" translation="StrednÃ©" />
+      <value name="Ultra" translation="ExtrÃ©mne vysokÃ©" />
+    </setting>
+    <setting name="Particles" translation="ÄŒastice">
+      <value name="High" translation="VysokÃ©" />
+      <value name="Low" translation="NÃ­zke" />
+      <value name="Medium" translation="StrednÃ©" />
+      <value name="Ultra" translation="ExtrÃ©mne vysokÃ©" />
+    </setting>
+    <setting name="Post-processing" translation="DodatoÄnÃ© spracovanie">
+      <value name="High" translation="VysokÃ©" />
+      <value name="Low" translation="NÃ­zky" />
+      <value name="Medium" translation="StrednÃ½" />
+    </setting>
+    <setting name="Resolution" translation="RozlÃ­Å¡enie" />
+    <setting name="Shadows" translation="Tiene">
+      <value name="High" translation="VysokÃ©" />
+      <value name="Low" translation="NÃ­zke" />
+      <value name="Medium" translation="StrednÃ©" />
+      <value name="Ultra" translation="ExtrÃ©mne vysokÃ©" />
+      <value name="Ultra Low" translation="ExtrÃ©mne nÃ­zke" />
+    </setting>
+    <setting name="Skidmarks" translation="Stopy po Å¡myku">
+      <value name="Off" translation="VypnutÃ©" />
+      <value name="On" translation="ZapnutÃ©" />
+    </setting>
+    <setting name="Soft Ambient Occlusion" translation="JemnÃ© zatienenie okolÃ­m">
+      <value name="Off" translation="VypnutÃ©" />
+      <value name="On" translation="ZapnutÃ©" />
+    </setting>
+    <setting name="Trees" translation="Stromy">
+      <value name="High" translation="VysokÃ©" />
+      <value name="Medium" translation="StrednÃ©" />
+      <value name="Ultra" translation="ExtrÃ©mne vysokÃ©" />
+    </setting>
+    <setting name="Vehicle Details" translation="Detaily vozidla">
+      <value name="High" translation="VysokÃ©" />
+      <value name="Low" translation="NÃ­zke" />
+      <value name="Medium" translation="StrednÃ©" />
+    </setting>
+    <setting name="Vehicle Reflections" translation="Odrazy vozidiel">
+      <value name="High" translation="VysokÃ©" />
+      <value name="Low" translation="NÃ­zke" />
+      <value name="Medium" translation="StrednÃ©" />
+      <value name="Ultra" translation="ExtrÃ©mne vysokÃ©" />
+    </setting>
+    <setting name="Water" translation="Voda">
+      <value name="High" translation="VysokÃ©" />
+      <value name="Low" translation="NÃ­zke" />
+      <value name="Medium" translation="StrednÃ©" />
+    </setting>
+  </language>
+  <language name="sl_SI" translation="">
+    <setting name="Advanced Fog" translation="Napredna megla">
+      <value name="Off" translation="Izklop" />
+      <value name="On" translation="Vklop" />
+    </setting>
+    <setting name="Advanced Lighting" translation="Napredna osvetlitev">
+      <value name="Off" translation="Izklop" />
+      <value name="On" translation="Vklop" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Zapiranje okolice">
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Neizotropno filtriranje">
+      <value name="High" translation="Visoka" />
+      <value name="Low" translation="Nizka" />
+      <value name="Off" translation="Izklop" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Cloth" translation="Tkanina">
+      <value name="High" translation="Visok" />
+      <value name="Low" translation="Nizko" />
+      <value name="Off" translation="Izklop" />
+    </setting>
+    <setting name="Crowd" translation="MnoÅ¾ica">
+      <value name="High" translation="Visok" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Off" translation="Izklop" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Display Mode" translation="Zaslonski naÄin">
+      <value name="Full-screen" translation="Celoten zaslon" />
+      <value name="Windowed" translation="V oknu" />
+    </setting>
+    <setting name="Global Illumination" translation="Globalna razsvetlitev">
+      <value name="Off" translation="Izklop" />
+      <value name="On" translation="Vklop" />
+    </setting>
+    <setting name="Ground Cover" translation="Rastlinje na tleh">
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+      <value name="Off" translation="Izklop" />
+    </setting>
+    <setting name="Multisampling" translation="VzorÄenje veÄ toÄk">
+      <value name="16xCSAA" translation="CSAA 16 x" />
+      <value name="16xQCSAA" translation="Bolj kakovostno vzorÄenje podroÄja 16 x" />
+      <value name="2xMSAA" translation="VeÄvzorÄno glajenje robov 2 x" />
+      <value name="4xMSAA" translation="VeÄvzorÄno glajenje robov 4 x" />
+      <value name="8xCSAA" translation="VzorÄenje podroÄja 8 x" />
+      <value name="8xMSAA" translation="VeÄvzorÄno glajenje robov 8 x" />
+      <value name="8xQCSAA" translation="VzorÄenje podroÄja 8xQ" />
+      <value name="CMAA" translation="CMAA" />
+      <value name="Off" translation="Izklop" />
+    </setting>
+    <setting name="Night Lighting" translation="NoÄna osvetlitev">
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA vzorÄno glajenje robov z veÄ okviri">
+      <value name="Off" translation="Izklop" />
+      <value name="On" translation="Vklop" />
+    </setting>
+    <setting name="Objects" translation="Predmeti">
+      <value name="High" translation="Visoko" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Particles" translation="Delci">
+      <value name="High" translation="Visok" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Post-processing" translation="Naknadna obdelava">
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+    </setting>
+    <setting name="Resolution" translation="LoÄljivost" />
+    <setting name="Shadows" translation="Sence">
+      <value name="High" translation="Visok" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Ultra Low" translation="Ultra nizek" />
+    </setting>
+    <setting name="Skidmarks" translation="Znaki drsenja">
+      <value name="Off" translation="Izklop" />
+      <value name="On" translation="Vklop" />
+    </setting>
+    <setting name="Soft Ambient Occlusion" translation="Blaga vsestranska osvetlitev">
+      <value name="Off" translation="Izklop" />
+      <value name="On" translation="Vklop" />
+    </setting>
+    <setting name="Trees" translation="Drevje">
+      <value name="High" translation="Visoko" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Vehicle Details" translation="Podrobnosti vozila">
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+    </setting>
+    <setting name="Vehicle Reflections" translation="Odsevi vozil">
+      <value name="High" translation="Visok" />
+      <value name="Low" translation="Nizek" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Water" translation="Voda">
+      <value name="High" translation="Visok" />
+      <value name="Low" translation="Nizek" />
+      <value name="Medium" translation="Srednje" />
+    </setting>
+  </language>
+  <language name="sv_SE" translation="">
+    <setting name="Advanced Fog" translation="Avancerad dimma">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="PÃ¥" />
+    </setting>
+    <setting name="Advanced Lighting" translation="Avancerad ljussÃ¤ttning">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="PÃ¥" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Omgivande inneslutning">
+      <value name="High" translation="HÃ¶g" />
+      <value name="Low" translation="LÃ¥g" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Anisotropisk filtrering">
+      <value name="High" translation="HÃ¶gt" />
+      <value name="Low" translation="LÃ¥g" />
+      <value name="Off" translation="Av" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Cloth" translation="Tyg">
+      <value name="High" translation="HÃ¶g" />
+      <value name="Low" translation="LÃ¥g" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Crowd" translation="Publik">
+      <value name="High" translation="HÃ¶g" />
+      <value name="Low" translation="LÃ¥g" />
+      <value name="Medium" translation="Medel" />
+      <value name="Off" translation="Av" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Display Mode" translation="VisningslÃ¤ge">
+      <value name="Full-screen" translation="HelskÃ¤rm" />
+      <value name="Windowed" translation="I fÃ¶nster" />
+    </setting>
+    <setting name="Global Illumination" translation="Global belysning">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="PÃ¥" />
+    </setting>
+    <setting name="Ground Cover" translation="Saker spridda pÃ¥ marken">
+      <value name="High" translation="HÃ¶g" />
+      <value name="Low" translation="LÃ¥g" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Multisampling" translation="Flersampling">
+      <value name="16xCSAA" translation="16xCSAA" />
+      <value name="16xQCSAA" translation="16xQCSAA" />
+      <value name="2xMSAA" translation="2xMSAA" />
+      <value name="4xMSAA" translation="4xMSAA" />
+      <value name="8xCSAA" translation="8xCSAA" />
+      <value name="8xMSAA" translation="8xMSAA" />
+      <value name="8xQCSAA" translation="8xQCSAA" />
+      <value name="CMAA" translation="CMAA" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Night Lighting" translation="Nattljus">
+      <value name="High" translation="HÃ¶g" />
+      <value name="Low" translation="LÃ¥g" />
+      <value name="Medium" translation="Medel" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA flerbildssamplad kantutjÃ¤mning">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="PÃ¥" />
+    </setting>
+    <setting name="Objects" translation="Objekt">
+      <value name="High" translation="HÃ¶g" />
+      <value name="Medium" translation="Medel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Particles" translation="Partiklar">
+      <value name="High" translation="HÃ¶g" />
+      <value name="Low" translation="LÃ¥g" />
+      <value name="Medium" translation="Medel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Post-processing" translation="Efterbehandling">
+      <value name="High" translation="HÃ¶g" />
+      <value name="Low" translation="LÃ¥g" />
+      <value name="Medium" translation="Medel" />
+    </setting>
+    <setting name="Resolution" translation="UpplÃ¶sning" />
+    <setting name="Shadows" translation="Skuggor">
+      <value name="High" translation="HÃ¶g" />
+      <value name="Low" translation="LÃ¥g" />
+      <value name="Medium" translation="Medel" />
+      <value name="Ultra" translation="Ultra" />
+      <value name="Ultra Low" translation="UltralÃ¥g" />
+    </setting>
+    <setting name="Skidmarks" translation="SladdmÃ¤rken">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="PÃ¥" />
+    </setting>
+    <setting name="Soft Ambient Occlusion" translation="Mjuk omgivande inneslutning">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="PÃ¥" />
+    </setting>
+    <setting name="Trees" translation="TrÃ¤d">
+      <value name="High" translation="HÃ¶g" />
+      <value name="Medium" translation="Medel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Vehicle Details" translation="Fordonsdetaljer">
+      <value name="High" translation="HÃ¶gt" />
+      <value name="Low" translation="LÃ¥g" />
+      <value name="Medium" translation="Medel" />
+    </setting>
+    <setting name="Vehicle Reflections" translation="Fordonsspeglingar">
+      <value name="High" translation="HÃ¶g" />
+      <value name="Low" translation="LÃ¥g" />
+      <value name="Medium" translation="Medel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Water" translation="Vatten">
+      <value name="High" translation="HÃ¶g" />
+      <value name="Low" translation="LÃ¥g" />
+      <value name="Medium" translation="Medel" />
+    </setting>
+  </language>
+  <language name="th_TH" translation="">
+    <setting name="Advanced Fog" translation="à¸«à¸¡à¸­à¸à¸‚à¸±à¹‰à¸™à¸ªà¸¹à¸‡">
+      <value name="Off" translation="à¸›à¸´à¸”" />
+      <value name="On" translation="à¹€à¸›à¸´à¸”" />
+    </setting>
+    <setting name="Advanced Lighting" translation="à¸à¸²à¸£à¸ˆà¸±à¸”à¹à¸ªà¸‡à¸‚à¸±à¹‰à¸™à¸ªà¸¹à¸‡">
+      <value name="Off" translation="à¸›à¸´à¸”" />
+      <value name="On" translation="à¹€à¸›à¸´à¸”" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="à¸à¸²à¸£à¸šà¸”à¸šà¸±à¸‡à¹à¸ªà¸‡à¹à¸§à¸”à¸¥à¹‰à¸­à¸¡">
+      <value name="High" translation="à¸ªà¸¹à¸‡" />
+      <value name="Low" translation="à¸•à¹ˆà¸³" />
+      <value name="Ultra" translation="à¸”à¸µà¹€à¸¢à¸µà¹ˆà¸¢à¸¡" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="à¸à¸²à¸£à¸à¸£à¸­à¸‡à¹à¸šà¸šà¹à¸­à¸™à¹„à¸­à¹‚à¸‹à¸—à¸£à¸­à¸›à¸´à¸">
+      <value name="High" translation="à¸ªà¸¹à¸‡" />
+      <value name="Low" translation="à¸•à¹ˆà¸³" />
+      <value name="Off" translation="à¸›à¸´à¸”" />
+      <value name="Ultra" translation="à¸žà¸´à¹€à¸¨à¸©" />
+    </setting>
+    <setting name="Cloth" translation="à¹€à¸ªà¸·à¹‰à¸­à¸œà¹‰à¸²">
+      <value name="High" translation="à¸ªà¸¹à¸‡" />
+      <value name="Low" translation="à¸•à¹ˆà¸³" />
+      <value name="Off" translation="à¸›à¸´à¸”" />
+    </setting>
+    <setting name="Crowd" translation="à¸à¸¹à¸‡à¸Šà¸™">
+      <value name="High" translation="à¸ªà¸¹à¸‡" />
+      <value name="Low" translation="à¸•à¹ˆà¸³" />
+      <value name="Medium" translation="à¸›à¸²à¸™à¸à¸¥à¸²à¸‡" />
+      <value name="Off" translation="à¸›à¸´à¸”" />
+      <value name="Ultra" translation="à¸”à¸µà¹€à¸¢à¸µà¹ˆà¸¢à¸¡" />
+    </setting>
+    <setting name="Display Mode" translation="à¹‚à¸«à¸¡à¸”à¸à¸²à¸£à¹à¸ªà¸”à¸‡à¸œà¸¥">
+      <value name="Full-screen" translation="à¹€à¸•à¹‡à¸¡à¸«à¸™à¹‰à¸²à¸ˆà¸­" />
+      <value name="Windowed" translation="à¹à¸šà¸šà¸«à¸™à¹‰à¸²à¸•à¹ˆà¸²à¸‡" />
+    </setting>
+    <setting name="Global Illumination" translation="à¸à¸²à¸£à¸ªà¹ˆà¸­à¸‡à¸ªà¸§à¹ˆà¸²à¸‡à¸ªà¹ˆà¸§à¸™à¸à¸¥à¸²à¸‡ (Global Illumination)">
+      <value name="Off" translation="à¸›à¸´à¸”" />
+      <value name="On" translation="à¹€à¸›à¸´à¸”" />
+    </setting>
+    <setting name="Ground Cover" translation="à¸›à¸à¸„à¸¥à¸¸à¸¡à¸žà¸·à¹‰à¸™">
+      <value name="High" translation="à¸ªà¸¹à¸‡" />
+      <value name="Low" translation="à¸•à¹ˆà¸³" />
+      <value name="Off" translation="à¸›à¸´à¸”" />
+    </setting>
+    <setting name="Multisampling" translation="à¹à¸šà¸šà¸«à¸¥à¸²à¸¢à¸•à¸±à¸§à¸­à¸¢à¹ˆà¸²à¸‡">
+      <value name="16xCSAA" translation="16xCSAA" />
+      <value name="16xQCSAA" translation="16xQCSAA" />
+      <value name="2xMSAA" translation="2xMSAA" />
+      <value name="4xMSAA" translation="4xMSAA" />
+      <value name="8xCSAA" translation="8xCSAA" />
+      <value name="8xMSAA" translation="8xMSAA" />
+      <value name="8xQCSAA" translation="8xQCSAA" />
+      <value name="CMAA" translation="CMAA" />
+      <value name="Off" translation="à¸›à¸´à¸”" />
+    </setting>
+    <setting name="Night Lighting" translation="à¹à¸ªà¸‡à¸à¸¥à¸²à¸‡à¸„à¸·à¸™">
+      <value name="High" translation="à¸ªà¸¹à¸‡" />
+      <value name="Low" translation="à¸•à¹ˆà¸³" />
+      <value name="Medium" translation="à¸›à¸²à¸™à¸à¸¥à¸²à¸‡" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="à¸à¸²à¸£à¸¥à¸šà¸£à¸­à¸¢à¸«à¸¢à¸±à¸à¹à¸šà¸š Multi-Frame Sampled à¸‚à¸­à¸‡ NVIDIA ">
+      <value name="Off" translation="à¸›à¸´à¸”" />
+      <value name="On" translation="à¹€à¸›à¸´à¸”" />
+    </setting>
+    <setting name="Objects" translation="à¸­à¸­à¸šà¹€à¸ˆà¹‡à¸à¸•à¹Œ">
+      <value name="High" translation="à¸ªà¸¹à¸‡" />
+      <value name="Medium" translation="à¸›à¸²à¸™à¸à¸¥à¸²à¸‡" />
+      <value name="Ultra" translation="à¸žà¸´à¹€à¸¨à¸©" />
+    </setting>
+    <setting name="Particles" translation="à¸­à¸™à¸¸à¸ à¸²à¸„">
+      <value name="High" translation="à¸ªà¸¹à¸‡" />
+      <value name="Low" translation="à¸•à¹ˆà¸³" />
+      <value name="Medium" translation="à¸›à¸²à¸™à¸à¸¥à¸²à¸‡" />
+      <value name="Ultra" translation="à¸žà¸´à¹€à¸¨à¸©" />
+    </setting>
+    <setting name="Post-processing" translation="à¸«à¸¥à¸±à¸‡à¸à¸²à¸£à¸›à¸£à¸°à¸¡à¸§à¸¥à¸œà¸¥">
+      <value name="High" translation="à¸ªà¸¹à¸‡" />
+      <value name="Low" translation="à¸•à¹ˆà¸³" />
+      <value name="Medium" translation="à¸›à¸²à¸™à¸à¸¥à¸²à¸‡" />
+    </setting>
+    <setting name="Resolution" translation="à¸„à¸§à¸²à¸¡à¸¥à¸°à¹€à¸­à¸µà¸¢à¸”" />
+    <setting name="Shadows" translation="à¹€à¸‡à¸²">
+      <value name="High" translation="à¸ªà¸¹à¸‡" />
+      <value name="Low" translation="à¸•à¹ˆà¸³" />
+      <value name="Medium" translation="à¸›à¸²à¸™à¸à¸¥à¸²à¸‡" />
+      <value name="Ultra" translation="à¸”à¸µà¹€à¸¢à¸µà¹ˆà¸¢à¸¡" />
+      <value name="Ultra Low" translation="à¸•à¹ˆà¸³à¸—à¸µà¹ˆà¸ªà¸¸à¸”" />
+    </setting>
+    <setting name="Skidmarks" translation="à¸£à¸­à¸¢à¸¥à¸·à¹ˆà¸™à¹„à¸–à¸¥">
+      <value name="Off" translation="à¸›à¸´à¸”" />
+      <value name="On" translation="à¹€à¸›à¸´à¸”" />
+    </setting>
+    <setting name="Soft Ambient Occlusion" translation="à¸à¸²à¸£à¸šà¸”à¸šà¸±à¸‡à¹à¸ªà¸‡à¹à¸§à¸”à¸¥à¹‰à¸­à¸¡à¹à¸šà¸šà¸™à¸¸à¹ˆà¸¡à¸™à¸§à¸¥">
+      <value name="Off" translation="à¸›à¸´à¸”" />
+      <value name="On" translation="à¹€à¸›à¸´à¸”" />
+    </setting>
+    <setting name="Trees" translation="à¸•à¹‰à¸™à¹„à¸¡à¹‰">
+      <value name="High" translation="à¸ªà¸¹à¸‡" />
+      <value name="Medium" translation="à¸›à¸²à¸™à¸à¸¥à¸²à¸‡" />
+      <value name="Ultra" translation="à¸žà¸´à¹€à¸¨à¸©" />
+    </setting>
+    <setting name="Vehicle Details" translation="à¸£à¸²à¸¢à¸¥à¸°à¹€à¸­à¸µà¸¢à¸”à¸žà¸²à¸«à¸™à¸°">
+      <value name="High" translation="à¸ªà¸¹à¸‡" />
+      <value name="Low" translation="à¸•à¹ˆà¸³" />
+      <value name="Medium" translation="à¸›à¸²à¸™à¸à¸¥à¸²à¸‡" />
+    </setting>
+    <setting name="Vehicle Reflections" translation="à¸ à¸²à¸žà¸ªà¸°à¸—à¹‰à¸­à¸™à¸‚à¸­à¸‡à¸žà¸²à¸«à¸™à¸°">
+      <value name="High" translation="à¸ªà¸¹à¸‡" />
+      <value name="Low" translation="à¸•à¹ˆà¸³" />
+      <value name="Medium" translation="à¸›à¸²à¸™à¸à¸¥à¸²à¸‡" />
+      <value name="Ultra" translation="à¸”à¸µà¹€à¸¢à¸µà¹ˆà¸¢à¸¡" />
+    </setting>
+    <setting name="Water" translation="à¸™à¹‰à¸³">
+      <value name="High" translation="à¸ªà¸¹à¸‡" />
+      <value name="Low" translation="à¸•à¹ˆà¸³" />
+      <value name="Medium" translation="à¸›à¸²à¸™à¸à¸¥à¸²à¸‡" />
+    </setting>
+  </language>
+  <language name="tr_TR" translation="">
+    <setting name="Advanced Fog" translation="GeliÅŸmiÅŸ Sis">
+      <value name="Off" translation="KapalÄ±" />
+      <value name="On" translation="AÃ§Ä±k" />
+    </setting>
+    <setting name="Advanced Lighting" translation="GeliÅŸmiÅŸ AydÄ±nlatma">
+      <value name="Off" translation="KapalÄ±" />
+      <value name="On" translation="AÃ§Ä±k" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Ortam Kapatma">
+      <value name="High" translation="YÃ¼ksek" />
+      <value name="Low" translation="DÃ¼ÅŸÃ¼k" />
+      <value name="Ultra" translation="En YÃ¼ksek" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="EÅŸyÃ¶nsÃ¼z Filtreleme">
+      <value name="High" translation="YÃ¼ksek" />
+      <value name="Low" translation="DÃ¼ÅŸÃ¼k" />
+      <value name="Off" translation="KapalÄ±" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Cloth" translation="KumaÅŸ">
+      <value name="High" translation="YÃ¼ksek" />
+      <value name="Low" translation="DÃ¼ÅŸÃ¼k" />
+      <value name="Off" translation="KapalÄ±" />
+    </setting>
+    <setting name="Crowd" translation="KalabalÄ±k">
+      <value name="High" translation="YÃ¼ksek" />
+      <value name="Low" translation="DÃ¼ÅŸÃ¼k" />
+      <value name="Medium" translation="Orta" />
+      <value name="Off" translation="KapalÄ±" />
+      <value name="Ultra" translation="En YÃ¼ksek" />
+    </setting>
+    <setting name="Display Mode" translation="Ekran Modu">
+      <value name="Full-screen" translation="Tam Ekran" />
+      <value name="Windowed" translation="Pencere iÃ§inde" />
+    </setting>
+    <setting name="Global Illumination" translation="Genel AydÄ±nlatma">
+      <value name="Off" translation="KapalÄ±" />
+      <value name="On" translation="AÃ§Ä±k" />
+    </setting>
+    <setting name="Ground Cover" translation="Zemin Ã–rtÃ¼sÃ¼">
+      <value name="High" translation="YÃ¼ksek" />
+      <value name="Low" translation="DÃ¼ÅŸÃ¼k" />
+      <value name="Off" translation="KapalÄ±" />
+    </setting>
+    <setting name="Multisampling" translation="Birden Ã‡ok Ã–rnekleme">
+      <value name="16xCSAA" translation="16xCSAA" />
+      <value name="16xQCSAA" translation="16xQCSAA" />
+      <value name="2xMSAA" translation="2xMSAA" />
+      <value name="4xMSAA" translation="4xMSAA" />
+      <value name="8xCSAA" translation="8xCSAA" />
+      <value name="8xMSAA" translation="8xMSAA" />
+      <value name="8xQCSAA" translation="8xQCSAA" />
+      <value name="CMAA" translation="CMAA" />
+      <value name="Off" translation="KapalÄ±" />
+    </setting>
+    <setting name="Night Lighting" translation="Gece IÅŸÄ±klarÄ±">
+      <value name="High" translation="YÃ¼ksek" />
+      <value name="Low" translation="DÃ¼ÅŸÃ¼k" />
+      <value name="Medium" translation="Orta" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA Birden Ã‡ok Ã‡erÃ§eveli Ã–rneklemeli Kenar YumuÅŸatma">
+      <value name="Off" translation="KapalÄ±" />
+      <value name="On" translation="AÃ§Ä±k" />
+    </setting>
+    <setting name="Objects" translation="Nesneler">
+      <value name="High" translation="YÃ¼ksek" />
+      <value name="Medium" translation="Orta" />
+      <value name="Ultra" translation="En YÃ¼ksek" />
+    </setting>
+    <setting name="Particles" translation="ParÃ§acÄ±klar">
+      <value name="High" translation="YÃ¼ksek" />
+      <value name="Low" translation="DÃ¼ÅŸÃ¼k" />
+      <value name="Medium" translation="Orta" />
+      <value name="Ultra" translation="En YÃ¼ksek" />
+    </setting>
+    <setting name="Post-processing" translation="Son Ä°ÅŸlem">
+      <value name="High" translation="YÃ¼ksek" />
+      <value name="Low" translation="DÃ¼ÅŸÃ¼k" />
+      <value name="Medium" translation="Orta" />
+    </setting>
+    <setting name="Resolution" translation="Ã‡Ã¶zÃ¼nÃ¼rlÃ¼k" />
+    <setting name="Shadows" translation="GÃ¶lgeler">
+      <value name="High" translation="YÃ¼ksek" />
+      <value name="Low" translation="DÃ¼ÅŸÃ¼k" />
+      <value name="Medium" translation="Orta" />
+      <value name="Ultra" translation="En YÃ¼ksek" />
+      <value name="Ultra Low" translation="En DÃ¼ÅŸÃ¼k" />
+    </setting>
+    <setting name="Skidmarks" translation="Patinaj Ä°zleri">
+      <value name="Off" translation="KapalÄ±" />
+      <value name="On" translation="AÃ§Ä±k" />
+    </setting>
+    <setting name="Soft Ambient Occlusion" translation="YumuÅŸak Ortam Kapatma">
+      <value name="Off" translation="KapalÄ±" />
+      <value name="On" translation="AÃ§Ä±k" />
+    </setting>
+    <setting name="Trees" translation="AÄŸaÃ§lar">
+      <value name="High" translation="YÃ¼ksek" />
+      <value name="Medium" translation="Orta" />
+      <value name="Ultra" translation="En YÃ¼ksek" />
+    </setting>
+    <setting name="Vehicle Details" translation="AraÃ§ AyrÄ±ntÄ±larÄ±">
+      <value name="High" translation="YÃ¼ksek" />
+      <value name="Low" translation="DÃ¼ÅŸÃ¼k" />
+      <value name="Medium" translation="Orta" />
+    </setting>
+    <setting name="Vehicle Reflections" translation="AraÃ§ YansÄ±malarÄ±">
+      <value name="High" translation="YÃ¼ksek" />
+      <value name="Low" translation="DÃ¼ÅŸÃ¼k" />
+      <value name="Medium" translation="Orta" />
+      <value name="Ultra" translation="En YÃ¼ksek" />
+    </setting>
+    <setting name="Water" translation="Su">
+      <value name="High" translation="YÃ¼ksek" />
+      <value name="Low" translation="DÃ¼ÅŸÃ¼k" />
+      <value name="Medium" translation="Orta" />
+    </setting>
+  </language>
+  <language name="uk_UA" translation="">
+    <setting name="Advanced Fog" translation="ÐŸÐ¾ÐºÑ€Ð°Ñ‰ÐµÐ½Ñ– Ð½Ð°Ð»Ð°ÑˆÑ‚ÑƒÐ²Ð°Ð½Ð½Ñ Ñ‚ÑƒÐ¼Ð°Ð½Ñƒ">
+      <value name="Off" translation="Ð’Ð¸Ð¼ÐºÐ½." />
+      <value name="On" translation="Ð£Ð²Ñ–Ð¼ÐºÐ½." />
+    </setting>
+    <setting name="Advanced Lighting" translation="ÐŸÐ¾ÐºÑ€Ð°Ñ‰ÐµÐ½Ñ– Ð½Ð°Ð»Ð°ÑˆÑ‚ÑƒÐ²Ð°Ð½Ð½Ñ Ð¾ÑÐ²Ñ–Ñ‚Ð»ÐµÐ½Ð½Ñ">
+      <value name="Off" translation="Ð’Ð¸Ð¼ÐºÐ½." />
+      <value name="On" translation="Ð£Ð²Ñ–Ð¼ÐºÐ½." />
+    </setting>
+    <setting name="Ambient Occlusion" translation="ÐÐ°Ð²ÐºÐ¾Ð»Ð¸ÑˆÐ½Ñ” Ð·Ð°Ñ‚ÐµÐ¼Ð½ÐµÐ½Ð½Ñ">
+      <value name="High" translation="Ð’Ð¸ÑÐ¾ÐºÐ¸Ð¹" />
+      <value name="Low" translation="ÐÐ¸Ð·ÑŒÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Ultra" translation="Ð£Ð»ÑŒÑ‚Ñ€Ð°" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="ÐÐ½Ñ–Ð·Ð¾Ñ‚Ñ€Ð¾Ð¿Ð½Ð° Ñ„Ñ–Ð»ÑŒÑ‚Ñ€Ð°Ñ†Ñ–Ñ">
+      <value name="High" translation="Ð’Ð¸ÑÐ¾ÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Low" translation="ÐÐ¸Ð·ÑŒÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Off" translation="Ð’Ð¸Ð¼ÐºÐ½." />
+      <value name="Ultra" translation="Ð£Ð»ÑŒÑ‚Ñ€Ð°" />
+    </setting>
+    <setting name="Cloth" translation="Ð¢ÐºÐ°Ð½Ð¸Ð½Ð°">
+      <value name="High" translation="Ð’Ð¸ÑÐ¾ÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Low" translation="ÐÐ¸Ð·ÑŒÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Off" translation="Ð’Ð¸Ð¼ÐºÐ½." />
+    </setting>
+    <setting name="Crowd" translation="Ð®Ñ€Ð±Ð°">
+      <value name="High" translation="Ð’Ð¸ÑÐ¾ÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Low" translation="ÐÐ¸Ð·ÑŒÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Medium" translation="Ð¡ÐµÑ€ÐµÐ´Ð½Ñ–Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Off" translation="Ð’Ð¸Ð¼ÐºÐ½." />
+      <value name="Ultra" translation="Ð£Ð»ÑŒÑ‚Ñ€Ð° Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+    </setting>
+    <setting name="Display Mode" translation="Ð ÐµÐ¶Ð¸Ð¼ Ð²Ñ–Ð´Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð½Ñ">
+      <value name="Full-screen" translation="ÐŸÐ¾Ð²Ð½Ð¾ÐµÐºÑ€Ð°Ð½Ð½Ð¸Ð¹ Ñ€ÐµÐ¶Ð¸Ð¼" />
+      <value name="Windowed" translation="Ð£ Ð²Ñ–ÐºÐ½Ñ–" />
+    </setting>
+    <setting name="Global Illumination" translation="Ð“Ð»Ð¾Ð±Ð°Ð»ÑŒÐ½Ðµ Ð¾ÑÐ²Ñ–Ñ‚Ð»ÐµÐ½Ð½Ñ">
+      <value name="Off" translation="Ð’Ð¸Ð¼ÐºÐ½." />
+      <value name="On" translation="Ð£Ð²Ñ–Ð¼ÐºÐ½." />
+    </setting>
+    <setting name="Ground Cover" translation="Ð“Ñ€ÑƒÐ½Ñ‚Ð¾Ð²Ð¸Ð¹ Ð¿Ð¾ÐºÑ€Ð¸Ð²">
+      <value name="High" translation="Ð’Ð¸ÑÐ¾ÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Low" translation="ÐÐ¸Ð·ÑŒÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Off" translation="Ð’Ð¸Ð¼ÐºÐ½." />
+    </setting>
+    <setting name="Multisampling" translation="ÐœÑƒÐ»ÑŒÑ‚Ð¸Ð²Ð¸Ð±Ñ–Ñ€ÐºÐ°">
+      <value name="16xCSAA" translation="16xCSAA" />
+      <value name="16xQCSAA" translation="16xQCSAA" />
+      <value name="2xMSAA" translation="2xMSAA" />
+      <value name="4xMSAA" translation="4xMSAA" />
+      <value name="8xCSAA" translation="8xCSAA" />
+      <value name="8xMSAA" translation="8xMSAA" />
+      <value name="8xQCSAA" translation="8xQCSAA" />
+      <value name="CMAA" translation="CMAA" />
+      <value name="Off" translation="Ð’Ð¸Ð¼ÐºÐ½." />
+    </setting>
+    <setting name="Night Lighting" translation="ÐÑ–Ñ‡Ð½Ðµ Ð¾ÑÐ²Ñ–Ñ‚Ð»ÐµÐ½Ð½Ñ">
+      <value name="High" translation="Ð’Ð¸ÑÐ¾ÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Low" translation="ÐÐ¸Ð·ÑŒÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Medium" translation="Ð¡ÐµÑ€ÐµÐ´Ð½Ñ–Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Ð—Ð³Ð»Ð°Ð´Ð¶ÑƒÐ²Ð°Ð½Ð½Ñ Ð¼ÑƒÐ»ÑŒÑ‚Ð¸Ð²Ð¸Ð±Ñ–Ñ€ÐºÐ¸ ÐºÐ°Ð´Ñ€Ñ–Ð² NVIDIA">
+      <value name="Off" translation="Ð’Ð¸Ð¼ÐºÐ½." />
+      <value name="On" translation="Ð£Ð²Ñ–Ð¼ÐºÐ½." />
+    </setting>
+    <setting name="Objects" translation="ÐžÐ±'Ñ”ÐºÑ‚Ð¸">
+      <value name="High" translation="Ð’Ð¸ÑÐ¾ÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Medium" translation="Ð¡ÐµÑ€ÐµÐ´Ð½Ñ–Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Ultra" translation="Ð£Ð»ÑŒÑ‚Ñ€Ð° Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+    </setting>
+    <setting name="Particles" translation="Ð”Ñ€Ñ–Ð±Ð½Ñ– Ñ‡Ð°ÑÑ‚Ð¸Ð½ÐºÐ¸">
+      <value name="High" translation="Ð’Ð¸ÑÐ¾ÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Low" translation="ÐÐ¸Ð·ÑŒÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Medium" translation="Ð¡ÐµÑ€ÐµÐ´Ð½Ñ–Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Ultra" translation="Ð£Ð»ÑŒÑ‚Ñ€Ð° Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+    </setting>
+    <setting name="Post-processing" translation="ÐŸÐ¾Ð´Ð°Ð»ÑŒÑˆÐ° Ð¾Ð±Ñ€Ð¾Ð±ÐºÐ°">
+      <value name="High" translation="Ð’Ð¸ÑÐ¾ÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Low" translation="ÐÐ¸Ð·ÑŒÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Medium" translation="Ð¡ÐµÑ€ÐµÐ´Ð½Ñ–Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+    </setting>
+    <setting name="Resolution" translation="Ð Ð¾Ð·Ð´Ñ–Ð»ÑŒÐ½Ð° Ð·Ð´Ð°Ñ‚Ð½Ñ–ÑÑ‚ÑŒ" />
+    <setting name="Shadows" translation="Ð¢Ñ–Ð½Ñ–">
+      <value name="High" translation="Ð’Ð¸ÑÐ¾ÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Low" translation="ÐÐ¸Ð·ÑŒÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Medium" translation="Ð¡ÐµÑ€ÐµÐ´Ð½Ñ–Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Ultra" translation="Ð£Ð»ÑŒÑ‚Ñ€Ð° Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Ultra Low" translation="Ð£Ð»ÑŒÑ‚Ñ€Ð° Ð½Ð¸Ð·ÑŒÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+    </setting>
+    <setting name="Skidmarks" translation="Ð¡Ð»Ñ–Ð´Ð¸ Ð²Ñ–Ð´ ÑˆÐ¸Ð½ Ð½Ð° Ð°ÑÑ„Ð°Ð»ÑŒÑ‚Ñ–">
+      <value name="Off" translation="Ð’Ð¸Ð¼ÐºÐ½." />
+      <value name="On" translation="Ð£Ð²Ñ–Ð¼ÐºÐ½." />
+    </setting>
+    <setting name="Soft Ambient Occlusion" translation="Ðœ'ÑÐºÐµ Ð½Ð°Ð²ÐºÐ¾Ð»Ð¸ÑˆÐ½Ñ” Ð·Ð°Ñ‚ÐµÐ¼Ð½ÐµÐ½Ð½Ñ">
+      <value name="Off" translation="Ð’Ð¸Ð¼ÐºÐ½." />
+      <value name="On" translation="Ð£Ð²Ñ–Ð¼ÐºÐ½." />
+    </setting>
+    <setting name="Trees" translation="Ð”ÐµÑ€ÐµÐ²Ð°">
+      <value name="High" translation="Ð’Ð¸ÑÐ¾ÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Medium" translation="Ð¡ÐµÑ€ÐµÐ´Ð½Ñ–Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Ultra" translation="Ð£Ð»ÑŒÑ‚Ñ€Ð° Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+    </setting>
+    <setting name="Vehicle Details" translation="Ð”ÐµÑ‚Ð°Ð»Ñ–Ð·Ð°Ñ†Ñ–Ñ Ð°Ð²Ñ‚Ð¾Ð¼Ð¾Ð±Ñ–Ð»Ñ–Ð²">
+      <value name="High" translation="Ð’Ð¸ÑÐ¾ÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Low" translation="ÐÐ¸Ð·ÑŒÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Medium" translation="Ð¡ÐµÑ€ÐµÐ´Ð½Ñ–Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+    </setting>
+    <setting name="Vehicle Reflections" translation="Ð’Ñ–Ð´Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð½Ñ Ð°Ð²Ñ‚Ð¾Ð¼Ð¾Ð±Ñ–Ð»Ñ–Ð²">
+      <value name="High" translation="Ð’Ð¸ÑÐ¾ÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Low" translation="ÐÐ¸Ð·ÑŒÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Medium" translation="Ð¡ÐµÑ€ÐµÐ´Ð½Ñ–Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Ultra" translation="Ð£Ð»ÑŒÑ‚Ñ€Ð° Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+    </setting>
+    <setting name="Water" translation="Ð’Ð¾Ð´Ð°">
+      <value name="High" translation="Ð’Ð¸ÑÐ¾ÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Low" translation="ÐÐ¸Ð·ÑŒÐºÐ¸Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+      <value name="Medium" translation="Ð¡ÐµÑ€ÐµÐ´Ð½Ñ–Ð¹ Ñ€Ñ–Ð²ÐµÐ½ÑŒ" />
+    </setting>
+  </language>
+  <language name="zh_CHS" translation="">
+    <setting name="Advanced Fog" translation="é«˜çº§é›¾åŒ–">
+      <value name="Off" translation="å…³" />
+      <value name="On" translation="å¼€" />
+    </setting>
+    <setting name="Advanced Lighting" translation="é«˜çº§ç…§æ˜Ž">
+      <value name="Off" translation="å…³" />
+      <value name="On" translation="å¼€" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="çŽ¯å¢ƒå…‰å¸æ”¶">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Ultra" translation="è¶…é«˜" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="å„å‘å¼‚æ€§è¿‡æ»¤">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Off" translation="å…³" />
+      <value name="Ultra" translation="è¶…é«˜" />
+    </setting>
+    <setting name="Cloth" translation="é£˜æ‰¬æ•ˆæžœ">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Off" translation="å…³" />
+    </setting>
+    <setting name="Crowd" translation="äººç¾¤">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Medium" translation="ä¸­" />
+      <value name="Off" translation="å…³" />
+      <value name="Ultra" translation="è¶…é«˜" />
+    </setting>
+    <setting name="Display Mode" translation="æ˜¾ç¤ºæ¨¡å¼">
+      <value name="Full-screen" translation="å…¨å±å¹•" />
+      <value name="Windowed" translation="çª—å£åŒ–" />
+    </setting>
+    <setting name="Global Illumination" translation="å…¨å±€ç…§æ˜Ž">
+      <value name="Off" translation="å…³" />
+      <value name="On" translation="å¼€" />
+    </setting>
+    <setting name="Ground Cover" translation="åœ°é¢è¦†ç›–ç‰©">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Off" translation="å…³" />
+    </setting>
+    <setting name="Multisampling" translation="å¤šé‡é‡‡æ ·">
+      <value name="16xCSAA" translation="16xCSAA" />
+      <value name="16xQCSAA" translation="16xQCSAA" />
+      <value name="2xMSAA" translation="2xMSAA" />
+      <value name="4xMSAA" translation="4xMSAA" />
+      <value name="8xCSAA" translation="8xCSAA" />
+      <value name="8xMSAA" translation="8xMSAA" />
+      <value name="8xQCSAA" translation="8xQCSAA" />
+      <value name="CMAA" translation="CMAA" />
+      <value name="Off" translation="å…³" />
+    </setting>
+    <setting name="Night Lighting" translation="å¤œé—´å…‰çº¿">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Medium" translation="ä¸­" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA å¤šå¸§å–æ ·åå¤±çœŸ">
+      <value name="Off" translation="å…³" />
+      <value name="On" translation="å¼€" />
+    </setting>
+    <setting name="Objects" translation="ç‰©ä½“">
+      <value name="High" translation="é«˜" />
+      <value name="Medium" translation="ä¸­" />
+      <value name="Ultra" translation="è¶…é«˜" />
+    </setting>
+    <setting name="Particles" translation="é¢—ç²’">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Medium" translation="ä¸­" />
+      <value name="Ultra" translation="è¶…é«˜" />
+    </setting>
+    <setting name="Post-processing" translation="åŽå¤„ç†">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Medium" translation="ä¸­" />
+    </setting>
+    <setting name="Resolution" translation="åˆ†è¾¨çŽ‡" />
+    <setting name="Shadows" translation="é˜´å½±">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Medium" translation="ä¸­" />
+      <value name="Ultra" translation="è¶…é«˜" />
+      <value name="Ultra Low" translation="è¶…ä½Ž" />
+    </setting>
+    <setting name="Skidmarks" translation="æ»‘ç—•">
+      <value name="Off" translation="å…³" />
+      <value name="On" translation="å¼€" />
+    </setting>
+    <setting name="Soft Ambient Occlusion" translation="æŸ”å’ŒçŽ¯å¢ƒå…‰å¸æ”¶">
+      <value name="Off" translation="å…³" />
+      <value name="On" translation="å¼€" />
+    </setting>
+    <setting name="Trees" translation="æ ‘æœ¨">
+      <value name="High" translation="é«˜" />
+      <value name="Medium" translation="ä¸­" />
+      <value name="Ultra" translation="è¶…é«˜" />
+    </setting>
+    <setting name="Vehicle Details" translation="è½¦è¾†ç»†èŠ‚">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Medium" translation="ä¸­" />
+    </setting>
+    <setting name="Vehicle Reflections" translation="è½¦è¾†åå°„">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Medium" translation="ä¸­" />
+      <value name="Ultra" translation="è¶…é«˜" />
+    </setting>
+    <setting name="Water" translation="æ°´">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Medium" translation="ä¸­" />
+    </setting>
+  </language>
+  <language name="zh_CHT" translation="">
+    <setting name="Advanced Fog" translation="é€²éšŽéœ§åŒ–">
+      <value name="Off" translation="é—œé–‰" />
+      <value name="On" translation="é–‹å•Ÿ" />
+    </setting>
+    <setting name="Advanced Lighting" translation="é€²éšŽå…‰æº">
+      <value name="Off" translation="é—œé–‰" />
+      <value name="On" translation="é–‹å•Ÿ" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="æ¼«å°„é™°å½±ç’°å ´é®æ“‹">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Ultra" translation="è¶…ç´š" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="éžå‡è³ªç¯©é¸">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Off" translation="é—œé–‰" />
+      <value name="Ultra" translation="è¶…ç´š" />
+    </setting>
+    <setting name="Cloth" translation="å¸ƒæ–™">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Off" translation="é—œé–‰" />
+    </setting>
+    <setting name="Crowd" translation="ç¾¤çœ¾">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Medium" translation="ä¸­" />
+      <value name="Off" translation="é—œé–‰" />
+      <value name="Ultra" translation="è¶…ç´š" />
+    </setting>
+    <setting name="Display Mode" translation="é¡¯ç¤ºæ¨¡å¼">
+      <value name="Full-screen" translation="å…¨èž¢å¹•" />
+      <value name="Windowed" translation="è¦–çª—åž‹" />
+    </setting>
+    <setting name="Global Illumination" translation="å…¨åŸŸç…§æ˜Ž">
+      <value name="Off" translation="é—œé–‰" />
+      <value name="On" translation="é–‹å•Ÿ" />
+    </setting>
+    <setting name="Ground Cover" translation="åœ°é¢è¦†è“‹">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Off" translation="é—œé–‰" />
+    </setting>
+    <setting name="Multisampling" translation="å¤šé‡æŽ¡æ¨£">
+      <value name="16xCSAA" translation="16x è¦†è“‹æŽ¡æ¨£æ¶ˆé™¤é‹¸é½’" />
+      <value name="16xQCSAA" translation="16xQCSAA" />
+      <value name="2xMSAA" translation="2xMSAA" />
+      <value name="4xMSAA" translation="4xMSAA" />
+      <value name="8xCSAA" translation="8x è¦†è“‹æŽ¡æ¨£æ¶ˆé™¤é‹¸é½’" />
+      <value name="8xMSAA" translation="8x å¤šé‡æŽ¡æ¨£æ¶ˆé™¤é‹¸é½’" />
+      <value name="8xQCSAA" translation="8x è¦†è“‹æŽ¡æ¨£æ¶ˆé™¤é‹¸é½’" />
+      <value name="CMAA" translation="CMAA" />
+      <value name="Off" translation="é—œé–‰" />
+    </setting>
+    <setting name="Night Lighting" translation="å¤œé–“ç…§æ˜Ž">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Medium" translation="ä¸­" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA å¤šç•«é¢æŽ¡æ¨£æ¶ˆé™¤é‹¸é½’">
+      <value name="Off" translation="é—œé–‰" />
+      <value name="On" translation="é–‹å•Ÿ" />
+    </setting>
+    <setting name="Objects" translation="ç‰©é«”">
+      <value name="High" translation="é«˜" />
+      <value name="Medium" translation="ä¸­" />
+      <value name="Ultra" translation="è¶…ç´š" />
+    </setting>
+    <setting name="Particles" translation="é¡†ç²’">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Medium" translation="ä¸­" />
+      <value name="Ultra" translation="è¶…ç´š" />
+    </setting>
+    <setting name="Post-processing" translation="å¾ŒçºŒè™•ç†">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Medium" translation="ä¸­" />
+    </setting>
+    <setting name="Resolution" translation="è§£æžåº¦" />
+    <setting name="Shadows" translation="é™°å½±">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Medium" translation="ä¸­" />
+      <value name="Ultra" translation="è¶…ç´š" />
+      <value name="Ultra Low" translation="è¶…ä½Ž" />
+    </setting>
+    <setting name="Skidmarks" translation="ç…žè»Šè¨˜è™Ÿ">
+      <value name="Off" translation="é—œé–‰" />
+      <value name="On" translation="é–‹å•Ÿ" />
+    </setting>
+    <setting name="Soft Ambient Occlusion" translation="æŸ”å…‰ç’°å¢ƒé–‰å¡ž">
+      <value name="Off" translation="é—œé–‰" />
+      <value name="On" translation="é–‹å•Ÿ" />
+    </setting>
+    <setting name="Trees" translation="æ¨¹æœ¨">
+      <value name="High" translation="é«˜" />
+      <value name="Medium" translation="ä¸­" />
+      <value name="Ultra" translation="è¶…ç´š" />
+    </setting>
+    <setting name="Vehicle Details" translation="è»Šè¼›ç´°ç¯€">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Medium" translation="ä¸­" />
+    </setting>
+    <setting name="Vehicle Reflections" translation="è»Šè¼›å€’å½±">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Medium" translation="ä¸­" />
+      <value name="Ultra" translation="è¶…ç´š" />
+    </setting>
+    <setting name="Water" translation="æ°´">
+      <value name="High" translation="é«˜" />
+      <value name="Low" translation="ä½Ž" />
+      <value name="Medium" translation="ä¸­" />
+    </setting>
+  </language>
+</game>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ime.to/$Í  ·-´https://hianime.to/watch/ouran-high-school-host-club-294?ep=5657https://hianime.to/ouran-high-school-host-club-294?ref=search$°  §gii-¬https://www.google.com/search?q=Kyouya+haruhi&sca_esv=577bb668e7e98e33&ei=CdKdZ9j0M7WLseMPq_bhuQ0&ved=0ahUKEwiYnbux_qGLAxW1RWwGHSt7ONcQ4dUDCBE&uact=5&oq=Kyouya+haruhi&gs_lp=Egxnd3Mtd2l6LXNlcnAiDUt5b3V5YSBoYXJ1aGkyBxAAGIAEGA0yBxAAGIAEGA0yBhAAGA0YHjIGEAAYFhgeMggQABgFGA0YHjIIEAAYCBgNGB4yCBAAGAgYDRgeMggQABgIGA0YHjIIEAAYCBgNGB4yCBAAGAgYDRgeSLIPUO0BWLUNcAF4AZABAJgB2QOgAdkNqgEJMC4zLjIuMS4xuAEDyAEA-AEBmAIIoAL6DcICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIOEAAYsAMY5AIY1gTYAQHCAhMQLhiABBi   I  ¦];-https://www.youtube.com/results?search_query=funcgodot+setuphttps://www.reddit.com/$„<%¥Ý  ß
+
+µ  Æ×ö^Ž¿a×y¢<û¶Hõkëa 
+Í¥7 É Y                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       e3.Mhttps://hianime.to/watch/ouran-high-school-host-club-294?ep=5661&ep=5661https://hianime.to/%]3.Mhttps://hianime.to/watch/ouran-high-school-host-club-294?ep=5661https://hianime.to/%.Lhttps://hianime.to/watch/ouran-high-school-host-club-294?ep=5660https://hianime.to/ouran-high-school-host-club-294?ref=search%]3.Khttps://hianime.to/watch/ouran-high-school-host-club-294?ep=5660https://hianime.to/%Y3.Jhttps://hianime.to/watch/ranma-1-2-19335?ep=129190&ep=129190https://hianime.to/%‚s‚u‚u.Fhttps://www.google.com/search?q=how+to+change+icon+in+godot&oq=how+to+change+icon+in+godot&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAtIBCDI3NjhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8https://www.google.com/search?q=how+to+change+icon+in+godot&oq=how+to+change+icon+in+godot&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAtIBCDI3NjhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8%gcs.Bhttps://www.youtube.com/watch?v=709Zz8m2Olghttps://www.youtube.com/results?search_query=atrioc%
+gcs.Ahttps://www.youtube.com/watch?v=709Zz8m2Olghttps://www.youtube.com/results?search_query=atrioc%	xs.Ahttps://www.youtube.com/watch?v=709Zz8m2Olg&pp=ygUGYXRyaW9jhttps://www.youtube.com/results?search_query=atrioc%‰‰‰.=https://www.google.com/search?q=wardrobe+3d+model&sca_esv=0ef047277951ba30&udm=2&biw=1897&bih=917&ei=w4WfZ7QGpK6x4w_XnuHRCw&ved=0ahUKEwj086r2naWLAxUkV2wGHVdPOLoQ4dUDCBI&uact=5&oq=wardrobe+3d+model&gs_lp=EgNpbWciEXdhcmRyb2JlIDNkIG1vZGVsMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIKEAAYgAQYQxiKBTIEEAAYHjIGEAAYBRgeMgYQABgFGB4yBhAAGAUYHjIGEAAYBRgeSLQbUMEDWKQacAB4AJABAJgBsgOgAdgeqgEKMC4xNS4yLjEuMbgBA8gBAPgBAZgCEqACwRvCAgYQABgHGB7CAgsQABiABBixAxiDAcICCBAAGIAEGLEDwgIOEAAYgAQYsQMYgwEYigXCA  û‰‰‰.<https://www.google.com/search?q=wardrobe+3d+model&sca_esv=0ef047277951ba30&udm=2&biw=1897&bih=917&ei=w4WfZ7QGpK6x4w_XnuHRCw&ved=0ahUKEwj086r2naWLAxUkV2wGHVdPOLoQ4dUDCBI&uact=5&oq=wardrobe+3d+model&gs_lp=EgNpbWciEXdhcmRyb2JlIDNkIG1vZGVsMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIKEAAYgAQYQxiKBTIEEAAYHjIGEAAYBRgeMgYQABgFGB4yBhAAGAUYHjIGEAAYBRgeSLQbUMEDWKQacAB4AJABAJgBsgOgAdgeqgEKMC4xNS4yLjEuMbgBA8gBAPgBAZgCEqACwRvCAgYQABgHGB7CAgsQABiABBixAxiDAcICCBAAGIAEGLEDwgIOEAAYgAQYsQMYgwEYigXCA  ù   ¬                                                                                                                                                                        IM.Xhttps://smallpdf.com/pdf-to-word#r=result&t=a5be0bd87d216dbd1a48a7550cc5a5d1&i=convert-to-wordhttps://smallpdf.com/pdf-to-word%I;.Xhttps://smallpdf.com/pdf-to-word#r=result&t=7d60d2acde62cfc44f3c67c988b3ecae&i=convert-to-wordhttps://www.google.com/%IM.Xhttps://smallpdf.com/pdf-to-word#r=result&t=6d3068c8d3d15e0c4e4cd4f43660aefe&i=convert-to-wordhttps://smallpdf.com/pdf-to-word%Rq;.Xhttps://smallpdf.com/pdf-to-word#r=convert-to-wordhttps://www.google.com/%mqq.Xhttps://smallpdf.com/pdf-to-word#r=convert-to-wordhttps://smallpdf.com/pdf-to-word#r=convert-to-word%‚C‚E‚E.Whttps://www.google.com/search?q=word+to+pd&oq=word+to+pd&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg7MgYIAhBFGDzSAQgxMTU5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8https://www.google.com/search?q=word+to+pd&oq=word+to+pd&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg7MgYIAhBFGDzSAQgxMTU5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8%@M;.Whttps://smallpdf.com/word-to-pdfhttps://www.google.com/%e3.Rhttps://hianime.to/watch/ouran-high-school-host-club-294?ep=5662&ep=5662https://hianime.to/%]3.Phttps://hianime.to/watch/ouran-high-school-host-club-294?ep=5662https://hianime.to/%<%§¬  é
+ß  ÿ vš,¼	ÍO«¦ *®^oó ÿ4²É´                                                                                                                                                                                                           o='.vhttps://www.youtube.com/https://www.youtube.com/results?search_query=theory+of+computation+parse+tree%3c'.uhttps://www.youtube.com/watch?v=nUVmsW68K0Yhttps://www.youtube.com/results?search_query=theory+of+computation+parse+tree%19O'.uhttps://www.youtube.com/watch?v=nUVmsW68K0Y&pp=ygUgdGhlb3J5IG9mIGNvbXB1dGF0aW9uIHBhcnNlIHRyZWU%3Dhttps://www.youtube.com/results?search_query=theory+of+computation+parse+tree%0{_.shttps://www.youtube.com/playlist?list=PLAXUYU7PbJhggmRhI5TZgWQ2mQZrgEXdmhttps://bctengineeringnotes.blogspot.com/%/{_.rhttps://www.youtube.com/playlist?list=PLAXUYU7PbJhggmRhI5TZgWQ2mQZrgEXdmhttps://bctengineeringnotes.blogspot.com/%.y_.qhttps://drive.google.com/file/d/1-112TthgZsvDymUeLrpaW1cXavmcQh33/viewhttps://bctengineeringnotes.blogspot.com/%-	9_.qhttps://drive.google.com/file/u/1/d/1-112TthgZsvDymUeLrpaW1cXavmcQh33/view?usp=sharinghttps://bctengineeringnotes.blogspot.com/%,"‚7.nhttps://www.edx.org/learn/python?hs_analytics_source=referrals&utm_source=mooc.org&utm_medium=referral&utm_campaign=mooc.org-topicshttps://www.mooc.org/%+3‚57.mhttps://www.edx.org/learn/amazon-web-services-aws?hs_analytics_source=referrals&utm_source=mooc.org&utm_medium=referral&utm_campaign=mooc.org-topicshttps://www.mooc.org/%*ƒYƒ[ƒ[.lhttps://www.google.com/search?q=moocs&oq=moocs&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABixAxiABDINCAIQABiDARixAxiABDIHCAMQLhiABDIKCAQQLhjUAhiABDINCAUQLhiDARixAxiABDIHCAYQABiABDIGCAcQRRg80gEIMTA5MmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8https://www.google.com/search?q=moocs&oq=moocs&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABixAxiABDINCAIQABiDARixAxiABDIHCAMQLhiABDIKCAQQLhjUAhiABDINCAUQLhiDARixAxiABDIHCAYQABiABDIGCAcQRRg80gEIMTA5MmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8%'  î                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ˆˆˆ.`https://www.google.com/search?q=disney+and+fbi&sca_esv=882ccfba8c13de80&ei=UeKgZ_OpF8qO4-EP3ofWgAY&ved=0ahUKEwizltmq6qeLAxVKxzgGHd6DFWAQ4dUDCBE&uact=5&oq=disney+and+fbi&gs_lp=Egxnd3Mtd2l6LXNlcnAiDmRpc25leSBhbmQgZmJpMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIIEAAYFhgKGB5IyBZQpQdYhA1wAngAkAEAmAHRAaAB6wSqAQMyLTO4AQPIAQD4AQGYAgWgAvMEwgIIEAAYgAQYsAPCAgkQABiwAxgIGB7CAggQABiwAxjvBcICCxAAGIAEGLADGKIEwgIFEAAYgATCAgsQABiABBiRAhiKBZgDAIgGAZAGB  Žoss.^https://mail.google.com/mail/u/1/#inbox?compose=newhttps://mail.google.com/mail/u/1/#inbox?compose=new%!mqq.\https://smallpdf.com/pdf-to-word#r=convert-to-wordhttps://smallpdf.com/pdf-to-word#r=convert-to-word% mqq.[https://smallpdf.com/pdf-to-word#r=convert-to-wordhttps://smallpdf.com/pdf-to-word#r=convert-to-word%mqq.Zhttps://smallpdf.com/pdf-to-word#r=convert-to-wordhttps://smallpdf.com/pdf-to-word#r=convert-to-word%Rq;.Yhttps://smallpdf.com/pdf-to-word#r=convert-to-wordhttps://www.google.com/%j=.yhttps://www.youtube.com/https://www.youtube.com/results?search_query=parse+tree+ambiguity+in+toc%8}c.xhttps://www.youtube.com/watch?v=gUaAKAj-rqAhttps://www.youtube.com/results?search_query=parse+tree+ambiguity+in+toc%6*;.xhttps://www.youtube.com/watch?v=gUaAKAj-rqA&pp=ygUbcGFyc2UgdHJlZSBhbWJpZ3VpdHkgaW4gdG9jhttps://www.youtube.com/results?search_query=parse+tree+ambiguity+in+toc%5 '.thttps://www.youtube.com/results?search_query=parse+tree+ambiguity+in+tochttps://www.youtube.com/results?search_query=theory+of+computation+parse+tree%4<%§ã                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                0\r§mûü   •   (ÈÓ¢    _keyhttps://forum.godotengine.org/assets/browser-update-5faeb6403cf1359d9e201f096cc21a2cb3290010f06dac44d3d9c52210a05aac.js 
+https://godotengine.org/ØA—Eoúô               òžè‹/  
+     TÇ;„        rÞÀÇYU1  õœÄÚðHü=ð	          0T<´`$   µ
+`     5 }`   0TE`6  ‘`     (…h@   Å  Ñ  1  
+   á  ì  á      Ä”`^   qRdJ×¤	   userAgent    ¢ÍRd6“ð	   Googlebot   Re•|9   Mediapartners   Rc¢‰áÓ   AdsBot  Á RÒCS!   unsupportedBrowser  ¡¢“0Rd€Rý	   className   Rc~zM    crawlerRÞ…%    noscript¥Ib ÒRd6‘)~   getAttributeRdþ—
+¸	   data-path   "’R2+ŽÌ   mainRdf£[’	   outerHTML   R>±ì   I18n ³Re6¼w    browser_update  ReÒŸjú   .browser_update]àRÜú^àðÓ   Unfortunately, <a href="https://www.discourse.org/faq/#browser">your browser is unsupported</a>. Please <a href="https://browsehappy.com">switch to a supported browser</a> to view rich content, log in and reply. 2ŠR*äôf   div Rcò^Ð   buorg   RcúZÁ¼   <div>   RcB«´   </div>  Rd`‡|	   innerHTML   ¥MRIrOòã>  .buorg {position:absolute; z-index:111111; width:100%; top:0px; left:0px; background:#FDF2AB; text-align:left; font-family: sans-serif; color:#000; font-size: 14px;} .buorg div {padding: 8px;} .buorg a, .buorg a:visited {color:#E25600; text-decoration: underline;} @media print { .buorg { display: none !important; } }  ò0Rd"ÃÕ	   innerText    Sd          ¶
+     ±`¨ÿ Rdf„É‰
+   styleSheet  RcâeÈs   cssText $Sd @        þ
+     Á®`¨ÿ €RdîîIâ   clientHeightRbj¢>Ÿ   px  RdàLj	   marginTop   `v  )p         #  ¡S#  Ä3ï¡I#  Ä3ïÎ3ùÄÂeïùíÄxï¢*3ùÄÂeïùí	Äxï¢3ùÄÂeïùíÄxï£³#Ä3ïŸ.#Ã3î	Ä
+ÂeïîíÄ5ïÄ3ïÃ?î9ï#Ã3î	ÄÂeïîí Í3ø#L"Ìx÷%£v÷5ø&ËÊÉ3ö(Ã3î*uô,£!3ö(Ãô5î.Ã3î0?õ-õïÊôW2É’)33ö4ÄÂeïöí6¡#Ã3î8ÄÂeïîí:Äõ9ï<õ“
+õ9ö>õ÷X@Ì’v A#Ä3ïB¡#DÃ3îFÄÂeïîíHÈ¡ÿÄ3óJÃÁeîóìLtïN È#Ã3îOÄÂeïîíQÇ9òSÃó?îUÃ ?îV9ò!W#Ã3îOÄ"ÂeïîíYÆ#Å#Ã3î
+[Ã3î$]Äeïîò_#Â3í	Ã%ÁeîíìaÃ5îcÃ3î$eÄeïîñgÿïð9ñ&ið9ñ!k“,Ã‹î'Ä°ïîÿí3ñ(mÁð9ì)o“Á‹ì*Â°íì³î#Ä3ï
+[Ä3ï"qÄ3ò+tÃ,?îs9ï-v³ `þÿÿÿ$SdÄq            |  I`þÿÿÿD\¤ux       P D"D
+À€    "P Dˆ @\ @  1P @ ±  B €€ 
+€   
+   Hù
+ „Q€žKw   https://forum.godotengine.org/assets/browser-update-5faeb6403cf1359d9e201f096cc21a2cb3290010f06dac44d3d9c52210a05aac.js a        Db          D`    i`    D`   D`Rv:â¦?S   browser-update-2cad085ea2ec5e0e0f6c3e1498c05baa272e98932ba302580e9e7b5e18b9fb65.map ]De           ¿      Rv«c@   $bu g          ‰   Íhø Í%øùù³  `þÿÿÿ Sd@0             b  I`þÿÿÿ’c           ¤e            ¾      
+
+
+b`]¡¼¸„pPL{÷9(Ã*gìøìX¬7€L¡µ{™ØA—Eoúô   b“•,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             UUUU  øUUUU  øUUUU  øUUUU  øUUUU  øUUUUú?øü?úUŠ\Œ¿ûßùÕû ¿ü?úUþƒüú]þ"ªü?ú]ª 
+¿ü?úU¾ð®Ÿü?úUþÇ?ü_úÝª ªßüúUÿ‚?ýúU¯øï¿û?ú]ø‚€ßüŸúUë%z¿üúÕÿ ‚üŸúU® 
+_üúUª  ÿü?úU¾€þüú]‚ŸàŸû?úµ ÀüŸúU
+ßŠý¿úUî	ßßü_úUþ ¢ü?ú]ï ¨ÿûßù]ê  ¿üúÕ¯àüŸü?úUê-ú¿üúUî ¨ÿü?úÕûðòü¿ú^xúxû¿ú3 ïîûßú2®ã‚_ûŸú;®;îÿûŸú½/;/_üúÖ¦Ÿü_úÕº ßü?úUªð®ßü?úU®8üŸúUª  üŸúUï Šü¿ú]ê ßü?úU¾ ×ŸûúÝ ·¨_ûÿùÕ: ?üúÕÛ
+¿ü?úUîÞüßù]ï €?ü?úU® ˆüúU¾Š¿üßùU¯Øíû?úy   ¿üúUª-z¿üúÕ¿ ‚?ü?úÕª ßü¿úUï‚ò¿üúUê-úŸü_úÕ® ¨ü_úUî ª¿ü_úÕ¯‚¿û?úÝ Ý ßû?úU€²ÿùßùŒÀÿùßùŒÀÿùßùŒÀÿùßùŒÀÿùßùŒÀÿûú®ÄfL?ûú3/9Ë¿üÿú©†/¿ûÿú)èÒ`ü?û5½¿ûŸúó{Ñrü¿ú½¿=?ŸüŸú½*b¸_üßúÏÿw?ü?ûÜWýKŸûÿúÓö²ˆÿû¿úÿßXü¿ú:ïÿ_üŸú*(àüúr´£˜ÿû¿úÛ÷¿¸ýßúÝÿ•€üÿú_î ŸüßúU×ÀŸû_ú)÷^û_ü_ú/{½Õ?üŸúš¨züû5û?úøÛùòûú-7=*_üú²á±¡_üßúÓò“Ðüÿú^Ô\|_ûßú)Ë_ûßú/’hû¿úíÎ=Šßûû=.=_üú&†Œ_üßú*ÊJJßûúñüœü¿ûŸúÉÇ¿÷¿üßûßþƒüŸú*p÷?ü_úÐçZ¿û_úòÿíü?úÕ¯¿ÿû¿úÝ*(ŸüúÕï_ÿûŸú‰÷Ûô?üú	šë¸Ÿü_ú»¨)6?ü_úRÔ_Y_û?úÞ÷ý*_ûú©§3øŸûŸú=×ýoü¿ú7{ÕWßüŸú» 	7ÿüûÛúÒ\ûŸúÍ/=Í_ü?ûúxÚ|¿ûßú¿¨*'ŸüŸúCê’l_ûúº¨»m¿ûŸú‘:#ÿùßùŒÀúßù™Œ“ˆúßù™®³€úßù™î™èÿùßùŒÀýûwScÃû?úÿîü`¿û?úï/9ýü?û¸£›ßü?ûµ÷úè_üŸút¸òŠŸûúé¯Ü{ûú‰ìÝ¿ü¿úÕe¿üÿú•ƒ¸þŸüû‚,_}¿ü¿ú]ØÒKŸûÿù;þß^¿ûú/‚íÏ¿ü_úËZô¤ßüŸúEŸ _üúzè_ü?ûÿxØÚ?üßú+â˜ŸüŸúVðÓ~¿ü?úý×üŸú½®Õ€Ÿû_ú–¬"\Ÿû_úÚª"ùŸüŸú•o‚ßüŸú¹ vü¿úRpòõ¿üÿúZè¸èŸûßúÙò ?üû]€ßû?ûÝû;"?ü_û=/¾Ÿü_ú&vÿü_ú«*"õ¿üßúUýÔëßûßúç úßûŸúý
+ ÷ŸüÿúÛ¯_ŸüŸúÖòðý?ú=½¿ŸüßúøèËßûÿúŸ¯(üßùâX¶¤¿ü_ú¡Mß üÿùÉúhüúÝ÷\Tÿúßù[üûŠ?üÿùy?Šÿûÿú#¬ß¯_ü_úß€+¯_üŸú_mÔò¿ûú©ÕþßûßúéüŸÎŸü¿ú½¯£ü?ûÚþ—._üÿú5sô¿ûŸúúãzêûú}î/¿ü¿ú™ÍaÿùßùŒ€úßù1ˆ3€úÿùˆ€úÿù‘ŒÀúßù™Œ›è¿ü_û!£ññ_üŸúùdüøßú_úŸ€‘ð¿ûúË¶Ýýüú^¿wßü_ú*Uû×?ü?ú|{Zêü?ú½í»Ÿü¿ú¡€@_ü?ûý ØýüûýèÞ¿üúKJJ@_ûúÜ|Üt¿üúm½=ï?ý¿ú<,-?ý_ú ÞWW?ýÿúøâaÁßüŸúú ©ÿüÿúvvvì?üúÝµ?`¿ü¿ú¯‰p_ü?ú"øuÿüú ^Uÿü_úêU+è?ý¿úU- ¹ýßúÕ ÿ~ßüÿú)ˆ½ÿßüÿú€WÛ¢¿ü¿ú"_õ ßü¿ú mßˆßüŸú¢õÝ üßú ÷ï¨ßüßúúWßÿü?ú]Ý­ýúÕþ
+nßü?ú+Wà«ÿü?ú ¯Uàü_ú° -WßüßúzJâ+ßûŸú¿ô[üŸú¹¥­:üúº(ˆHý_ú>&-ßüú(ÖÕ__ý?ûÚ²qá¿üú^|Ñy?ûÿù;:¿_üßúñá£_ü¿ú½.àö?ü¿ú¹€¿zŸüŸúë
+ ‰üŸúß{^dßûŸú?ÎÛjßüú UÿU_ü_úà·[_ûúáø©íÿúúñè“ê¿üúuõ+ü?û`HÊÀŸúßùÝËá¿úÿùˆÀúÿùŒÀúÿùˆ€?úßùÙîÛì_üßú¡¡¡¿ü¿úÓ²òòŸûú]¯ÛßûŸú5‡¾*ý¿úÿV¢á?ü¿ú¿÷ îßü¿ú×ÊâëŸüßú///ÿüûÛdüd?û_úÒ¿+_üŸúíø¿üßúaæµßûú_¼¬Ÿüßúý
+¡ýú)-Õ¨ÿüŸúW¸«ýÿù£àzƒÿüŸú­©!€?ýŸúrÚW¿üú­\½¿üÿùU-@÷ýßú-ø÷¿¿üúpé=p¿ü_ú.pU¿üúŸ€UÕýú
+×Õˆ¿üú WÍ¿üŸú¯cVußû_úPõŸû_úÕýº,ü¿ú-u]xüŸúÜËU¿ü?ú
+WÞòÿüŸú U]£¿üú÷
+]~¿ü_ú“Þ)W¿ü?ú-Nxýßúp.ß~ý_úÕxÝŸüúú%^€ÿüú­€-WŸü¿úJŠÿü_ú--•èý?úW¸ «ýßù¢àZ£¿üŸúÑÑcH_ûÿù5>þ ßüúÏçÛÿü¿ú]÷Õßû_úùVÛóüú7=«ßüÿú^ÒÒÐ¿üŸú×ÏŽ†_ü_úÿW"®ÿüúÿÕÊŸû_ú»«9,ü¿úUÿs¿üŸú/‡Æ¿üûïomK¿úßù­÷Ý/ßúÿùÝ÷Þxúÿùˆ€¿úÿùÝ÷Ý?ŸúßùÓðÒx¿üÿú¹£³ßüŸú’øt_ýú=?·Æ¿üŸúùîüø_üŸú‹†ýüÿú×þºàŸüßúûëëKßüßú¿÷ÖýÿúþÐ‚?ü¿úM
+À¿ü¿úÐjkoŸû?ú?¶ßVßû?ú;b2‹_üßú¡êØø?ü?û='ÿŸüú¹W âý_ú!ã\µýŸúZÕ	hýßú-à››ÿü_úúí.Xüú¾‚_Õ?ýŸúrU•ÂŸü?úU­èõŸü?úÕã7ü¿úp) ý_úyúÅ¿ü?úSTÕ×ûúµ¯)«üŸúcz'ü_úUë ªßûú¡/œXŸûúÝþØúßüŸúÍ7Ý]¿ü?úùœzßüú ¾4ý_ú_ zVü?úUx	}Ÿüú	U×à¿üú¿‚•u¿üŸú7mð%ÿü_úX®æÿüú5÷à)¿üú¨5þýúýW ‹Ÿü_ú¡¢øþüû/=­ÿûú“É>hŸûú¸¼¿w_üŸúŽ«Ê_ü_úó´¢ßüúp¿üŸúxtùÿüŸú‡Îê£ÿû¿úÝý»._ü_úÃ’øæŸü¿úwç?ßüŸúòð°?üú+wßüŸûíÏïB¿úßù·Ý¿úÿùš,:_úßùÛôÞ|Ÿúßù·ÿúßùÞôÝýÿúqÑ‘s¿û_úÐ¿ÿ¸üúò¨¿ü¿úÓû{K?ûúå.¬_üú£‰7ýŸüûý&?ì_üúß{öp¿û_úºÇobŸü?ûÖôþŠ_üúã¼ïÿúÿùßôúèßû?úíï/ü?ú¸ª!?üú"€X×¿üÿù^µ	pÿü_ú	xç¶ÿüßú·>cVßü?úÃ\_ßü?ú])s'ýßú	¨}XŸü_úpP\T?ý?úÕóbÿûÿùÝÜ¡/ÿüúÂCyý¿üúiS[\ßú_ú«¾ÿûßúýÏ‰ƒÿû?úÉÊ_ûŸúŸ®?¯ü_úsbâbßûú‘âóbÿúÿù:|Zú_ü?úqMÍ­ü_ú³É©sý_úU—5žÿüúUPîßü?ú9E55¿ü_úÖ£Ò_üÿùW`z_üÿùƒ7ýýŸüŸúŸ¼‰—ýÿùâÛœý_ú½~rü?ú¸Š-¶¿üßú½¯nJüúZyÞ¨¿úÿù™üøx_üŸúmŸü_ûÝµžàßû?úösñˆüŸúe›?ü¿úñøœ*?üú+Jîûú¹üßÿŸüŸú'†¯Ë_üŸúêH«ª¿û_ú6ô‘ÿü¿úÍçÿÆÿùßùŒÀŸúßù)ÿ?úßù›ìšèÿùßùŒÀÿùßùŒÀŸü_ûÁ)ñã?üßú-èßWßûûþÙ‚¿ü¿úkJkb¿ü_úW·ÿ?û_ú-öÚÎ_üúÞýUŸüúÕ«¿ü?ú? _ê_üŸúb¶ûÿŸûúúþë˜ŸüŸúýV-€?ý¿úU
+¢zýŸúsT‰ÿü?ú%bÞ¹Ÿü?úý6ãÜ¿üú\Uwü?ú ÕÕÕŸü_ú õ]~ÿü_ú×Â5Õ¿üŸúé•VrýúVÔÓÿüú]W\\_ü?ú=½Þúü?ú}î°ü?ú\~_Wû?ú.¹ßûúâbRbßû_úÉ	=½üßúU÷û ßûúãâÒÜÿû_úñãÛ|¿úúº¬ÊŸü?ú•ý_üú¹»D?ýúPXWWüÿùÝu^ô?ýú6¶FŸü?úàvË_ü_ú•Ã\üú WÕÿûÿù _U_Ÿüú‚5Õÿü_ú¼éÿü_úP‹·n?ýú­µ^bÿü_úÕ€£¥_üú_÷pßûú5öY´_üú	—ýwýßúÚ Uïßü¿ú" Wï_üŸúâ¼{__û?úrì-Â¿üŸúU_Ut¿üßú©‰©_üûßþ_`üŸúr
+»¯ŸüûÁÊëïÿùßùŒ€ÿùßùŒ€ÿùßùŒ€ÿùßùŒ€ÿùßùŒÀü_ûñóñs?üûÝö—/_üúr¤{{ßû_ú¡þßßßü_ú?§¿üúØj*
+_û_ú_¼1²¿üúÝ¯ùñ¿ûŸú_ˆ+¿üßú}·‚€üŸú) ºüú"Àp´ÿüú×%˜Ÿü?úÐö9ÃÿüÿùbZ~¿ú¿ù2£p¿úÿù+Î;‹ßûú•¯ëb¿û_ú¯Éñzßúÿù;þ_¼ü_úÝUÿüŸú­Oñ¿ü?úWUÞ ?ý_ú‘9Â~ßü_ú¿ú_ú¡¯éJ_û¿ú=/½z¿ûúòà³ÍÿûÿùÕÿ-¿û?úõ»è¿ûú¢f?ûÿùºèú{ßúÿùéÿÿú?úÝn¿²?ý_úÆ¦†ŸüúU–†ÿüÿù”6zÿûúâ2&I_üúRôÕU_ûŸú¡ë!/ÿû_úßê•üû?úßW¸âßúÿù»ªc€ÿúúª ²x¿ü?úò‹µŸü_ú»lÃßü?ú—xÂ?üú ‚-–?ü_úb
+* ŸüŸúýV¿û¿úU*š ŸüŸú]úëOßûúÕ&«Ìý¿úµ‰» ü¿úX’B_üŸúÇ¿ÿ^ÿû?ú0oo_üßú½þÖ\?üûmïéK?úúˆ€?úúˆ€?úúˆ€?úúˆ€?úúˆ€üûñãñ£üû9¿ß_ü_úyæØÿü_úÕ_7àŸü_úp×ú¿û?úøÍ*+¿üÿúÞävþü¿ú»›Óûú îÙßßû?úÞ
+í;¿ü?ú‚éß7ßüŸú=ƒîÿü¿úÿ=aXŸüÿù§O{¿ú?ú/þÙŸúúóÊ*ºßú?ú-+
+ßûúRø˜:ÿûŸú[xØüŸúú+êóx¿úßùãÏqêŸüÿùM…7¿üú¢C±z?ü_ú³;˜´ü_ú³ÒbýŸúUWV|ÿú?ú‹¨Ÿû?ú©?¯¿ûú-'7¾_û_úþüØhßúú»€ÚüŸúÿùûÈ?£Ÿúßùÿ;À_üúß•=ü?úŠªüúéRŸ•ü?ú]BZ“¿üßùQ^TÖúÿùŸ¦’ÿúú3îŸêÿûúk/½µü_ú­·ÜX¿ûúßÜØâ?û_ú¹§»âßúú+*?ìŸüÿù4ÚÑy¿üú›|á%Ÿü?úXB&ºŸüÿùM7\?üúÕêÙä_ûÿù"ÿ•ê?ýŸúFFGOý¿ú÷¿üÿúc±ÿ?ýŸúª%ßïÿü¿ú[öP?ü_úmï€ÿûßúœ¼¿îŸü?ûiokK?úúŒÀ?úúŒÀ?úúŒÀ?úúŒÀ?úúŒÀý?û¡s™{Ÿüÿúÿã¶¿üÿú+
+â–ÿüúœSÜÿü¿ú›O5ß?ü_ú/`ßýßúÙþäÿüŸúÛÓQƒÿûú?óÿü?úç[–%ýúrÜ¹ýßù=ÎZö_üÿùÿÏâlü_úÑS[|ßúÿù•¿;
+ÿú_úßŠ™ìŸû_ú•'?*ßû_ú76Ÿûÿù¸èxèßúÿù3û›xßúú-®/ÿúú>ŒÿïŸü_úô¤.zŸü_ú6¦Ý?ßüúcBÃ ¿ü?úXsqK¿úßùh’ ßú¿ù+‹½ªûßùžúÂ
+¿ûÿùøâ‰.ÿúÿù[júhŸúßù³Šš¿Ÿúÿù;¬úŠŸüÿù½GmSßü_úaUUüú©“><üú4´ä¿úú=®²âú¿ù;<ºôÿúú½¯.?û_ú®#¨ßû¿úsïïŸû?ú©-?ûú{ê¸èßúú½çÝü?úEEå§?üúÕc±3¿ü_úhá¥–ÿüßùr?lÿüúÑå–PüúÕþ+¸Ÿü_úONå€¿üßúý?ýúû·ñÜ_ýúÝÏR]¿ü?úËŸüú  	¾_üŸú+@˜ßü¿úÃ…úú?úúŒÀ?úúŒÀ?úúŒÀ?úúŒÀ?úúŒÀßüßú‘a¡©¿üúùþµðý_úë¿»Oý¿úÞ˜5-ý?ú¢ ÞWý?úhð£¿üúîk$?ü_û"47Jßü¿ùâø–%¿ü_úIÐþßü_ú†cÜ×_ü?úµ!”ü_ú]qRPŸü?úÔôÜTûú?.¨û?úÞèã‚û_ú='÷Ÿû_ú?4˜?üßúßü¸xÿúúã¨ HŸúßù»*›ßúú½¨3 _üúSS“ÿüúÀ²“ÿüúõ‡ßü_ú·^QŸüúÝV\s¿ú?úŸÀá ÿú_ú)3¬Ÿû_úÚË¿oû_úò©²ë_úßù½¨"€?üúU—/C¿ü?úš6EIßüúgtôüßù
+5Ãü?úçÆÆÆŸúú±§»Ì¿úßùŸˆ£º¿úÿù	¸?û¿ú9‡šìü¿ú5‰Â?ûßù.&«
+Ÿû_úZüþüúÿù!Û`üú7=¿üú­…åmÿüúXb£¯ßü?ú“MÜŸü?úa‡½œ¿üú	%–P?ü_û?¾žâ¿ü_ú¹Òýú×µ7,ý_úª ÞWÿüŸúŸ8pãü_ú«ü‘Å¿üúÿ¿ßýÿúíÇãè?úúŒÀ?úúŒÀ?úúŒÀ?úúŒÀ?úúŒÀ¿ü_û¹©1ÁŸü_úøäù_¿üúONÏ«ýú)=½ßüÿùUwÞ ýúácòxü¿ù¨£!ŸüÿùbZ–7ü?úIòô¿üúÏs\Ÿü?úcÜ¿ü_úõUýßü?úÐpigü?úTüÚSßúÿù£Ìþöû?ú!Ëß¯_û?úýÿºÿû?úšêóâÿû¿úZxók?ûúßÞ“pû?ú/7¾ÿú?úúîºú¿ü?ú<¿üÿùÑO6Ôý?úÛsÛ_ßüŸúqù³àüú…—b¿ü?úÝ\‰×_ü_úUu•àßú?úïºŸü?úU]Ý¿ü?úU%â~üßùÚ)xÿüúchj¾_ýúÖ.)uýú±µ_üúgç5ßúúý?ÿúú[îûðû?úÝ­;/¿û?ú+ŠúXÿû?ú øÕµ¿ûú%-ƒèÿúßù²üòzŸúÿùÛ‹)‹ü?ú=¥¥EüúÅ…q[¿ü?ú U]ÕßüÿùPO5õ¿üú“ÍÔŸüúaŽä¿üßù©%—ÜŸüûÙ?.ý_ú.-=½ýúUUÞ ÿü¿úáárXüúÇÇåÓŸüú¿}÷¿ü?ûÊˆêA?úúŒÀ?úúŒÀ?úúŒÀ?úúŒÀ?úúŒÀ?ýßúicÓSŸûÿùÖþ«Ëßûú)?(¿üú°ðpˆ_üúïÝ7üßù^¼  Ÿü¿ùÂ`p¼ŸüßùÍáìüßù‹âÚ”ßüÿù¥Kbhýú•¥ßû_ú WÝ¿üŸú–‘…%¿üúQ{oÇúßù#¬Àÿû?úÝ»?«?üßú]þ©-_üÿúé­=?üŸú©7ÔÿûúÛþøøÿúú™È“üŸüÿùÝ7?§ßüú6'ÍÙ?üŸúr,6x¿ü_ú=`Õ‚Ÿü_úèUnŸü¿ú]þÞ¿üúõ€©ùü¿ú-þv¦¿üßúÕÝº_üûø·ÙÐ¿ü_ú]
+kgßüú­àýö¿ü_úž÷¢ùŸüßù^WÀ¿ü?úéà‰×_üúœyLü?úÝöÔ[ßú?ú2ïŸû¿ú=9=¿ûúÚ<œ?üûµÀøè¿ûúøþ~Ÿúú“ºOúÿù#Ž`¿üßùmí‘;?ýŸú/-Uÿü?ú%Õu?üúÜÒYy¿üú^qéŸüú³‰­ßüúSK':ü_ú#-”Ÿü_ú×œ¨Ÿü?ú¬ÔZ¿üú.&%¿üúÜäìì_ûú¿2‚?ýÿúéFÇï?úúŒÀ?úúŒÀ?úúŒÀ?úúŒÀ?úúŒÀ_üŸúñkóp_ýú=ÿûŸú+‹qªßüŸú*ð¶ûßüßú Ã§;_üú*Êbpßü?ú%aÐŸüÿùÏQÚ¿üú5ÍÓ7¿üúNÎ
+ý_úUõ·¿ü_ú5UVô?ý¿ú>áAüÿù=Ÿqã?üú]tØC¿û_ú	‰­®ŸûŸú×ÿŠ¿ûŸú¢o£€¿û_úßç¢€üúãïÞúßû?úÝ__¿ü?úÍqÜŸüúã'òæ¿ü?ú¼š)¿ü_úß~xýŸú_
+ÞÕßü?ú+èUŠÿü_úWÕªüÿù Wª ¿ü?ú«U*(?üúUª ýŸúU]¢Ÿü_ú U€ÿüÿù€/¿üú×ÿà%ýúr6·l¿ü?ú‰øÓŸü?úQO7ð¿û?ú}}tŸûŸú=?ºßû¿ú›üØÿû_ú ¾àŸû?úzàË¿¿úßù»‚²h_üú]¥sŸü?ú$jßüúWVÚ¿üúÙQ\Ö_üÿùÙYSÿüŸú‘£¢ ßüúWb§˜¿ü?úè±M·ßüúØrÉ.?üú ¿ü¿ú+ŠÒôŸüßú Ÿe_üßúÜ¼ygý?ûuw^|ÿû?û1³‘³?úúŒÀ?úúŒÀ?úúŒÀ?úúŒÀ?úúŒÀýßúyóÑÓßü¿úŸŸüŸúô¸òŠßûúÝwÞƒ¿üßú=î¿ü_úœ6Ißü_úô>íjŸüßùõÕ?ü_úpUøüú]Õ ¿¿üú:å×Àÿü_úW·‚%¿üúrì(_ü_ú-¥EŸü?ú%”PÀßüŸúU\á5Ÿü?úýõUXÿú_ú"¨ßû?ú©6¿üú]Uÿüúå‹ðoßü?ú’e&‚¿üúX×¿ü?úàw-‚¿üúÕ	Âßû¿úâ¢r_üßú=~Ÿßü¿ú°òñëüÿú=?Ÿüßú4¾mü_ûÝþÞøü_ú*ÊkjüßúX­ß÷ßû¿ú‰ø¢ßü?úUàÿü_ú	õzŠßü?úºÀ%^ßüú¯Y˜Ãßü?úÛBýý¿úÕõÞÀ¿û?ú®ÿ~ÿûÿù"êÿW¿ü?úZoU-Ÿü?úU%c\?üÿù‡µ÷?üÿùe^_ü?ú
+—ýÿü_ú+€ÕUŸüßù­X•À_üÿùßU _üÿù¯w€õÿü_úžUWâŸüú¬QéŸü?úœÓaÿüŸúttöûŸû?úßþ»À¿üßú%ƒŸüßúøü|dýŸú¹ÿíÇ?úúŒÀ?úúŒÀ?úúŒÀ?úúŒÀ?úúŒÀ¿üßúñCc£¿û¿ú;Œæëü_û»ôÜ|üŸúXª*ý¿úiPž6ÿü¿úÑøÔ;¿üú“Œrü¿ü_úXõÝ¯¿ûŸúÕ+ÀŸûú_¼ª¿ûúÿú ¿ü_úØÉ?ÿ¿üúÙç8¿üúí––?ýú)s\ÔŸý_úÞºÐŸü?ú+WU¨ü¿ú õÝÎßüú‚×…óŸüŸúól½ÿüÿù&ËXW¿üú\µá½ßü_ú- UêßüŸúº -_üŸúôôÛùŸüúŽ!£ý¿úÝýºßüßú}û W¿üûÿkÂ¿ûúá«®¨¿ü?ûÞû1ÃÿüŸú}o*W¿ü_úÿ{:€ßüÿú“`jJŸüßú»÷~ÿü¿ú*Xíýúr Õÿüú%üêþ¿ü?ú˜¢-_ÿü¿úë=wÐßüŸúVSÎ_üú Wý¡Ÿü?úpU/ ÿüŸúµã4Eýÿù^È^Ÿü_ú¡–.ü?úïpœ‡Ÿüú…rT]?û_úµçû¬¿û_úÝçß/¿ûú__{€ü?ú5UÕ~_ü_úÆ3%ßÿü_úÇžäÿüúi%–”üŸúˆúø?üÿúº¯=7_üŸútì;£ÿüßúÏÉÁÃú?ø¸TTTùøuUWùøuUwùøuUWŸùø*•••¿ü?û9¡±ãŸüßúÝ¤¼°Ÿüúûã¡ƒŸüÿú;‹B`ýŸú¥MÑâßüú‰JS|_û_ú•§?®üŸú«âòXüÿú]£à?üú]À*ÿû_ú«½ßûúßößxýßúqÅÕßüú5'ï¬¿üŸúZíTcßü_ú_^Pñÿü_ú~¢rXý_úŸ…±ìÿüú|¯Žbÿü?úrÜ5IßûúÙ„ó~Ÿû¿úâf=zŸûú]€p?û_ú)ÿ›p_û_ú"/¿Ÿü¿ú±£1üŸúòì{YüŸúº¿×ü¿ú'þ¿çŸû_ú ¼ž_ßûú’Ï;³¿üßúÿÿÕàüßúýoü_úêÈ@@_û¿ù:ì\ü?ûú*¯9ûŸúÙ¯£ßûú%÷úÍßû?úÿ*í/ÿü_ú‰7^c¿üú9ø’¿üúÆÒO9¿üú¹¶¿üúùñ_ýúWußü_úÃqÑŸ?ü?úaòôw?ûúÝï¹¢_ûßúùÌÝŠÿûŸú}»Šßûÿùÿvœ8ÿûÿùõãà€ßúúÛèØèüúó©…ÿüúÒqgÉ_üŸúøê¡ü¿ú=®ÏJüßúyï:ŸüŸûÈLïnú?øTTTT  øUUUU?øø™Ž“È  øUUUUùø5Ÿüû±£ó¢ßü¿ú’’“’¿üÿúŽ†ßüúò¼&ý_ú¼$;Ç_ü_úÜ÷Ýõÿû_ú•·=+ßû?ú˜¸8<ÿûûÚôÞh¿ûßú-*#­_üúš¸ØØ?üßú^|X\?û_úµîò‚ßüŸúÛQyÿüú5T âü?ú%rÛÿü_ú7ÍóäýŸú%.aXŸüúÜ5	‚¿üúòÐüt_üúÕwõ-üŸú%¢øúŸüÿú«Ý_ü¿úu˜k‹?û_ú¯¸cŸü¿ú	§ŸüŸúÙ©T ü?û§í³À¿ü¿úÚBÂ‚ûúß$(¿üÿú'‰¡b¿üû“kÏ‹Ÿü¿úh€Ÿü_úàðÒðÿúßùžî;
+_ü?úý‰êŸüßúþU__ü¿úPÊ/¯ü_ú×ßûì¿üú;ü_ú\r‚ÿüúZ¸I%ü_úÜsÏŸü_úVZ‰6ü_ú%êhŸü_úµÅMi¿ú¿ù)
+¢€_û_ú»z.Ÿûßù_ð¿û?ú Š}ßûú8¿]Úü_ú þ•ú_ûúûøZøûÿùï¿ªÿü_ú®óßü_ú¥6œØÿü?û}~’ÐŸü¿ú?†ŽŸü?ûëJKÎú?øTTTT  øUUUU?øø™ŽÀ  øUUUUùø5?ýÿú©CÓÓŸüßú’­ßU?ýŸúÎNnÿüúMK¡Ò?ýúOcklÿúú%
+*ÈŸû¿ú9'­]ßû_úœšrüßúÞüÚs?üßúÕ½9/ÿûúš8>.ÿûßúðìº÷_ûŸúñêãz¿ü_úmGÅOßü¿úá3™oßü_úF‘Üÿü_úqX_ü?ú6€_üû¶?_ü_úül[[ü_ú=?ßûûÚæ›ü_û¿úÓÀ²Š?üßú=½ÿ_üú]äüðŸüú9;½üû7•f?üúØæŸ¾ŸûŸúÈø2ŸûŸú³,µÿ¿ûßúÞèºÄ_ü¿úúí–_üûóüÛù?üúútt|üúý¯ßûßú¼îß×ûú:?ˆŸûû1¨£_ü_úädôlü_ú­­m?üßú;¼Úx?ü?úŸpbÿüúôòI%¿ü_úšcÎ7ÿûúJLû£ŸüúÑññs¿úú’¬â‚ßúÿù#+»ìßûúxà¿ü¿ú½·üú˜žÞàŸüÿú h^VûŸúŸ¾ˆ?ûŸú“®›~ýú1‰ùÿüŸúQaK§?ýŸú’Ó‘¹_üŸú.ªW¿üßúâÁÆëú?øTTTT  øUUUU?øøŽ€  øUUUUùø5ý¿úÑÓÓCÿû¿ú½/»¿ü_ú~Ú$ÿüŸú¨$7oüÿùÈËmOÿúú$­È¿ú?ú?¨¢¯ßû_ús)¯?üŸú±%>Ÿüßúëjr\üû­ËÑð_ûßú±Û®_û¿úÑúðÿüŸúååÍÏÿüúçmsÿü?ú»§Jsßü¿ú%áþü?ûúx©6Ÿü¿ú;/¯H_û?úñãÒ ßûúu]ÿßü¿úû¨Rõ_ü¿úÿà¥¿ûÿú‘º88_ü_úÒ²¢‚ÿûú9¯¿ç?üúª˜\ßû_ú« ŠÿüÿúaJÿï_û?úº<<ßü¿ú)¹ûÿûú»} ê_üû¹¨7Ÿû?ú|øØàüú§Æïë_ûŸúÒ¸º ü_úý
+Ò„_ü_ú« Zÿûú|^Ùþ_ûúíÏ->üŸúø¨²ñüû=áÜýŸú–Xk¿ýŸúê’ñÅŸüúäÚsKŸü?úQSÓQÿú_úýŽºøßú?úÝ¯2€¿ûú9¿½¦ßûú>¸ðbüŸúâˆûsûßúÒüóÿûŸú³Žzüû?úŸ ;`?üú1qQQßü¿ú/ºáŸü¿úíÆ´ÿû¿ú÷ä"ÌÿüÿúýÿÆAú?øTTTT  øUUUU?øøŠ€  øUUUUùø5¿üû!£¡³ýû+
+ïJý_ú/ÏIáŸüúEhÓ’Ÿü_úEÇöÿú?úÒö9¢ÿú?ú½¯Àû_ú5¿;ÿûŸúÒÂrðüŸú?-<ßûÿúòèÚ~?û¿ú£¨©o?ûú½ê¡Šßü¿úMÇ9Éÿü?ú¼)Æÿüúœ%‰ÿûŸúàùQ[üßúåí·ßüújðØnüŸúW÷ßüŸúUÜrû_úðwß‚_üú½-/ßûÿú?Œø`üûÃÃñsŸû?úçÇ«Š_üßúZøú€¿ûßú½oúü?ü_ú«KBPÿû?úÞ(ŸWüú£¡…ÿûûÝî» üû'/ ûŸúÑð’úüûíÆíNŸûÿú'¿¿ÿû_ú~lŒ¸û?ú½uŸàü?úÕ}‰üúÕ_t|Ÿü_ú©5Ýÿû_úìzZ|ßûú#Îÿíÿü?ú7œZrÿüŸúä`ÑŸü?úÑúèCÿúú›ªùûŸú£êÙ¿?ûŸú¹‡¼ÿûúcÊ‹‚ßûŸúñƒáË?ûú#ªýï?ûŸú*±¢ûú>€âB¿üúQSú4¿üúQ­…¦ýúÓssJý_û ¨ûá¿üûÀÊëJú?øTTTT  øUUUU?øøˆ€  øUUUUùø5Ÿü_û±«ñã_üŸúB`PÐý_úÑbü¤ŸüŸú´÷µ¿üúÿSsŸü_úWTTSÿú?ú¡££â¿ûú©Âßüßú¥	ýüúXp@J¿û_ú²‚ƒ	ûúóúràü_úÝÿ¿ýŸú±rüÜÿüŸúaÒœ6Ÿü?û ¸¨üúÝ}ìPŸûú½§Ý ÿûŸú›¯íŸüßú	3*_ü_ú ÿ±sŸü?úÞ+ŽüûüÚÞ¿ûû)?ï_üúÓ’’ðüú9ÝßûúÜúÇ_üú£?ß¿üúV—5ßüúU  ßüßù•ÖXp¿üßúâpÚçü¿úê­Ó¿ûú¼ëú|?üú†-_ûú•Œ¢à?üŸúƒ/½×ÿü¿ú•@óÒ?ü_ú ßêfü?ú`È(ßû_ú½¾ñ¤Ÿû?ú[^Ý ÿû_úýE?üÿúBˆºê?ýŸúi…7–ÿüŸúK;¶¿ü?úÝu×Tÿú?ú;Š««ûúþÚ¬ßûÿú='/ÿûŸú­Í¥ÿúú;ˆrÀÿú?ú",;ÿ¿ü_úÝµMßü_ú¶EMëßü_úØÒÿüßúï‰ßüŸú©‡üûCÊ‚Êú?øTTTT  øUUUU?øøˆ€?øø™Œ›èùø5Ÿü?û±¡!#ßü?úž&¿üú8§kMßüŸúÅí1?ý_úkÊ*ß?ü_úÉpü?úß×Ôð¿ûúÜ®#ÿ¿û_ú]Š êŸû_ú
+ ¢¿û¿ú| ~üŸúÿþ_7ßü¿ú%)êGÿüŸú+‡JaŸüŸú%‰¡¢ü¿úb¾èüú€>»Ÿüßú] úîüÿú‰ìßý¿üû=7=7Ÿû_úq{ÙšŸüßúÍÇçïŸûßúŸ®º ?ü¿ú¿.+Jüúì|Y~_üŸú}}†¿ü_úqø^~ßû?úÛkÑŸüßùüÿû½"ýúRppPûú/Îë„?ýßúÍ§Ýüú]üÐ?üú½mµ?ü¿ú]üðá_û¿ú+è?üŸú’²’Ãû?úíNnN_üÿúÜü^\üŸúr½ÿüŸúÕ «®Ÿüú`¸dü¿ú ¹ü¿úR`â‹ßüúøÒ¡M¿ü_úPLóßü_úÕõÕ\ÿúú9®›kßûú;/{ßû¿ú«“^û?ú¢ìÐà¿üú]wÍ¿üŸúQ\OŸü_úÓþ õßüŸúRòbBÿü¿ú8z“aýú¶´œš¿üûïJjHú?øTTTT  øUUUU?øøˆ€?øø™Œ›èùø5Ÿü?û!)!C¿üÿù§‡Ïƒýú}zQ³_üúáú\¾¿ü_úU%ó~¿ü¿úÍ¸•ÿüŸúIVÔŸü_úýø	WŸüú_WÞ
+¿üŸú]uÕ€ßü¿ú]µ‚_ÿü_úÉ\õKý?ú9ãê$ýŸúR˜œ¶_ü?û²ü^þßüßú’ó“Òßûÿú9Ç9;ü_ûÞüÞúü?ûÝ¿ß*Ÿüßú¯N²ôüúŸþ;¿üßúñã°€ü¿úû.b×_ü_úÒäYþ¿üúÕõy'üßú©á¸úÿû_úÒ‚+ªßüßú5º*¿üßùVX@ßüŸù ëUwßü_ú\•5‰ü¿úœà¸àüßúçbÚï_üú{Ë+ª_ü?ú×Wÿøÿû_ú©¾?üßúYh‰ÖŸüúiî+ Ÿüúÿÿ]t_ü?ú«‰¿ßûßúÝ·»pßûÿú;.½®üúzîzl?ü_ú¯‡‡‡ü_û)+ÿÿü?ú¥6¼ÿü?úNI»Ÿü_úA7[ÃŸü_úÝüWßû?úÝõ¸
+?üúýõjÿüŸúUx%ýŸúR6Ã@?ý?úX+	õý¿úUW÷?ýúÍ·—ýú¹…EÇßü?úÒðs@ßüûêÈâCú?øTTTT  øUUUU?øøŒÀ?øø™Œ›èùø5ÿüúãÂccÿüŸúñÑós?ýŸú4ýŸú]ý¿úUVXWÿü_ú]À÷?ýú^x¿üúò
+ºmÿü_úUèJÿü¿úU^/aßüŸú•˜‰ŸüŸúÞ¤ÿüßú¦ÇJüŸú£Ÿü?ûÕ÷Ÿ.ŸüûÒøôì?ýŸú™»§‹üÿú¿
+ ÷¿ü¿ú‚øù~Ÿû_úñ¨ýõÿû_ú+½ýŸû?úÞ€"êûŸúƒ¯yþûú¿nß€üŸú/o×WŸüú¢%ûí_üŸúÛ¸¢7ü_úÚä|¤ûú§êûè?ü_ú8¾]]¿û?úÓ¯û+¿üŸú¥ŸüŸú¿.âØŸü_ú|ý^üŸúÐïUþûúûïÝ€Ÿû¿ú‹w¿n¿ûú•€¢nû?úÐìßúûÿùÉ%»€üú£'[¿üŸú½ª×ýŸúöü’àüú+þ_üûÝ÷_|ü¿úÒbCÊýú¬ú‘¡ßü¿úä´jßüú\ ŠóýúUÀ·ƒŸüú•\P_ü?ú:<ýßü¿úHë-:ÿüŸú]õ?@ŸüŸú]—ü_úÔÔ–7ßüú·”ÿü_úOGï¯ÿü_úÁË©Éú?øTTTT  øUUUU?øøŒÀ?øø™Œ“èùø5¿üússSSßüŸúê¼4<¿ü_ú'¿üúV\ó/ŸýŸú…	µç?ý¿úÝ•5ýŸú¦º`_üŸú–Øá?ý_úyòÃ³ŸýûAU-~ÿüú%5–¿üúÇ…½ñýŸúmrSÚ¿ü¿ûÙè˜(Ÿüßú#BÐdÿûú!¼Ýwü¿úÓ‚»_ßû¿úó]¿û_úÿ{¿û_úÕ÷ßàû?ú}-?ßü¿ú#›m¿üûúŽzbüú_ ºªü¿úù\€ª_üŸúÕÿ½Ð¿ûúù?_x¿ü?úR	?¹Ÿü_úÝ`Â(_ûúÝ(Â¿üßúU¡<¿ü_ú%`Úî_ûúüß¾ü_ú_§{_üúû§£º?ü_ú• úëüßú;Íüú‚ð¶]_ûÿù¿üß·ûú‘ïý_ûúùúÀ¿û_ú¯ýï¿û¿úí€Ý¿_ûúî6úüßúºÁ'»üŸûå§?,ÿüúyÍÅ¦ýßúÑ}M¿üú›ü<ŸýúÞ¥_XßüŸúrËÅ…ßü¿ú_ëë€¿ü_úÜsh_ýßúWx¡¥Ÿü_ú½B^
+¿üú•ÅÃ€¿üúžôÞ\_ýû¹´ÿüŸú‰Í†ú?øTTTT  øUUUU?øøŒÀ?øø™Œ“èùø5ßü?ú“šü¿ú<ºËŸüú	É1¯ŸüŸú…ò×?ßüßú»U	X¿üßúWþu¿üŸú½à½WÿüŸúÊõr%ÿüŸúÁ­¥–?ýú•€UèüúæEAäßü?ú‘ë«8ßü_ú˜´ÆŸüßúÂÔùü¿û¿úSîû+¿û_úµ/»6üúßª_ _üú½ÿ½ðýÿú]'[ßüßúý` ¡ŸüŸú_ïø‚Ÿûú9­Ú£üßú†;;ßû?û™ÿÒpŸûû£ì¿¨_ü?ûI-¿?ü_úÙä@_û_úË/¿Øÿü_úÒáIÆŸûú¹4ÿßü?ú%ÊqÓŸû_úñèú§ü_ú}ƒ_üûáüÿw_û¿ú›ÆãÂŸû¿ú£ª;-?ü?úC°¨ìûßùÿ÷;Êüú•o%‚ßüú_
+Ê_ý¿ú}ØÿÿŸüßúÝõ[/ŸüßúÕªU€ÿûŸú[Þãxûú‹þßxŸüú>ùµÿü?ú6›ßü¿úGÏª4ÿüŸú[S	?ýŸú‡Âÿü¿úÃ[5¿üŸúXÕƒÜ¿üúÕ_W_üúÝ •ÿßüŸú½WÂµ¿ü_ú¢•ØüúñËÆÊ¿üû4®óáýŸú¦¤´´ú?øTTTT  øUUUU?øøŒÀ?øø™Œ›èùø5ý¿ú677ßüÿùÏNINÿü_úóUÍ¿ü?úÉXWU_û_ú½*ý/ßûúÕî‰¬ûŸú{è_ûŸúÝ´»àßü¿ús…ÿüú‰%Ò_ü¿úGHì$?ý_ú84*/ŸüßúÇ©£ÿûŸúz¬?Àßü¿úy7éàŸüûãüÝyßûÿú3¸`üû©'Õï¿üÿúÙ~tèüûÅ‡½?ü_û)¯]jü_ú¼°BÊßû¿ú­Ç®ï¿üûÖTøÿûûoú€ßûßú½»(_ü_û©=9,ü?úÝôxýÿù-?¿ûúyKª¨ÿüúÚ|ôtü_úyÿ.ü_ûÙÜº8?üŸúß^Û¨?üÿú]uÝ??üßú5+ ûŸúÓ±ºý?û†±áü?ûRü>(Ÿüÿúóútì_üßúÿÿ+Ÿüûâ|ß}¿ûßú²¾ë?üÿúâ¯Õß?ü_úéœbŠ¿ûÿùµ¾ºÃüúóâjhÿüú<¨ú_üú©/:<?ýßú]VEßü¿úAø_Uû¿ú~;ú¿ûú»'ØB¿ûŸúývòû_ú9
+²xÿüúé5×Õÿü¿úMGXsßü¿úÑ‘ññ¿üú<<˜˜ú?øTTTT  øUUUU?øøŒÀ?øø™Œ›èùø5Ÿüú&Æ'Æü_úKoë;_üŸúQXÜWÿú?úßè»þ_û¿ú=/)ƒüŸúò¯½w¿ûŸú£6ÐßûÿúÚÖžà_û¿úûü»¿¿üúiÇ×ÿü¿ú_ýßú¥ÉåOŸü¿ú‘¹±kßü?û†áè?ü_ûºøRhßû?ûó®ß€üûÝït?üû½·šð_üûZxúlüßúíOíÍ¿üŸû^|Ü¼?ü¿ú³ØÆAßû¿ú9!£Ã?üúü~hüŸú£&ùõýÿúÿjò‘¿ûúÝŒ§ýŸúÐÓÑÓ¿üŸúµ=?üÿú¼4–¶?ý¿úVv|t¿ü_ú‡ÇÆ_ûúÿžøßü¿úóé¯G?ü_úãœý?ü_ú929+ûúéNòBŸüÿú‹/‘kŸüŸû7”¿ûŸúëzÓâ_ü?û=¯=ü?ûÝö?ËŸüÿúUÂµüßúÝîúèŸûû)é€ü¿úþ²K
+?üúONèá_ýúÛsQãÿüŸú¶Dü”¿üúqZÔWÿúú±êÛªûú9."ªüßú=¿×ßûú·Üóƒü¿úßèóË?ûŸú½çÙÂŸü¿úE%W¿üßú±éÿ¬¿ü?ú˜ÒÒòú?øTTTT  øUUUU?øøˆ€?øø™Œ›èùø5ÿü?úÇÇÏŸüú;ÊAcû_úá@¿£û?úŸ¿+û¿ú¹Ëùo_û¿ú¿*ªÿûŸúqÊ‹‹ßûú£‹©'_û_ú¿ö²pûúûþØÎßüŸú:±áý_úÏÎKoýû½'ƒ¿ü_ú ÀÞ×üŸú +]{¿üŸú«Hbáÿû?ú¨Ú^?üßú©†«ŽüŸúæÚ‚ïŸü?û™7¢z¿üÿú«OKËÿûÿú},Lü¿úiÿ8ßüûtÐË+_ûú=®Ú`üŸú¶¿÷¿üú}''{ßü¿úØ÷ÿÿüŸú'wWÿû?ú‚ÿÝíýú|øÕŸü_ú/›~¿üŸúýøØåŸû_úD¾Þ_û_ú—¶?ˆüŸú¡¨ŸüŸúyþôüÿû¿úñ®¿ñü¿ú3£ñëüûÖô£¯?ü_ú.àú?üŸú²³òÿûßúâ?§¿ü¿úû©£Jü?ú«à_ÿü_ú*•wßüúÿ”‚ßüúÑññÑ_üÿù¨ÈB¿úÿù)ª:
+ßú_ú;ûlÿúú«¬º?ûú3¯Û|ÿûßú-'?í¿û_ú/¶üøŸû¿úÚøÚ`ÿúúºìÚàü?ú®‹ÁÍÿüúÑÓÑÒú?øTTTT  øUUUU?øøˆ€  øUUUUùø5ýŸúEGÅG_üúsòÒQÿú?ú3(üû?ú'*Š¿û¿úÕµ??üŸúù
+úõ?üÿú«€­U¿ûú-'?ªßûŸú}~\ø?ûúïÙèßüúùÍÅÅ_ü?úBKbÊý_úCbRRßüú	#ÿüû@ "üŸúµµÖÔŸûÿúß,º<ßüú§‰ð£¿û?ûóÈ3à¿ûûá§ûï_üÿúéËÃBÿûŸú&<ºüýÿúçí¡p_ü?û•÷øÃ?ü_úô¸²Bû_úégˆ¿ü_úÿçX_ü_úýŸ-€ÿüßù7%?ý?üªÝ÷ýúVXRp¿üúÞ÷Rƒÿüúýÿ5 ¿û?ú›ø³»üŸú§Žƒ_üûÞ¾/Âÿüú’jÂÿûßú›”Þ^ÿûÿú¹ÏÉ¿ûû¿ŠûîŸûßú¹)ªŸü?ú›k
+B¿ûßú½¼›>ÿûŸú’\›¼_ýû)‚ ¨ý¿úP@‚€ýúÉÍ……_üúá¿ü_ú{sSSßúÿù©·ß@ÿú?ú3Žý¯ßú?ú“Š!€ûŸú‘ª+ÈŸûßú=¾;??üúÚÜ˜¸üßú_~ÚXÿú_úßŽ»xüúLuaQ                    e     @@ E   ¤       I€€€E   F€À …   ä@    € ‰À …   †À@Å   $     É Á@ Ç  ÁÀ Ç€ Á@ Ç  ÁÀ Ç€ Á@ Ç  ÁÀ Ç€ Á@ Ç  ÁÀ Ç€ äÀ  Ç  ä  Ç@ ä@ Ç€ ä€ ÇÀ äÀ Ç  ÊÀ 
+  J€ ÁA ‚ A‚ Š Ê ƒ AÃ âB 
+ A C "C ¢B bA€	A	AA‘É 
+  J 	 ÁA ‚ J€B	 Á‚	 Ã	 bB€…‚ œ€ bA  	AJ€
+ ÁA
+ ‚
+ bA€	A‘É ‘
+  J  ÁA B AÂ
+ … œ€ bA  	A	K‘É •
+  J€ ÁA ‚ AÂ Š€Ê ƒ AC âB 
+ A Ã "C J ƒ ÁC bC ¢B€bA€	A	ÁL‘É —
+  J€A ÁA B A Š€Ê C AC âB 
+ AÃ Ã "C J C ÁC bC Š Áƒ „ ¢C Ê Ä AÄ âC 
+ A  "D J D ÁD bD Š Á„ … ¢D Ê Å AÅ âD ¢B€bA€	A	O‘É š
+  J  ÁA ‚ AB … Â  œ bA  	A	ÁO‘É ž
+  J A ÁA ‚ A …Â œ€ bA  	A	ÁP‘É  Ç@ Ê  $ É ¢$A É £$ É £$Á É ¤Ç  ä  Ç@ ä@ Ç€ ä€ ÇÀ äÀ Ç  ä  Ç@ ä@ Ç€ ä€ ÇÀ Å   Æ@ÔÜ€€ Ç  äÀ Ç€ ä  ÇÀ ä@ Ç  ä€ Ç@ äÀ Ç€ ä  ÇÀ ä@ Ç  ä€ Ç@ äÀ Ç€ ä  ÇÀ ä@ Ç  ä€ Ç@ äÀ Ç€ ä  ÇÀ ä@ Ç  ä€ Ç@ äÀ Ç€ ä 	 ÇÀ ä@	 Ç  ä€	 Ç@ äÀ	 Ç€ ä 
+ ÇÀ ä@
+ Ç  ä€
+ Ç@ äÀ
+ Ç€ ä  ÇÀ ä@ Ç  ä€ Ç@ äÀ Ç€ ä  ÇÀ ä@ Ç  ä€ Ç@ äÀ Ç€ ä  ÇÀ ä@ Ç  ä€ Ç@ äÀ Ç€ ä  ÇÀ ä@ Ç  ä€ Ç@ äÀ Ç€ ä  ÇÀ ä@ Ç  ä€ Ç@ äÀ Ç€ ä  ÇÀ ä@ Ç   ä€ Ç@  äÀ Ç€  ä  ÇÀ  ä@ Ç ! ä€ Ç@! äÀ Ç€! ä  ÇÀ! ä@ Ç " ä€ Ç@" äÀ Ç€" ä  ÇÀ" ä@ Ç # ä€ Ç@# äÀ Ç€# ä  ÇÀ# ä@ Ç $ ä€ Ç@$ äÀ Ç€$ ä  ÇÀ$  € ”          gfe        PrimaryDisplayModes        PrimaryDisplayModesDXGI        CurrentResolution        GSP_APPDATA       ð?       GSP_LOCAL_APPDATA        @       GSP_COMMON_APPDATA       @       GSP_COMMON_DOCUMENTS       @       GSP_MYDOCUMENTS       @       GSP_PROFILE       @       GSP_PROGRAM_FILES       @	       GSP_TEMP        @       getDrsRefreshRateTable        getCPUValues        getSharpeningValues        getCPUFrequencyTable        VSYNC_Handler        GFEDRS_SETTINGS        MFAA        settingTable )       NVIDIA Multi-Frame Sampled Anti-aliasing        DRVENUM        Off        1        On        2        gfedrsNumber        SHARPENING        Image Sharpening        ALLOW_SHARPENING        SHARPEN_ENABLE        SHARPEN_AMOUNT    @RbVA    JbVA   €flGA       VSYNC        Vertical Sync        Use the 3D Application Setting   Àøÿû×Á       LOW_LATENCY        Low Latency        0        Ultra     ÕA       MAX_PRERENDERED_FRAMES        Maximum Pre-rendered Frames        3        4        5        6        7        8    ýÿû×Á       OPTIMAL_REFRESH_RATE        Refresh Rate   @øÿû×Á       CPU_FREQUENCY        CPU Frequency        Use Max Frequency   €ô×Á       Conditions        rtx_dlss_available        reflex_condition        rtx_dlss_g_available        rtx_dlss_mfg_available        SettingTableContains        _print        round        ReverseArray        ReplaceCharacter        StringEndsWith        WriteFileErrorMessage 	       GamePath        GetGamePath        GetSteamPath %       GetDisplayResolutions_with_frequency        GetDisplayResolutions        CheckFileExists        CheckFileForWriting        LoadFileIntoString        ReadBinaryFileIntoString        LoadFileIntoStringArray        SaveStringIntoFile        SaveBinaryStringIntoFile        Binary_NumberFromBinary        Binary_NumberToBinary        MakeDefaultConfigValueHash        MakeMatchHashFromSettings        GetValueByOffset        HexEditorLoadFile        HexEditorSaveFile        HexEditorInsertZeroBytes        HexEditorRemoveBytes        HexEditorOverwrite        HexEditorPatternMatch        HexEditorSlice        HexEditorMakeArray        HexEditorValidateData        ValidatePatternTable         GetVariableLengthBinarySettings "       ApplyVariableLengthBinarySettings $       DefaultLoadVariableLengthBinaryFile $       DefaultSaveVariableLengthBinaryFile        DefaultLoadCfgFile        DefaultSaveCfgFile        DefaultLoadXmlCfgFile        DefaultSaveXmlCfgFile        updateNode        updateAttr 	       copyNode        CreateTree        DefaultLoadBinaryFile        DefaultSaveBinaryFile        DefaultLoadIniFile        DefaultSaveIniFile        getn        Array2Hash        Split        VerifySetting        VerifySettingToGet        VerifySettingToSet '       UserVisibleSettingValuesToConfigValues        game_GetOptions        game_GetAllOptions        game_GetKnownSettings        game_GetCurrentOptions        game_SetOptions        game_GetBenchmarks        xpath_RootSearchNode        xpath_RemoveBackstep        xpath_SearchChildNode         xpath_SplitNodeTypeAndCondition        xpath_LastSegment        xpath_IsAttribute        xpath_IsElement        xpath_IsText        xpath_IsSubNode        xpath_SplitCondition        xpath_PopRight        xpath_PopLeft U                         €€ @   €J € Š  ‰@@€‰À@‰@A‚‰ÀAƒb@€ ^    €   €           Width       ž@       Height      à@       BPP       @@
+       Frequency       N@                           .    $      À€Z   @€Ä      @€ Ü€€€ €@€    €Ä      Ü€ € €€ €Ä   Ü€€ € €š@  À€Ê € 
+Á 	A@€	Á@	AA‚	ÁAƒ	AB„	AA…	Ã…â@€ Þ    €ž   €           Format       <@       Height      à@       RefreshDenominator       ð?       RefreshNumerator       N@       Scaling                ScanlineOrdering        Width       ž@                        2   9           À€ @  À €   Á@  ž €€ €€   À € ž € €          ž@     à@                        J   P        J € Š  Á   A  ¢@ b@€ €  ÁÀ     @€… †AAÀ€ 
+€ E‚ €€\‚ Â U‚‚…‚ À€œ "B  œA€Ÿ ü^   €           Use the 3D Application Setting        0       ð?     ào@       table        insert 	       tostring         Hz                         T   Z         
+   A   @  Á€  ` €EÁ  FÁ€  À \A€_@þ   €         @@     ˆÓ@      I@       table        insert                         \   d      &   
+   E   F@À €   Ê    J€Á  ÁÁ   bA€â@ \@€A@ € ÁÀ `@€E  FAÀ€  Ê  BBA‚ ‚A‚€J Â Á C @  bB  âA \A€_ û   €           table        insert        Off        0        50               Y@      ð?       string        format        %.2f        15        1 	       tostring                         f   l         
+ € J     Á@  b@ "@€ E€  …À  œ € \  @€… †AAÀ  
+€ E‚ €€\‚ Â U‚‚…‚ À€œ "B  œA€a€  Àû   €           Use Max Frequency        -1        pairs        getCPUValues        table        insert 	       tostring         MHz                         o   Ž      -   
+  J     Á@  b@ Š  Á€  Á  ¢@ Ê   AA â@ 
+ A Á "A J  ÁA bA Š Á Â ¢A Ê  AB âA 
+ A‚ Â "B J  ÁB bB Š Á‚ Ã ¢B "@ @   ^   €           Use the 3D Application Setting        0        Off        1        On        2        Force On (Interval 2)        3 	       Adaptive        4        Adaptive (Half Refresh Rate)        5        On (Smooth)        6        G-SYNC        7        G-SYNC Not Supported        8        Fast 
+       411601032                         î   ù      
+'      @@ €€ F€@ †À@ Â €  AA@€  €€WÀÁ €W Â€€W@Â €€Â@€WÀB €W C€ €W@C  €Â   !  €ûA€@€ CKÁC\  €  €           gfe        GPUDetails 
+       shortName 	       fullName        string        gfind        ([A-Za-z]*)(%d+)[%w-]*        GB        AD        GA        TU        102        104        106        find        lower        rtx                         û        	      @@ €€ F€@ ‚ € ÅÀ  Æ Á € AA Ü € €€A  €‚   á€  €þž   €           gfe        GPUDetails 
+       shortName        string        gfind        ([A-Za-z]*)(%d+)[%w-]*        GK                                
+      @@ €€ F€@ †À@ Â €  AA@€   €WÀÁ€ €W Â  €Â   !   þÞ   € 	          gfe        GPUDetails 
+       shortName 	       fullName        string        gfind        ([A-Za-z]*)(%d+)[%w-]*        GB        AD                                
+      @@ €€ F€@ †À@ Â €  AA@€  € €WÀÁ  €Â   !  €þÞ   €           gfe        GPUDetails 
+       shortName 	       fullName        string        gfind        ([A-Za-z]*)(%d+)[%w-]*        GB                         %  -       E   €   \€ W@À  €E€  FÀÀ   Å      Ü€ •À Á@ \@€E€ …À \  €†Â  @ €‚€ ž a€   þB   ^   € 	          type        string        gfe        Error =       Argument passed to SettingTableContains must be string, got         LUA_SCRIPT_INTERNAL        pairs        Setting       ð?                        2  7    
+   E   F@À €  \€ ÀÀ € €…  å   œ@   €           os        getenv        GFE_OAWRAPPER_ENABLE_PRINTS        1        print                         <  A       E   €   \€ W@À  €E€  FÀÀ   Å      Ü€ •À Á@ \@€E€ FÀÁ €   \À € „€ €Ì@Â Þ    €^   € 
+          type        number        gfe        Error .       Argument passed to round must be number, got         LUA_SCRIPT_INTERNAL        math        modf       à?      ð?                        F  M    	   E   €   \€ W@À  €E€  FÀÀ   Å      Ü€ •À Á@ \@€J   ”   Á€ Á   €…A  †BÀ€ B œA€Ÿ@þ^   € 	          type        table        gfe        Error *       ReverseArray argument must be table. Got         LUA_SCRIPT_INTERNAL       ð?      ð¿       insert                         X  c    T   Å      Ü€ W@À €Å€  ÆÀÀ E  €  \ AAA Ü@€Å     Ü€ W@À €Å€  ÆÀÀ E  € \ AAA Ü@€Å    € Ü€ WÀÁ €Å€  ÆÀÀ E  €€ \ AAA Ü@€Ô   @€À€À   € „ €B Á ÁA  À    Á@A €€ÁA ‚ @€ ‚ AÂ …‚ Ô  œ‚ U‚A A€Å  Æ@Ä
+ KB ÁÁ ÂÂ \ € ËB LÂÂ Ü€"A  Ý  Þ    €           type        string        gfe        Error ;       ReplaceCharacter only works with strings, but str type is         LUA_SCRIPT_INTERNAL 9       ReplaceCharacter only works with strings, but c type is         number .       ReplaceCharacter pos should be a number, got        >@       sub       ð?F       Attempting to replace character out of the string. string (trimmed):          pos: 	       tostring         str length:         table        concat                         h  j       ”   Ô € €€ €‹ @  € T  ”€ MLAÀ‚€ œ€€š   € €‚ € š@    €‚   ž   €           find       ð?                        s  y    7   Å   A  @  W€@  €A  € AÁ  Ü@€Å   A  @   W A  €A  € AÁ  Ü@€Å   A  @€  W A  €A  € AÁ  Ü@€Å  Æ@Á @  AÁ Ü€€ ABE €  \  Å  € Ü Â E‚ €€\‚ UA‚ €   €           assert        type        wstring *       Invalid argument to WriteFileErrorMessage        string        match 	       tostring 
+       ([^%\]+)$        gfe        Error 
+       : Cannot          file:         WriteFileErrorMessage                         †  š    /   E   F@À €  \€ …À  À € œ€ Å   Æ Á  AA AÜ€ Ú@   €Å   Æ€ÁÜ€€ Ú@   €  ÁAA A A€ €A •@Å   Æ Á  AÁ AÜ€ Ú@   €   € €Ã €Þ  À €Å   ÆÀÁ Ü@ ž   €           gfe        RegRead $       HKCU\Software\Valve\Steam\SteamPath 
+       towstring        FileExists 	       \ s t e a m . e x e          GetGamePath        Error        Cannot get game path!        LUA_EXTENSION_ERROR 		       . . \ . . \ . .   	       \ s t e a m . e x e          Cannot get steam path!                         ¡  ®     "      @@ €€ E€  €   \€ WÀÀ  €E   F Á @ Á€ \@€J   …À À   œ À€ÆB@Â €ÅÁ  ÆÂ € J€†ÂBÆCCCbB€ÜA€¡€  @ü^   €           gfe        PrimaryDisplayModes        type        table        Error        gfe.PrimaryDisplayModes error        LUA_EXTENSION_ERROR        pairs        BPP       @@       insert        Width        Height 
+       Frequency                         ´  Ø    V   E   F@À \€€ Z    €…€  À € œ€ WÀ@ €…   † AÁ@  œ@€Š   Ê   Á @€ €€FB@ÂÀ€F‚BÂ ÆCUÂ‚†BšB   €…Â  †BCÀ€
+ FƒB†C"C œB€‰€Ã!  €úÀC @ €Þ  @	€ E  …  †D\ @ÄÀ €E  FÄ\€  €E  € \ ÀÀ@€EÁ € \À€†‚ÂÁÂ Ã•Æ‚ÚB   €ÅÂ  ÆBÃ €J †ƒÂÆÃbC ÜB€‰€Ca  @ûÞ   €           gfe        PrimaryDisplayModes        type        table        Error        gfe.PrimaryDisplayModes error        LUA_EXTENSION_ERROR        pairs        BPP       @@       Width        x        Height        insert  *       PrimaryDisplaySupportedHypersamplingModes 	       function                         Ý  æ       E   …@  À   œ€ W€@  €‚@  ‚ € ÁÀ  \@€E  F@Á €   Á€ \€€Z@  € €‚   ž  À €‹ÀÁ œ@ ‚ € ž   €           assert        type        wstring $       Invalid argument to CheckFileExists        io        wopen 	       r          close                         ë  ô       E   …@  À   œ€ W€@  €‚@  ‚ € ÁÀ  \@€E  F@Á €   Á€ \€€Z@  € €‚   ž  À €‹ÀÁ œ@ ‚ € ž   €           assert        type        wstring (       Invalid argument to CheckFileForWriting        io        wopen 	       r +          close                         ú      !   E   …@  À   œ€ W€@  €‚@  ‚ € ÁÀ  \@€E  F@Á €   Á€ \€€Z@   €…À † BÁ@  @   Õ Á œ@€‹ Ã A œ€€Ë€Ã Ü@ ž   €           assert        type        wstring '       Invalid argument to LoadFileIntoString        io        wopen 	       r          gfe        Error        Cannot open file for reading  	       tostring        CONFIG_IS_MISSING        read        *all        close                               !   E   …@  À   œ€ W€@  €‚@  ‚ € ÁÀ  \@€E  F@Á €   Á€ \€€Z@   €…À † BÁ@  @   Õ Á œ@€‹ Ã A œ€€Ë€Ã Ü@ ž   €           assert        type        wstring -       Invalid argument to ReadBinaryFileIntoString        io        wopen 	       r b          gfe        Error        Cannot open file for reading  	       tostring        CONFIG_IS_MISSING        read        *all        close                           $    *   E   …@  À   œ€ W€@  €‚@  ‚ € ÁÀ  \@€J   …  †@AÀ    œ€€š@   €ÅÀ Æ ÂA E €  \ AAÁ Ü@€Ë CÜ€ @Ã  €@€ ÁC@€ €€A€ ýË DÜ@ ^   €           assert        type        wstring ,       Invalid argument to LoadFileIntoStringArray        io        wopen 	       r          gfe        Error        Cannot open file for reading  	       tostring        CONFIG_IS_MISSING        read         table        insert        close                         *  3    +   …   Å@     Ü€ W€À  €Â@  Â € Á  œ@€…   Å@   € Ü€ W Á  €Â@  Â € Á  œ@€…@ †€AÀ   Á œ€€š@   €Å  Æ@Â EÁ €  \ AA Ü@€Ë@C@€ Ü€€CA Þ   €           assert        type        wstring '       Invalid argument to SaveStringIntoFile        string        io        wopen 	       w          gfe        Error        Config unwritable  	       tostring        CONFIG_IS_READONLY        write        close                         9  G    A   …   Å@     Ü€ W€À  €Â@  Â € Á  œ@€…   Å@   € Ü€ W Á  €Â@  Â € Á  œ@€…@ Å€    Ü  œ€  š@   €…À † BÁ@  @   Õ Á œ@€…  †@CÀ    œ€€š@   €ÅÀ Æ ÂÁ E €  \ AA Ü@€Ë@D@€ Ü€€DA Ú   € €€  @ €    €           assert        type        wstring -       Invalid argument to SaveBinaryStringIntoFile        string        CheckFileExists 
+       towstring        gfe        Error        Cannot open file  	       tostring        CONFIG_IS_MISSING        io        wopen 	       w b          Config unwritable         CONFIG_IS_READONLY        write        close                         N  Y    Â ¿}ü_ú2¢_ú?øTTTT  øUUUU  øUUUU  øUUUUùø5?ûŸú™ˆ’°?ü¿úÕ ²â?üßúUÀS{ü¿úÕƒ9ÃŸüÿúÕÀÿÿßûŸú·(¿`_üÿúÝ #Ï_üßúU€^þüßúßîû ÿûŸú»*ßxŸüŸúU¨ïý?üúÕÈrp?ü_úß©¯Ÿüÿúed~n_ûÿú³1ëŸûßú/9_üßúÕ¡ã?üßúÝ(××_üÿúÝ*`_üŸú_Àw×¿ûúÝ¯ý¿ûßúYà_üŸúÕ «>ü_úÝà^×û¿ú(™þ_üŸúÝ +?ü¿úý¸ÚÜ_üßú] úü_üßúÝpZ\?ûÿùZXPPúßù™Ž›€úßù™Œ“È?üŸú^xðàÿûŸú	-µW?üûùÈûu_ûú¹ôž¨ü¿ú=ƒ"à_üÿúrÎªÊ¿ûú;·7'¿üŸú¿®¢SßüŸúéæ¨:ÿûúÂÈÚ¨_ü¿úµ£#x?üßúU÷ðüßú-‚	À_üÿúä ‹ÿûûÕŽ
+€ü_ûª³è_üû!½²×üÿúÝîÕ€_üßúý¯Ö?ü¿ú¼Øð?üßúØª©‹ü?ú¾¯¢SüŸúÙfhhÿû?ú•'­¿û?ûó?#h?ü¿ú^rbÿûßúŸ»wßûú:ŠúößûŸúßÞÝ/?üÿùSZPPúÿùˆ€úßù‘È“À_üÿúëÊÊpü¿ú¾³Ã_üûÝ¨Såü?ûŸ8›úŸüßú^Þü¢_üú¯¾Üz?ü_ú7/¯ÊŸü¿úá+[‹Ÿüÿúr§ŸüßúP¶òîü_ú	.â'üú:ê¾_ü¿úº¥û’¿û_ú
+ã”¿¿ûú_«Þû¿ú¼ÓLü¿ú«äEüŸúë·¢j?üúÊ—ëü¿ú·‚’­Ÿüú¢Ú«ŸüŸúñR¿üûxæ›ÞŸû_ú-Îªø?üŸú]{³‚ŸüûmÍy\?üßú[£Ù¾üÿúUÐÞ¿Ÿüßú¶œ\?üÿùRPRPŸúÿùÝìÒ`úÿùéÊñ?üßúZ|²pÿûûÁ¤­Êßûú-·Ÿâ_üŸúóè+õ?ü¿ú­ò÷ü_ú^~ÿ_üŸú­-ã8ÿûúR†’Êßû_ú"‚°_ßûú˜'¢žüŸúBnyæü_úy¼•ä?üúønx¿ûú½­ÍŸûŸúÑºÓ‰¿ûúìÌ®fû?ú¯7ÿŸü_úÛ¿KZüú5¦ÿûú{è¼cŸûúƒ/ªÿûú²ã½?üŸú:Jü?ú_~ò‚?ü¿ú3ÿü¿úÕ¿ ¿û¿ú:Àxþ?üú5%7/ßûßúÚú
+¨ÿûÿùRRPPúÿùÑïÝÿùßùŒÀÿû?ûÚ¸xßûŸúºv_ _üÿúa)Úÿ¿ûŸúµŽ(Àü¿úÝßÕ?ü¿ú£`:Ë?üúé¨³üŸû?úÐtÝw_û_úÉËû?úÓ~Øxßû_ú1•?ü_ú%ˆ¨îüúZ[ZLûŸú‰¯½¿ûúµ¡ñk_û?ú£x[×_ûúýï•üŸúS"{[ßû?ú£0n|¿ûú¼¯õÿ¿ûú[îK_û_ú½fžèßû_ú0­müßú§²O¹_üßú[
+Ùwßûúû(-%ü¿ú=»úŸüÿúÖ~sïŸû¿ú£Å© ¿û?úRPPP?úúŒÀ?úúŒÀ?ü_ûú.Þbü_ú²hë:ŸüŸúûû`ÇÿûûoÈ.(?ü¿úý—äùßû_ú2h’®?üú}n÷dÿúú½ª¢€_ûú21Ëßû?úÞvúx¿ú?ú9»™Ž?üú;ºŽŸüújà¹c¿û?úÕWßô?û_úÇ2«úÿúúÿ~ÒðŸû_úe-2ßû¿úµ#ÞŸû?úÐúÓr¿úú9';êŸûŸú­.9_û_úñãéë_ûú?7_üú¥¾Á-ßûÿúšLï?üŸú½*!†_üßú›KÛ.ŸüŸú»Ö Ç?üû˜ËÛü?úSXSP?úúŒÀ?úúŒÀ_üúâpZüŸüßú™MÏü?ú¥Èú?üŸúkÛœä?üŸúÿþÆÿüú½WÙQŸüŸútoÑû?ú¿÷µ'üúõï;¿û_ú^hãÊ¿û_úÝŸ??üÿú]Úñí_üŸúö‡û‹Ÿû_úá0"¨ßû_ú]ø"‚ßû_ú•‚ è_üŸúÇ®ú¯ßûú2›Š¼_û?úÑóðH_û_úÕ6;/ÿûúëÖ/Žû?úóxø~Ÿûú=‡¿ü_úùV[¿û?ú(©d®ÿûújª)üßús‹ü_ú¥È26ßûú!¿Úø?ü?úPPRR?úúŒÀ?úúŒÀüßú<¼_ü¿úîZø_ü¿ú°J»:?üú‘lÚžÿû?ú¡*_‚_üúÝãÛ.üú“h¸ü_ú•öû¬_û_ú©
+¹tÿûŸú½ê_-?üúµ§³,ÿû¿ú9®â&üßú·z¹lÿûû¢­‹ïüßúÕ "ûÿûû=è*hÿûßú¢Þº¿Ÿüßúýê—Â?üÿú_®Ø_üúÕ÷Üƒû_ú
+€^Ÿû?úÞ{žË?ü?ú=¯»}_ü?úujúŸü_ú¥_ÿßûŸú‡ýÊ?ü¿ú$úo_ü¿ú#þ^þ_ü?ûßÇícÿû?úRZRR?úúŒÀ?úúŒÀüûÚX’€?ü_ûû¤7K?ü¿úÎˆ1Hßûúâ´-Ëÿûú}ªë(ûŸú	,“ÂüŸúŸú«ÿüŸú{Æf_üßúý÷žÄü¿ú«:K˜ÿû?ú£¤ûþüŸú¢¿U~?ü¿ú?'­%?üßúý€þ÷ÿûŸú³ ³zü?ûÚ ÷ï_üÿúÅˆ±Ï_üú
+Žÿ÷Ÿü¿úØÿÝÿ?üú8ËMßû?û›üê²?üŸú7 [;¿ü¿úþ/õs¿ûŸú(êÞÿûúÝ®*
+ßû?ú•þßŒü_ú‹õ—ÿûßú1Ê¤3ÿûûû©Ñªü_ørpPpŸøø"÷Ýÿøø;··_üûËÊò\Ÿü_ûa“Ño?üúòRÚxŸûúéƒãk¿ûßú:¬Þ,ßûßúîDîë¿ûúÎ>üßúhšo?üßúÎ“¤_üúËââbÿû¿ú=Éùë?üÿúò§•ÿüŸú57¿þ?üû=ÛZü¿úXðÿÞ_ü?û¡,×__ü¿úÏJzzŸû?ú5)ãßûßú 7½íüŸú5¯ŸÞü¿úÍ<z¬üún:ê3ßûú¸úJ?û?ú­&Ÿ~ü?ú¹÷.»?ü_ú¯÷Žìÿúúš„" ?üßúLâº¿üûŸ<¼_ßû_øPpPp  øUUUUŸøø7?¿üÿúÖþ"ªü¿úªñKŸû_úÚûQðŸûú½5¿?üÿú©Kžö¿ûßú“üÚ\ÿûŸú>=/üû™çþü¿ú*š÷_ü¿úSzØ¾?ü¿ú-å_|¿ûÿúºƒ1ÂÿûŸúœøÒ¸ü¿úÒ¤ÞàüŸúðúû\?üÿúÓ®Û£?üŸúzjóð¿ûßúqê³âßû_ú¬Þèßûú×ßÝÃüŸú*Šók?üŸúŒ:»O?üúnnâˆû_úÙ¬+ªŸûŸú©K©¿ûŸúàìúZûŸúòì"€ÿû?ú
+¦8¿üûYþ®?ü_øRpPp?øøŽˆŸøø7??üßúÂHâ°ÿûßú¬¸:ßûŸú{DÀŸûŸúý¤ÿû¿úAƒÝªûúZb«°ü¿ú¥3ê_üÿú.Ž¡ªüŸúÝü¢Êüû'¿üŸúª.7·ßûû’ü*ÿûŸúÞ\Þ&ÿû¿úõ\v_ü_ú¥!ÿüúÍôÜô?üúûnSÊ¿û¿úÑãéÍüßú£Ííïÿû¿úË­Ï¿û_ú{ª ?üú‹(¨?üÿú1+Ä°ÿû_úÝöÜhûŸú=&=÷Ÿû_úóãòn¿ûŸú5Í#_üßú½OGŠ_üûºÌ?ü_øPpPp?øøŽˆŸøø7??üú0 Ìü¿úîlÒüú)<¯ü?üŸúù¶ ¤?üŸúUªÿ€ßûÿúÍø± üÿúKª¢_ü_ûîFíâ¿üûýï¿âüŸú+‚ð^Ÿü¿ú­ùýŸû¿úÂlÛïÿû¿ú=‹;÷_üû{?üú-\¯~?ü¿ú…•¯ÿûßú».ƒ\ûú5¬¸®_üû×]uŸûú+.žþ¿ûÿú9¼#/ŸüßúŸ—ŸüüßúŠËˆüûx¨ˆ?üúW«è(?üŸúª¹´Ÿü¿úïÚ¢Ÿü¿ú•Óyÿ_üÿúAI™»?ü_øPpPr?øøŽˆŸøø7?ÿûŸú¬ ü¿úq¡³ûýßúÑ9ý~üßú›ìº­?üû¾(£iü¿úÿù¯üÿú.êëüŸú°ÜßúŸûßúò~ŸÈ?üŸúUï£
+_üú=¥ßø_ü_ûòìÑkÿûßú_à;ª?üŸú­·ß|?üŸú^ðÞóüßú©ÀQTßûŸúÝ¥-¢¿ûÿú9àþ?ü?ú‚úZú?üúÕõ½ßû¿ú•WÜª¿û¿úÛzÀ?üŸú*
+=×üÿú‰±
+ßüßúßn³ü¿úúsªüŸúï.ûW?üŸú›/büŸú//«?ü_øRrRp?øøŽˆŸøø7??üû‘óÑ±ßûúq^~ûŸúÙ-²Ÿû¿úÙæ³Šüßúï•Õü?û=.¹?üûqû/Šü?û©øúü?ü_û=§½Êÿûû¬œ˜_ü?ûiçzØ_üßú©ÿn_üÿúÝþ£ÍüŸúSêÏÏ?üŸúÑ©©«_üßúVö¼ü¿úzà¯7ÿûßú¾5?üßú5-¦üÿúªÂRpü?ûÍ{Ñ£ßûû¯ßÀßû_úÛè‚ üßú.†oNü¿úùâ|ßûŸúÐïÝ÷ŸûßúÙ¦óÏÿûŸú÷Þú?üßúéä±ü_øPxXx?øøŽˆŸøø7?ÿûŸú!£ÁCÿú_úÚ*¿û¿ú¹§=ãÿûú»²úŸûŸú]öß|ÿû¿ú2¨óá¿ü¿ú‹r$¿ü¿úªçÐà_üú;§?Šü?û7Šß~ÿû?ûÓâ›xüûí.Ûèßû¿ú½öÞøŸüÿúÍÿ]¼ßü?úûß	ßü¿úuÖä_ü¿úß^rÿûŸú=£ _üÿú×þüpßû?ûò.™{üûéæ}ÿû¿ú«këÿüßú¿UÂˆŸüŸúïè³¡ÿû?úÚøÞtßú_ú#³+¿ûŸú9§¿¯ÿû¿úùæöLßû_ú-7Ÿÿû_øXxXx?øøŽˆŸøø7?ÿûúaÃ£ûú¸2«ÿûßúÆËÎÿûÿúPòóã¿û¿úZøÚvü¿ú¡‹ª üŸú.8rŠßüŸú²˜¥ÿ_üûü¡¼ü?ûºwß,¿ü?ûÿ~sÌ¿ûú;÷¯
+ßû¿úÚðÒxü?û.c_üÿù^úŸü_ú¤æùÿÿûßúÒþÚüü¿ú¢` €Ÿüßúû}/_üÿú+êXb?ü?ûbwýÃ?ü¿úiB*âßü¿ú ÂÕ¯ü_ú±»ðè¿ûúÔtZpÿú_ú9:Ÿ
+ü¿ú-woŸû¿úéâ¸nüú7?‡ÿû_øPxXx?øøˆ“èŸøø7??ü?ú!¢²¢¿ûŸúŸôQÌŸûŸú.2©§ßûŸú3¬sëßûú¿/Í’üÿú‘:/¤_üÿúûSYyŸüßúßszxü_û«#‚ü?û-íÇŸü_ûõÞ
+_ü¿ú ªÛ_üŸú^¾)
+_üÿúù%ÝxüŸúß|»
+_üŸúµ‹ßÿü¿úß§¯‚?ü¿ú#«ÿ^Ÿüÿúâzß…?ü?û¯3:ÿûßú‰«>'ßû¿ú¾|Ú¸_üû\[rü¿úêÌ®¦?üúlšJ¿ûúõgøßû¿úË»WŸûŸúZ{ú¿ûú)¡¤Ëÿû_øXxp ú?øUUÝ ú?øÕÕÝ ?ü¿ú›†„?ü¿ú›‹9j?üŸúZ¯Š>ßûŸú)¬ª¿üŸú½N—ëÿûŸú(éº üßúû¸üæ_ü?ûò¬¾l_üûÛ¿Mü_û•½
+Cüûñ|Þïü¿úÕ'‹Šÿû?û“¼­b_ü¿ú¢¦yû_úÛ{càßûú;¦n®?üÿú°Ë½þüßúÛ‹=®¿ûŸú9ßŸ.ÿûŸú¢Ë7üßú½Ïó¾üÿúò¯â·ü?û“³Ñãüßú¿°ñCüßú›¤ëd_üßú·üºû_üúßû‚zÿü¿ú_¿ÿœ¿üßúÿä¤¬ü_øprRrŸøø"÷Ýÿøø;·¿ü¿úîà’ü¿úß¾|LŸüú·Vì¯?üÿúx¾°jüú¡¶ºw?ü¿úó"žÍ?üŸúó’ºJ?üŸúz`ââ_üúý¯£‚üÿúóøÚW¿ü_ûMiû¾üû¡ëßÿßû¿úÐôÛ‹ÿûßúý¾‡‹Ÿüßú½¿ß‚_üßú—k>¨¿ûúßÎq,ÿû¿ú¢ãö?üßú–Ýußû?úßüúrÿû?ú:"+ÿû_ú7¶¾¬_ü¿ú¢Èþ?ü_û¾lÚûßûú€¼#÷üŸúê
+¢ßü?úS«ã¬¿ûúñË¶_ü¿úšºéI_ü_øRpPp?øø‘ˆˆŸøø7?üßúÀhèü¿ú;ìÿûŸú‚>Înßû¿ú¬ûéO¿ûŸúŸ¯è(ÿû¿ú;¥nü¿úú2‡üûãÁ®¤üúý÷ÿÀßû¿ú§½Éßûÿúš|Óü_û;­½ûú¯ ·®_üû‘.;;ŸüÿùÞ¡¿üŸú±†ä¤ÿûŸúß«Sp?üú®­-Ÿû¿úÑÛŠ_û?úsâø8Ÿû?ú½ÿß.ßû_ú=-‹ˆ?üŸú¾Ä;!_üßúz\×õ¿ûŸú=÷ŸûŸú[¯£jŸû?ú!Ç?ÿßûúâ`é
+?üûï¬ó?ü_øPpPp?øøŽ“ÈŸøø7?ü_ûÞªÚRüßúiùºŒ¿ûŸúÓññR¿û_úé‹ËO¿ûŸú’°0¿ûúïÏonßûú?>¸_üÿúhí;_üûknûIü¿úé‹Í_ü¿úíÏº_ßûÿúõ#‚?û_ú#¬˜?üú?;¹¦Ÿü_ú\"ëüßú‡aðª¿ûŸú3lrû?úŠ­&
+ü¿ú'ûz¿ûŸú62.?ü_ú—·¿7_üŸúoª8Ì¿ûúˆÀêHßú_ú!ª™ƒŸûŸúºm«_ûúßÜòÉÿú_ú›
+ ?üßú¤®
+¿üßú¿¤êã_ü_øPpPp?øøŒˆŸøø7?_ü_ûûü9Í?üÿúîžOüú[XRxŸû?úímïÊŸûú’°_û_úkNêÀŸû_ú<þNÿû?ú‹:Ã–ÿû¿ú†²ˆ3ßû¿ú=¦ŸüßúßüÝßûŸú³èÝõÿûßúøãúûŸúëÑßû¿ú
+‹iÿûŸúâ¦ÿNŸû¿ú­Ü:Žü?ú³ðPúŸûú¸€©½Ÿûßú­ÂÝ*?üŸú5í9Ïüßú1Ì›d_ü_úkêÒ¾ßúÿù)¯¿¦ûú5¯;ŒŸûú®¸“’ÿú_ú4›*_üû9jì?ü?ûñ~¯ßû?øppPp?øøˆ€Ÿøø?¿ü_ú?þœð?üûÂªº­ü_ú~£»Ìû?úÙÏ”à_û_úøì»o¿û?ú²¥ºÿûŸú»†éŸüúìÕîãÿûŸúêªð©?üŸúËê?üúð¢6rüÿúì[âüûÝÀ*øŸüû—a«Oÿûúyÿ‚_ü¿úõ·+*üûY”¿ÿûßúi¨Òàüÿú•«ªØüßúbœé´ßûßú3çüèßüŸú‘Û?Þÿû?úiKóh¿ûú×þâ Ÿûú?_=ö¿û_ú˜úß?üú•¥é"ŸüŸú3¦»¡_üßúàúZþü_øRpRp?øø‘Š“ÀŸøø7>_ü¿úRpøl¿üÿúÝý	ùü¿úþX ?üú›úl³ü_ú¿W©üú_ÙÝßüÿùß®ªûŸúHš¤û_úØú2ßû_ú5û¬?üú.ã½õ?ü¿ú7êº®_ü¿ú°«r®ü¿ú» ù ßüûÓÿ­_üûØÿ­_üŸúû ×€?üßú‚6¢ŠüŸú‰¨ûþü_ú£xßWŸû_úÕí¿ó¿û_ú‰·ß|_üŸúcæÙm¿üúŠûÚ|?ü_ú«Ú¤§?ü_úúÿšì?üŸúÏŽ“Ä_üûZþ¸ü¿úÝßÜþ?ü_øPpRp?øø‘ŽÀŸøø7>ÿûû÷žxŸüÿúY~¿â_üßúõ¾¿ü¿úöÿ¿O¿ûú&:âˆÿü¿ú]IW»?üú'èydûú9§?¯Ÿû_ú®„ŒÌŸûßú¿æžü¿û_ú÷ßw?ü¿ú{+vî?üÿú¹û÷:¿û¿ú˜ŠkÿûŸú#^ÿ¿ûúÞé—üŸú©Ü:¶üßúº¨ùóü?újüÒøßúúÛª¢
+û¿ú»›â?ûúßlÚüû?ú¯.?ü?úTú_á¿ü_ú<æ½¾¿üÿú™ïë;?ü¿úÁêªÿûßúß÷“ª_üÿú®ï_\¿û?ørprp?øøŽˆŸøø7?ü¿úÐü¸ì?üŸú£î\ûŸû?úýJÀŒü_ú+é™›ßû?ú#‡o_üßú>o»Ÿû_úæLâÏû_ú=ª¿®_û_ú®„®Œû¿úÞì¾¼ßú_ú»Îóè_üûuN«jßûúë ˜O¿ûú<gmEŸû_ú:b`HŸû_ú"× ¨ßûúÏþ¿Ÿü¿úœ‡zûßûúÓñÓpÿúú‘ú!¯û¿ú‘ó‘£?ûúßäøüŸû?ú='?ÿû_ú¡kŽÿûŸú)
+J˜üúŠéÿîŸûú»"ÿû¿ú-¿Y{?ü¿úüê¡¦¿û?øpppp?øøŽˆŸøø7??üúû r¬¿ûŸúíü/?üßúÕ«Þ
+ÿûúÕÈ2àÿûŸúÑ¾®èüŸúí?m*?üúÞª8Ëßû?ú½·¶P¿ûŸú¤‡÷îŸûú¼¦¾úŸû?ú7í#ÿû¿úÙÝ‚^Ÿü_ú\\û_úíçÏŸûŸún,ì¿ûúñí¾°_û_únÚ|ü¿ú‘ê>Š?üŸú{B"Åÿû_úÝ}_|ûŸú±¿“Ë?û?úš¨¸æßû?úí‡ƒ üŸú™Î’ßûŸúÊŸàü¿úß=©¢Ÿü?ûU¯5€üŸú™øÃˆŸû_ú=š?ü_øRpPr?øøŽˆŸøø7?ü_úÜüª~üßúç¯;ÉŸüúéœ„ü?ú‹¦ßûÿúè¯B_üŸú=?·ŸüÿúK8~?üúz²¦jßû_ú]è£ ¿û_úÝŠ­¨ßû?ú¾âÊßü?ú]ÿûßûúZLË¨¿ûŸúeGïÏŸûú»¨À@¿ûŸúkÊ*@ûúÞ¢?üú’{ùRüŸú¡µ“_üŸúy—¹`Ÿû_úý 5Âßû?ú€
+°_ü¿úCœ©þßüŸúíÏc~Ÿû_ú«¯"-_üú:ŽâHü_úÞÉ üú¨Ã¡«ÿûúq\üTÿû_øRrRr?øøŽˆŸøø7?ÿûŸú/\œÈÿûßú¹…-ŸüŸú˜¢Ž_üú" _üÿúúú“t¿û¿ú6¸‹üú?¸Üþü?ûüÒSŸüßúµx:¼?ü¿ú«à6àÿû_ú7È¸ü_ú—zºü_ú;È½¨ÿû¿úùDñ(û_úÂ
+;X¿ûŸúqµ»‹ßûŸúï²Ôªü_úèê•ÂüŸú©·ê‹ÿûŸú-8ƒ´?üŸú«ØÉ€?üúí¢«â_üßúëêR|?üÿúkë‘+¿û_úƒ¥‹¨üÿúO¾iüŸúu¸‚?üú :€¿û_ú(|â¾ßû_øRpRp?øøŽÈŸøø7?_ü¿úSÞû(¿ûŸú²:Orü¿ú:ßtü¿ú?èßßûßúïä‘ü¿ú…‹ãè_üÿú\¤ê:?ü¿úÓxßü¿ú+ ýµ_üûÝíJàüÿúp¯ýÃßûú`¢0ÿûÿúZßßûßú- ßÿÿûû#9ÿü?ûòªÛ^ÿû¿úß úzÿûÿúÐéÍ¿û¿ú—ˆ8
+¿üûÒµ•þü?û¥ÇZl_ü¿úÿðÿ?üÿúÜÏ_üÿú#ªÛ¿üúî|ú¿ûú¡:Îÿû?ú£ û›üú²¬sŸüúÛî½Î?ü_øPpPp  øUUUUŸøø7?ü¿ú¢®+]¿üßúßn_üßúwgøWŸüŸúÙÿ+uŸüûõñÐU¿üßú_ü¨?üÿúÿØwŸü¿ú°¯‰Õ?üßú/
+«Ý?üßú»ü/^_üŸú*® w?ü¿ú¦æÙ€ÿû¿ú]wÝ üßúÝÿÝð?û¿ú!â›¢?ûŸú"ˆžèü¿úÝwß üßú·Ý Ÿüßúéï.xü¿ú³ú ü¿úŽ«ü¿úí®>}ŸüßúãwþõßûúÙ»ŸüŸúýóÓU¿üŸú}ü€ÿßû¿ú>¨{Ÿüßúõ5wŸüûùïU?ü_øPpPz  øUUUUŸøø7?ü¿ú½‡X¿ûßúº,PzüûÛ¡ˆüŸúªâ=É?üßú¿j«`ÿûßúÚKÛˆßûßú¹‰2 ßûÿú¿;€ßûû±z³¨?üÿúëxûJßûßúï8Büúûzß¸ÿûßú½7ÛÊßûÿúª„³ÿûúzlnKúßù™î³ÀÿûûÓ¬¾¬ßû¿ú*Š‰¾üú¾Èsºÿûßú!«ñèüßú¢ŠÚ÷ßûßú¡ûøZßûŸú³øšÜ?ûßú=À*àÿûú»Š½íßû¿ú2¯ëáü¿ú#¬¹÷¿û_úàr€ÿûßú5ˆ“¿ûŸúêŠ>üÿùCHj@úßù»ìßÿûÿúZèà¨ßûßú“Ž* ßûÿú'íêŸû_úbxÚú_û_úyKûÊÿûú1­%ÿû_ú¾üXzû?ú£èÒJ¿û_úÍ=‹ûú°þÜüûúßêóò¿û_ú"+=)¿û¿ú²:*ÿûûáŽÿ
+ßû?úkJ@H?úúŒÀÿû¿ú8$:Hÿûßúñêøjûßú›BòßûúÛÞ¼ˆŸûŸúy€»·ŸûŸú­! ¿ûûÑè*¨¿ûú•€" ¿ûûñ¨:
+ŸûúÕ¾’ Ÿûú{brîû_ú¹‰³üßúýµñ÷ßûßúª"nÿû?úKNb@?úúŒÀÿû?û>(Œßû¿úò˜œôûÿúŸà²ˆßûßú/ê©ßûû¹È#@¿û¿ú+!êßû¿ú££1Êÿûÿú®¶,ÿßûú"ò’¸¿ûßú>¿kŸû?û;èÓ¨¿ûú¢êÚz¿û¿úÝº™¿ûŸú#ÿû¿øB@@@øø;¿¿?ü?ûŸpúüßûúŸöžøŸû¿ú£È`êüÿú½‰1 ÿûßúcÏ¨Ÿûßú¡¢#¿û¿ú®Ì–jüÿúæ§‘Cßûÿúöìÿü¿û¿úÓæ2²¿ûÿú#¦€ßûŸú_øRÀ_û¿ú©ÂñKßû¿ú5¯½+ü¿øB@@@_øø.ªÿû?ûþLóêßûûÑ€ªßû?ûÝ¬ò¸?üÿú»¨czÿûßú#@_ÿûŸúãÿŽÿûßú9ëžbßûÿú=µ&lŸû¿ú’è)â¿ûú’~Ð$ßûßú»Š}Êÿûÿúú
+²­ßûÿú•¸*Àßûûú|³ç?ü¿øB@BB_øø.ªŸûŸú¸hÒúŸû¿úÝ®«Êüßú;/¥çŸü?ûÿëßKßûû3À1ãÿû?ûüÌßûÿúë2=æŸüû]ÿ×ó¿ûßú>»ÿûÿú¡Ë»ì¿û?û‘ÈsŸüßúµÿýà¿ûú¢øÞö_û¿úÈ³‚û¿ø@@BB_øø.ªßûßú_úÓè¿ûßúÃŠ«ißûßú?)/üûËœG_üûûêºüßúÚ¸`ßûßú.„ã?üŸú±÷—úÿûÿú†=rü?û½I«ßûÿúºqc_üûðÍ¯¶Ÿûúßôšè?û¿ú!€âŠû¿øBBBÀ_ùøÕÕÕ ?ü?ûÝû^|ÿûÿú—ª­‚¿ûû1Ž)ÿüûnÊüÿú:ébßûßúœ*¢à¿ûÿú"øÞ:¿ûŸú•î² ¿ûÿú²*­ŸûŸú):rJ¿û¿ú!
+’ãÿû_ûÿ~øî¿ûû;Î+ï¿ûßú½ŒÖúü¿øb@@@Ÿøø9§ÿ?ü_ûžæÚ¬û¿ú¢¨žü¿ûßú½Ìžxÿûû+	­¯¿û¿ú¸00ÿûÿú?*Ù®¿û¿ú)=¿ÿûû#™€¿û¿ú;4›¾ŸûŸúê‘ˆ¿ûú©ŸûŸúÂòÚ\_ûŸú±‚Òêßû¿úé­%'üßøBH@@_øø.*ÿûÿúº¢/¤¿û_úÞüÚàû¿úÞìŸ·Ÿûßú=§½ƒŸûÿú°:ˆÿûßúï_¸Êÿûÿúß~ª ÿûßú»÷•"ßû¿úíJªÀü¿úÿý‹¨Ÿûßú)‚¢(Ÿû_úÚØúˆûŸú©Ê»kÿûú-)"ßû¿ø@@`@_øø.ªüÿú”,}Žßûÿú~ì¹²ÿûÿúµsÛþÿûŸúßòÒÞ_ûŸúŸŠ3€Ÿûú")¯ü?û‹®Ûzßûßú¨ºòVßû?û>Ž½{Ÿû_ú‚x^ü_û_ú=êòàßûú
+Îéíßûÿú_É3ÿûûù[âü¿øJH`H_øø.ª¿ûÿú.HØø¿ûßú~ûÀÿû¿ú9¥*¿û_ú›þÚÀ_ûßú¹Š“k¿û_ú-½‹ßû_úºþÞôûßúÛÚÊÿûŸú?Ï½§¿ûúßüÚ`ûŸúòÈò`Ÿû_ú¹+) ¿ûÿú1þ›.ü¿úŸû ¿û¿ø@@B@_øø.ª¿ûßú¶.»<_ü?ûŸÃº¢¿ûÿú¸¸¬ÿûßúâè+Æßû¿ú×¸*€ŸûŸúÛŒÀ¿û¿úßº¸‚û¿ú«Ò.Ÿû¿úÍÎŠú¿ûÿúÙŒ9 ¿ûßú:€üûŸÏú¤ÿûßú=ï9«_ü?û½ð¹¨û¿øHH@@_øø.ªßûßú¶h *ßûÿú÷Ý¾üûÏkìßûÿúêp¼ÿûÿú’óûßûûúÊ’ÊŸûßú*ÿÝÀßûßúŠÿŸûßú", ÿû?û­¿óhÿûûá|“ÿßûÿú"ãZêÿûßúôþŽßûßú¢ç
+ßû¿øH@@@_øø.®¿ûÿú±D(°¿ûßú«:Î¿ûûÿˆ°n¿ûÿú‘ Þþ¿ûßúŠˆ"©¿ûÿúùhàËŸûÿú1¬³âûÿù^zÐX¿û?ûÿ³HŸû¿úcjzŠûú=
+Ÿûúûtº Ÿû_úñkò€ûŸú?>ž®Ÿûÿú/
+)ŠŸû?úZXZXßûßúâàPhßûû½¾Ÿûû“¨¢Ÿûû3*Ÿûÿúº„ûÊŸû¿ú¢hâÂŸûßú:¿¿û?øXXXX¿ûßú2ž¤ßûÿú+È#	¿û?ûú?ªŸûßú°‚Ÿûßúÿî*‚ÿû?û¹§ŸŽŸû¿úŠ þ§û?øXXXXßûßú·üº¨ßûÿú!«;«ßûûâ€²ÊŸûßú³ªÐŠ¿ûÿú3škßûû£.»ŽûŸúµ¬"àû?øZøXXßûßú²ørbßûßú9¦Ÿ½ßûû=¬ÞŠ¿ûÿú!¾ ŸûÿúÙ¦› ûú©Âbà¿û¿ú›>/Ÿû?øXXXXûÿú¢ ÒŒŸû¿úûHSBŸûŸú+:º¿û¿ú"è¿æ¿ûŸúâhóCŸû¿ú=¶Ÿ.ßûû=ÊßË_û?øXXXXÿû?û½ÿz¿û?û¯>á ¿ûÿúÝà¢ˆŸûÿú¿è+z¿ûÿú¹®;ŠŸûû9(@ßûÿú)¿ª_û?øXXXXŸûÿú+òàû¿úˆùŠûßú¢ŠŸøûúb@à@¿ûÿúº$".Ÿû?û¿¾ÛàŸûûùÎ_û_ø@@@@¿ûû9ü¿û?ûòèêŸûÿú#.ßj?û_ø`@@@ßûÿúÛn³ªŸûû©÷›àûßúž¾#€Ÿû_ø```@Ÿûû³ü³À_ûŸù€ˆ`@Ÿûû£Ž›Àûù`@B@ûú¢@b@_ûßúšôÞ|?ûûŒÀ

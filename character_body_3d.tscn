@@ -1,0 +1,58 @@
+[gd_scene load_steps=8 format=3 uid="uid://dtiegymomu8i5"]
+
+[ext_resource type="Script" path="res://character_body_3d.gd" id="1_pl706"]
+[ext_resource type="Texture2D" uid="uid://cuseqoobo3xif" path="res://lighter_diffuse.tga.png" id="2_1c2on"]
+[ext_resource type="ArrayMesh" uid="uid://bmnyhn8pe8rw" path="res://lighter.obj" id="3_nnk7t"]
+[ext_resource type="PackedScene" uid="uid://c65pm052bxx6o" path="res://flame.tscn" id="4_erri8"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_kwhr4"]
+radius = 0.378929
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_xljr5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ueil5"]
+no_depth_test = true
+albedo_texture = ExtResource("2_1c2on")
+metallic = 1.0
+normal_enabled = true
+
+[node name="CharacterBody3D" type="CharacterBody3D" groups=["player"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0849726, 2.68809, -0.173181)
+script = ExtResource("1_pl706")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.555472, 0, 8.27719e-09, 0, 0.666667, 0, -9.93411e-09, 0, 0.666667, 1.65544e-08, 0.560728, -0.404452)
+fov = 90.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.15873, 9.31323e-10, 0, 0)
+shape = SubResource("CapsuleShape3D_kwhr4")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D"]
+mesh = SubResource("CapsuleMesh_xljr5")
+
+[node name="Lighter" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.00575228, 0, -0.0657488, 0, 0.022, 0, 0.0657488, 0, 0.00575228, -0.465, 0.104528, -0.586)
+mesh = ExtResource("3_nnk7t")
+skeleton = NodePath("")
+surface_material_override/0 = SubResource("StandardMaterial3D_ueil5")
+
+[node name="GPUParticles3D" parent="Lighter" instance=ExtResource("4_erri8")]
+transform = Transform3D(1.0101, 0, -0.000317447, 0, 1, 0, 0.000218272, 0, 1, -0.46734, 7.53893, 0.0723524)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Lighter/GPUParticles3D"]
+transform = Transform3D(19.9668, 0, 0.634289, 0, 16.6667, 0, 2.38419e-07, 0, 13.9099, 0.0106678, 4.67157, -0.101911)
+light_color = Color(0.778808, 0.485988, 1.92523e-07, 1)
+light_energy = 15.0
+light_size = 1.0
+omni_range = 9.0
+
+[node name="Below" type="RayCast3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.05263, 0)
+target_position = Vector3(0, -0.75, 0)
+
+[node name="Ahead" type="RayCast3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.433342, -0.830274)
+target_position = Vector3(0, -0.75, 0)

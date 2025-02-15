@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://drlt7eb37v0sp"
+path="res://.godot/imported/collision.1.map-aba4fab82dbe41b0a92711ed81b9feb5.tres"
+
+[deps]
+
+source_file="res://broom/maps/horrmap/autosave/collision.1.map"
+dest_files=["res://.godot/imported/collision.1.map-aba4fab82dbe41b0a92711ed81b9feb5.tres"]
+
+[params]
+

@@ -1,0 +1,17 @@
+ue name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Upscaler Mode" translation="Hochrechnen-Modus">
+      <value name="AMD FidelityFX" translation="AMD FidelityFX" />
+      <value name="NVIDIA DLSS" translation="NVIDIA DLSS" />
+      <value name="Off" translation="Aus" />
+    </setting>
+    <setting name="Upscaler Quality" translation="Hochrechnen – Qualität">
+      <value name="Balanced" translation="Ausgeglichen" />
+      <value name="Off" translation="Aus" />
+      <value name="Performance" translation="Leistung" />
+      <value name="Quality" translation="Qualität" />
+      <value name="Ultra Performance" translation="Ultra-Leistung" />
+      <value name

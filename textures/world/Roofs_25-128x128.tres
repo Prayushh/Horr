@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://dtrf2bx08lmiw"]
+
+[ext_resource type="Texture2D" uid="uid://cqw3p5ugmphyt" path="res://textures/world/Roofs_25-128x128.png" id="1_5dyq1"]
+
+[resource]
+albedo_texture = ExtResource("1_5dyq1")
+metallic_specular = 0.0
+texture_filter = 2

@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://cgsl8mkd8tqu0"
+path="res://.godot/imported/corr.map-be1bc757be3e88f0b8231d00ba29b32e.tres"
+
+[deps]
+
+source_file="res://broom/maps/horrmap/corr.map"
+dest_files=["res://.godot/imported/corr.map-be1bc757be3e88f0b8231d00ba29b32e.tres"]
+
+[params]
+

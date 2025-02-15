@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="FuncGodotFGDFile" load_steps=3 format=3 uid="uid://cpsh5ta8w7bnv"]
+
+[ext_resource type="Resource" uid="uid://crgpdahjaj" path="res://addons/func_godot/fgd/func_godot_fgd.tres" id="1_krw0q"]
+[ext_resource type="Script" path="res://addons/func_godot/src/fgd/func_godot_fgd_file.gd" id="1_lm7yy"]
+
+[resource]
+script = ExtResource("1_lm7yy")
+export_file = false
+target_map_editor = 1
+fgd_name = "horr"
+base_fgd_files = Array[Resource]([ExtResource("1_krw0q")])
+entity_definitions = Array[Resource]([])

@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://0cne3x3p3ohq"
+path="res://.godot/imported/hallway.1.map-435a6243a1e5883b9889071498d19906.tres"
+
+[deps]
+
+source_file="res://broom/maps/horrmap/autosave/hallway.1.map"
+dest_files=["res://.godot/imported/hallway.1.map-435a6243a1e5883b9889071498d19906.tres"]
+
+[params]
+

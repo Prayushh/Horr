@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bitrt7jjb3yef"]
+
+[ext_resource type="Texture2D" uid="uid://v7ecg2rqt7jr" path="res://textures/world/vc_mattress.png" id="1_j1naa"]
+
+[resource]
+albedo_texture = ExtResource("1_j1naa")
+metallic_specular = 0.0
+texture_filter = 2

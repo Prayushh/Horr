@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://d1s2rxfuijhbb"]
+
+[ext_resource type="Texture2D" uid="uid://me1aj5ni8t8g" path="res://textures/green_metal_rust_rough_1k.jpg" id="1_2d78v"]
+
+[resource]
+albedo_texture = ExtResource("1_2d78v")
+metallic_specular = 0.0
+texture_filter = 2

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game name="old_world">
+  <language name="ar_AE" translation="">
+    <setting name="Ambient Occlusion" translation="إطباق محيطي">
+      <value name="Off" translation="إيقاف تشغيل" />
+      <value name="On" translation="تشغيل" />
+    </setting>
+    <setting name="Anti-aliasing" translation="منع الترادف">
+      <value name="Off" translation="إيقاف تشغيل" />
+      <value name="On" translation="تشغيل" />
+    </setting>
+    <setting name="Display Mode" translation="وضع العرض">
+      <value name="Full-screen" translation="شاشة كاملة" />
+      <value name="Windowed" translation="مزود بإطارات" />
+    </setting>
+    <setting name="FOW Quality" translation="جودة ضباب الحرب">
+      <value name="High" translation="مرتفعة

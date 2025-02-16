@@ -30,7 +30,7 @@ mesh = SubResource("CapsuleMesh_nmx5i")
 surface_material_override/0 = SubResource("StandardMaterial3D_e67nf")
 
 [node name="FOV" type="Area3D" parent="."]
-transform = Transform3D(16.3176, 0, 0, 0, 2.34504, 0, 0, 0, 16.7542, 0, 0, 0)
+transform = Transform3D(13.9724, 0, 0, 0, 2.2161, 0, 0, 0, 13.4665, 0, 0, 0)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="FOV"]
 visible = false
@@ -42,7 +42,7 @@ shape = SubResource("BoxShape3D_5q0nd")
 [node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
 
 [node name="Cooked" type="Area3D" parent="."]
-transform = Transform3D(2.00376, 0, 0, 0, 1, 0, 0, 0, 1.96563, 0, 0, 0)
+transform = Transform3D(7.73675, 0, 0, 0, 1, 0, 0, 0, 6.70753, 0, 0, 0)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Cooked"]
 visible = false
@@ -52,7 +52,8 @@ mesh = SubResource("CylinderMesh_05fng")
 shape = SubResource("CylinderShape3D_0fpnk")
 
 [node name="Label" type="Label" parent="."]
-offset_right = 504.0
+z_index = 1
+offset_right = 303.0
 offset_bottom = 236.0
 theme_override_fonts/font = ExtResource("2_nxp8h")
 theme_override_font_sizes/font_size = 60

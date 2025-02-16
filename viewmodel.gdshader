@@ -42,7 +42,7 @@ void fragment() {
 	ROUGHNESS = roughness_tex * roughness;
 	SPECULAR = specular;
 	NORMAL_MAP = texture(texture_normal,base_uv).rgb;
-	
+
 	NORMAL_MAP_DEPTH = normal_scale;
 
 }

@@ -9,7 +9,7 @@ func _ready():
 	$Label.hide()
 
 
-func _input(event):
+func _input(_event):
 	if Input.is_action_just_pressed("e"):
 		if infront == true and anim.is_playing()==false:
 			door = !door

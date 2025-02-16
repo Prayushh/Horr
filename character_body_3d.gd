@@ -1,6 +1,6 @@
 extends CharacterBody3D
 
-
+var movable = false
 var SPEED = 4.0
 const JUMP_VELOCITY = 4.5
 var cap_mouse =true
@@ -14,6 +14,11 @@ var t_bob = 0
 const MAX_STEP_HEIGHT = 0.9
 var _snapped_to_stairs_last_frame:= false
 var _last_Frame_was_on_floor = -INF
+
+func _ready():
+	add_to_group("player")
+	movable = true
+	$Camera3D.current = true
 
 func _snap_down_to_stairs_check()-> void:
 	var did_snap:= false
@@ -49,31 +54,32 @@ func _physics_process(delta):
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta
-	if is_on_floor(): _last_Frame_was_on_floor = Engine.get_physics_frames()
-	# Handle jump.
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
+	if movable == true:
+		if is_on_floor(): _last_Frame_was_on_floor = Engine.get_physics_frames()
+		# Handle jump.
+		if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+			velocity.y = JUMP_VELOCITY
 
-	# Get the input direction and handle the movement/deceleration.
+		# Get the input direction and handle the movement/deceleration.
 
-	var input_dir = Input.get_vector("left", "right", "forward", "back")
-	var direction = (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
-	if direction:
-		velocity.x = direction.x * SPEED
-		velocity.z = direction.z * SPEED
-	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
-		velocity.z = move_toward(velocity.z, 0, SPEED)
-	if Input.is_action_pressed("Sprint"):
-		SPEED =5.5
-	else:
-		SPEED = 4
-	_rotate_cam(delta)
-	if not _snap_up_stairs_check(delta):
-		_snap_down_to_stairs_check()
-	move_and_slide()
-	t_bob += delta * velocity.length() * float(is_on_floor())
-	camera.transform.origin = _bob(t_bob)
+		var input_dir = Input.get_vector("left", "right", "forward", "back")
+		var direction = (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
+		if direction:
+			velocity.x = direction.x * SPEED
+			velocity.z = direction.z * SPEED
+		else:
+			velocity.x = move_toward(velocity.x, 0, SPEED)
+			velocity.z = move_toward(velocity.z, 0, SPEED)
+		if Input.is_action_pressed("Sprint"):
+			SPEED =5.5
+		else:
+			SPEED = 4
+		_rotate_cam(delta)
+		if not _snap_up_stairs_check(delta):
+			_snap_down_to_stairs_check()
+			move_and_slide()
+		t_bob += delta * velocity.length() * float(is_on_floor())
+		camera.transform.origin = _bob(t_bob)
 	
 	
 

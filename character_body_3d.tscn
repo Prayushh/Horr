@@ -17,7 +17,7 @@ metallic = 1.0
 normal_enabled = true
 
 [node name="CharacterBody3D" type="CharacterBody3D" groups=["player"]]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0849726, 2.68809, -0.173181)
+transform = Transform3D(1, 0, 0, 0, 3, 0, 0, 0, 1, 0.0849726, 2.68809, -0.173181)
 script = ExtResource("1_pl706")
 
 [node name="Camera3D" type="Camera3D" parent="."]
@@ -29,6 +29,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.15873, 9.31323e-10, 0, 0)
 shape = SubResource("CapsuleShape3D_kwhr4")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D"]
+visible = false
+cast_shadow = 0
 mesh = SubResource("CapsuleMesh_xljr5")
 
 [node name="Lighter" type="MeshInstance3D" parent="."]
@@ -43,7 +45,7 @@ transform = Transform3D(1.0101, 0, -0.000317447, 0, 1, 0, 0.000218272, 0, 1, -0.
 [node name="OmniLight3D" type="OmniLight3D" parent="Lighter/GPUParticles3D"]
 transform = Transform3D(19.9668, 0, 0.634289, 0, 16.6667, 0, 2.38419e-07, 0, 13.9099, 0.0106678, 4.67157, -0.101911)
 light_color = Color(0.778808, 0.485988, 1.92523e-07, 1)
-light_energy = 15.0
+light_energy = 9.0
 light_size = 1.0
 omni_range = 9.0
 
@@ -52,7 +54,7 @@ unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.05263, 0)
 target_position = Vector3(0, -0.75, 0)
 
-[node name="Ahead" type="RayCast3D" parent="."]
+[node name="Ahead" type="RayCast3D" parent="." groups=["player"]]
 unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.433342, -0.830274)
 target_position = Vector3(0, -0.75, 0)

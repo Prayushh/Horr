@@ -226,7 +226,7 @@ libraries = {
 }
 
 [node name="Label" type="Label" parent="."]
-z_index = 2
+z_index = 3
 offset_left = 12.0
 offset_top = 216.0
 offset_right = 524.0

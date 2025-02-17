@@ -54,6 +54,33 @@ agent_radius = 1.0
 agent_max_climb = 20.0
 agent_max_slope = 90.0
 
+[sub_resource type="Animation" id="Animation_m7fdv"]
+length = 10.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("SubViewportContainer/SubViewport/Camera3D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-6.67834, -3.0807, -2.39357)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("SubViewportContainer/SubViewport/Camera3D:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.49786, 3.01352, 1.78527e-10)]
+}
+
 [sub_resource type="Animation" id="Animation_6t61n"]
 resource_name = "beg"
 length = 10.0
@@ -80,33 +107,6 @@ tracks/1/keys = {
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
 "update": 0,
 "values": [Vector3(1.49786, 3.01352, 1.78527e-10), Vector3(-0.216421, 3.40339, 0), Vector3(0.111701, 4.16436, 0), Vector3(0.354302, 4.7281, 0), Vector3(0.237365, 4.32667, 0), Vector3(-0.722566, 6.28319, 0)]
-}
-
-[sub_resource type="Animation" id="Animation_m7fdv"]
-length = 10.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("SubViewportContainer/SubViewport/Camera3D:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector3(-6.67834, -3.0807, -2.39357)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("SubViewportContainer/SubViewport/Camera3D:rotation")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector3(1.49786, 3.01352, 1.78527e-10)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_m4u1y"]
@@ -578,6 +578,7 @@ libraries = {
 }
 
 [node name="SubViewportContainer" type="SubViewportContainer" parent="Beg cut"]
+z_index = 3
 material = SubResource("ShaderMaterial_246bi")
 offset_right = 320.0
 offset_bottom = 240.0
@@ -588,7 +589,7 @@ size = Vector2i(320, 240)
 render_target_update_mode = 4
 
 [node name="Camera3D" type="Camera3D" parent="Beg cut/SubViewportContainer/SubViewport"]
-transform = Transform3D(-0.99181, 0.127383, 0.00930732, 1.30096e-11, 0.0728715, -0.997341, -0.127722, -0.989173, -0.0722747, -6.67834, -3.0807, -2.39357)
+transform = Transform3D(-0.99181, 0.127383, 0.00930738, 1.30096e-11, 0.0728717, -0.997341, -0.127723, -0.989173, -0.0722749, -6.67834, -3.0807, -2.39357)
 far = 20.75
 
 [node name="Lighter" type="MeshInstance3D" parent="."]

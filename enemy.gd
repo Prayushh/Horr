@@ -1,7 +1,7 @@
 extends CharacterBody3D
 var hasbody = false
-var speed = 2
-var accel = 5
+var speed = 3
+var accel = 6
 @onready var nav: NavigationAgent3D= $NavigationAgent3D
 var player
 func _ready():
@@ -13,7 +13,11 @@ func _ready():
 
 func _physics_process(delta):
 	if player:
+		var direction = (player.global_transform.origin - global_transform.origin).normalized()
+		direction.y = 0
+		direction = direction.normalized()
 		nav.target_position = player.global_transform.origin
+		look_at(player.global_transform.origin+direction, Vector3.UP)
 		player_follow(delta)
 		
 

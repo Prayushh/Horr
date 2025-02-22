@@ -1,15 +1,10 @@
-[gd_scene load_steps=10 format=3 uid="uid://bpg8swee56paq"]
+[gd_scene load_steps=9 format=3 uid="uid://bpg8swee56paq"]
 
 [ext_resource type="Script" path="res://enemy.gd" id="1_ohfvt"]
 [ext_resource type="FontFile" uid="uid://cqtq301rhki5y" path="res://Sarun-Regular.ttf" id="2_nxp8h"]
+[ext_resource type="PackedScene" uid="uid://yvh4plcgerea" path="res://lakheyreal.tscn" id="3_1hcyo"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_vwnqe"]
-
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_nmx5i"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e67nf"]
-albedo_color = Color(0.720041, 0.0791787, 0, 1)
-metallic_specular = 1.0
 
 [sub_resource type="BoxMesh" id="BoxMesh_6hinw"]
 
@@ -25,12 +20,8 @@ script = ExtResource("1_ohfvt")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("CapsuleShape3D_vwnqe")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-mesh = SubResource("CapsuleMesh_nmx5i")
-surface_material_override/0 = SubResource("StandardMaterial3D_e67nf")
-
 [node name="FOV" type="Area3D" parent="."]
-transform = Transform3D(13.9724, 0, 0, 0, 2.2161, 0, 0, 0, 13.4665, 0, 0, 0)
+transform = Transform3D(20.7886, 0, 0, 0, 2.2161, 0, 0, 0, 20.095, 0, 0, 0)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="FOV"]
 visible = false
@@ -42,7 +33,7 @@ shape = SubResource("BoxShape3D_5q0nd")
 [node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
 
 [node name="Cooked" type="Area3D" parent="."]
-transform = Transform3D(7.73675, 0, 0, 0, 1, 0, 0, 0, 6.70753, 0, 0, 0)
+transform = Transform3D(9.18021, 0, 0, 0, 1.00253, 0, 0, 0, 9.98178, 0, 0, 0)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Cooked"]
 visible = false
@@ -52,12 +43,15 @@ mesh = SubResource("CylinderMesh_05fng")
 shape = SubResource("CylinderShape3D_0fpnk")
 
 [node name="Label" type="Label" parent="."]
-z_index = 1
+z_index = 4
 offset_right = 303.0
 offset_bottom = 236.0
 theme_override_fonts/font = ExtResource("2_nxp8h")
 theme_override_font_sizes/font_size = 60
 text = "JUMPSCARE"
+
+[node name="lakhey (1) (1)" parent="." instance=ExtResource("3_1hcyo")]
+transform = Transform3D(-0.5, 0, -4.37114e-08, 0, 0.5, 0, 4.37114e-08, 0, -0.5, -7.60376, -4.39997, 5.29391)
 
 [connection signal="body_entered" from="FOV" to="." method="_on_fov_body_entered"]
 [connection signal="body_exited" from="FOV" to="." method="_on_fov_body_exited"]

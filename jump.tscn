@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bf1khtnw33sb"]
+
+[ext_resource type="PackedScene" uid="uid://bpg8swee56paq" path="res://enemy.tscn" id="1_uhof6"]
+[ext_resource type="PackedScene" uid="uid://bbgssgnxahqgo" path="res://barthroom.tscn" id="2_blbu2"]
+
+[node name="jump" type="Node3D"]
+
+[node name="Enemy" parent="." instance=ExtResource("1_uhof6")]
+
+[node name="Camera3D" type="Camera3D" parent="Enemy"]
+transform = Transform3D(-0.998718, 0, 0.0506105, 0, 1, 0, -0.0506105, 0, -0.998718, 0.0163594, 3.0381, -3.74167)
+fov = 30.5
+
+[node name="DungeonRoom3D" parent="." instance=ExtResource("2_blbu2")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 2.23244, 0)

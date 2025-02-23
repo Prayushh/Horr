@@ -1,8 +1,11 @@
-[gd_scene load_steps=9 format=3 uid="uid://bpg8swee56paq"]
+[gd_scene load_steps=12 format=3 uid="uid://bpg8swee56paq"]
 
 [ext_resource type="Script" path="res://enemy.gd" id="1_ohfvt"]
 [ext_resource type="FontFile" uid="uid://cqtq301rhki5y" path="res://Sarun-Regular.ttf" id="2_nxp8h"]
 [ext_resource type="PackedScene" uid="uid://yvh4plcgerea" path="res://lakheyreal.tscn" id="3_1hcyo"]
+[ext_resource type="Texture2D" uid="uid://bwytdr7wwuvwp" path="res://blah.png" id="4_2ywlw"]
+[ext_resource type="AudioStream" uid="uid://de4bvycdaxqr0" path="res://678609__usar2__trtf2-jumpscare-sound-remake-1.wav" id="5_1iqrg"]
+[ext_resource type="AudioStream" uid="uid://cjrv6wcwocjyt" path="res://362868__margotdots__bangles.wav" id="6_jp55e"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_vwnqe"]
 
@@ -33,7 +36,7 @@ shape = SubResource("BoxShape3D_5q0nd")
 [node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
 
 [node name="Cooked" type="Area3D" parent="."]
-transform = Transform3D(9.18021, 0, 0, 0, 1.00253, 0, 0, 0, 9.98178, 0, 0, 0)
+transform = Transform3D(9.56199, 0, 0, 0, 1.00253, 0, 0, 0, 10.5374, 0, 0, 0)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Cooked"]
 visible = false
@@ -43,15 +46,35 @@ mesh = SubResource("CylinderMesh_05fng")
 shape = SubResource("CylinderShape3D_0fpnk")
 
 [node name="Label" type="Label" parent="."]
+visible = false
 z_index = 4
 offset_right = 303.0
 offset_bottom = 236.0
 theme_override_fonts/font = ExtResource("2_nxp8h")
 theme_override_font_sizes/font_size = 60
-text = "JUMPSCARE"
+text = "aa
+"
 
 [node name="lakhey (1) (1)" parent="." instance=ExtResource("3_1hcyo")]
 transform = Transform3D(-0.5, 0, -4.37114e-08, 0, 0.5, 0, 4.37114e-08, 0, -0.5, -7.60376, -4.39997, 5.29391)
+
+[node name="jumpscarecamera" type="Camera3D" parent="."]
+transform = Transform3D(-0.999492, 2.89767e-09, -0.0318644, 0.00175706, 0.998479, -0.0551139, 0.0318159, -0.0551419, -0.997972, 0, 3.267, -4.12106)
+fov = 24.1
+
+[node name="Jump" type="Sprite2D" parent="."]
+z_index = 50
+position = Vector2(162, 125)
+scale = Vector2(0.424236, 0.513493)
+texture = ExtResource("4_2ywlw")
+
+[node name="678609Usar2Trtf2-jumpscare-sound-remake-1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_1iqrg")
+
+[node name="362868MargotdotsBangles" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_jp55e")
+volume_db = 24.0
+autoplay = true
 
 [connection signal="body_entered" from="FOV" to="." method="_on_fov_body_entered"]
 [connection signal="body_exited" from="FOV" to="." method="_on_fov_body_exited"]

@@ -590,7 +590,7 @@ size = Vector2i(320, 240)
 render_target_update_mode = 4
 
 [node name="Camera3D" type="Camera3D" parent="Beg cut/SubViewportContainer/SubViewport"]
-transform = Transform3D(-0.99181, 0.127383, 0.00930738, 1.30096e-11, 0.0728717, -0.997341, -0.127723, -0.989173, -0.0722749, -6.67834, -3.0807, -2.39357)
+transform = Transform3D(-0.991809, 0.127383, 0.00930738, 1.30096e-11, 0.0728716, -0.997341, -0.127723, -0.989172, -0.0722749, -6.67834, -3.0807, -2.39357)
 far = 20.75
 
 [node name="Lighter" type="MeshInstance3D" parent="."]
@@ -605,6 +605,6 @@ transform = Transform3D(1.0101, 0, -0.000317447, 0, 1, 0, 0.000218272, 0, 1, -0.
 [node name="OmniLight3D" type="OmniLight3D" parent="Lighter/GPUParticles3D"]
 transform = Transform3D(19.9668, 0, 0.634289, 0, 16.6667, 0, 2.38419e-07, 0, 13.9099, 0.0106678, 4.67157, -0.101911)
 light_color = Color(0.778808, 0.485988, 1.92523e-07, 1)
-light_energy = 9.0
+light_energy = 5.0
 light_size = 1.0
 omni_range = 9.0

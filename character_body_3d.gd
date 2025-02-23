@@ -1,7 +1,7 @@
 extends CharacterBody3D
 
 var movable = false
-var SPEED = 4.0
+var SPEED = 6.0
 const JUMP_VELOCITY = 4.5
 var cap_mouse =true
 var look_dir : Vector2
@@ -71,7 +71,7 @@ func _physics_process(delta):
 			velocity.x = move_toward(velocity.x, 0, SPEED)
 			velocity.z = move_toward(velocity.z, 0, SPEED)
 		if Input.is_action_pressed("Sprint"):
-			SPEED =5.5
+			SPEED =7
 		else:
 			SPEED = 4
 		_rotate_cam(delta)
@@ -79,7 +79,8 @@ func _physics_process(delta):
 			_snap_down_to_stairs_check()
 			move_and_slide()
 		t_bob += delta * velocity.length() * float(is_on_floor())
-		camera.transform.origin = _bob(t_bob)
+		if camera:
+			camera.transform.origin = _bob(t_bob)
 	
 	
 
@@ -89,11 +90,14 @@ func _input(event:InputEvent):
 		look_dir+=event.relative 
 		
 func _rotate_cam(delta:float , sense_mod:float =1.0):
-	var input = Input.get_vector("look_left", "look_right","look_down","look_up")
-	look_dir+=input
-	rotation.y -=look_dir.x  *delta *horizontal_sensitivity
-	camera.rotation.x = clamp(camera.rotation.x - look_dir.y *vertical_sensitivity*sense_mod,-1.5,1.5)
-	look_dir = Vector2.ZERO
+	if camera:
+		var input = Input.get_vector("look_left", "look_right","look_down","look_up")
+		look_dir+=input
+		rotation.y -=look_dir.x  *delta *horizontal_sensitivity
+		camera.rotation.x = clamp(camera.rotation.x - look_dir.y *vertical_sensitivity*sense_mod,-1.5,1.5)
+		look_dir = Vector2.ZERO
+	else:
+		pass
 	
 func _bob(time):
 	var pos= Vector3.ZERO
